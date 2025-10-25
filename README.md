@@ -34,10 +34,10 @@ Le Spot SUP est LA plateforme mondiale de référence pour le stand-up paddle. D
 
 ```bash
 # Cloner le repository
-git clone https://github.com/VOTRE-USERNAME/le-spot-sup.git
+git clone https://github.com/Alvonwin/Le-Spot-SUP.git
 
 # Installer les dépendances
-cd le-spot-sup
+cd Le-Spot-SUP
 npm install
 
 # Configurer les variables d'environnement
