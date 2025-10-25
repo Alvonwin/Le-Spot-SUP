@@ -21,10 +21,13 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Le Spot SUP</h3>
             <p className="text-sm text-slate-400">
-              Plateforme communautaire pour les passionnés de stand-up paddle au Québec.
+              La référence mondiale du stand-up paddle.
             </p>
             <p className="text-sm text-slate-400 mt-2">
               250+ spots avec météo en temps réel
+            </p>
+            <p className="text-sm text-slate-500 mt-1">
+              Expansion mondiale en cours
             </p>
           </div>
 
@@ -78,7 +81,7 @@ export default function Footer() {
             © 2025 Le Spot SUP - Alain Gagné. Tous droits réservés.
           </p>
           <p className="flex items-center justify-center gap-1 mt-2 text-slate-500">
-            Fait avec <Heart className="h-4 w-4 text-red-500" fill="currentColor" /> pour la communauté SUP du Québec
+            Fait avec <Heart className="h-4 w-4 text-red-500" fill="currentColor" /> pour la communauté mondiale du SUP
           </p>
         </div>
       </div>

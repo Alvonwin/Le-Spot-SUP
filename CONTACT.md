@@ -38,4 +38,4 @@ Contactez : **lespotsup@gmail.com**
 ---
 
 **© 2025 Le Spot SUP - Alain Gagné**
-Fait avec ❤️ pour la communauté SUP du Québec
+Fait avec ❤️ pour la communauté mondiale du SUP

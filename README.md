@@ -1,6 +1,6 @@
 # 🏄‍♂️ Le Spot SUP
 
-**Plateforme communautaire pour les passionnés de stand-up paddle au Québec**
+**La référence mondiale du stand-up paddle**
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.5.6-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0.0-blue)](https://reactjs.org/)
@@ -9,17 +9,18 @@
 
 ## 📖 À propos
 
-Le Spot SUP est une plateforme web complète permettant aux amateurs de stand-up paddle de découvrir, partager et explorer les meilleurs spots de SUP à travers le Québec.
+Le Spot SUP est LA plateforme mondiale de référence pour le stand-up paddle. Découvrez, partagez et explorez les meilleurs spots SUP partout dans le monde, avec une couverture initiale exceptionnelle de 250+ spots au Québec.
 
 ### ✨ Fonctionnalités principales
 
-- 🗺️ **250+ spots SUP** géolocalisés avec informations détaillées
+- 🌍 **Couverture mondiale** : 250+ spots au Québec, expansion internationale en cours
+- 🗺️ **Cartes interactives** avec géolocalisation précise et informations détaillées
 - ⛅ **Météo en temps réel** avec recommandations de paddle (API Weatherbit)
 - 📚 **Guide de sécurité** complet en français et anglais
-- 🗓️ **Suivi de sessions** personnalisé
-- 👥 **Communauté** et événements
+- 🗓️ **Suivi de sessions** personnalisé avec statistiques
+- 👥 **Communauté mondiale** et événements
 - 🎨 **Thèmes** : Clair, Sombre, Système
-- 🌐 **Multilingue** : Français & English
+- 🌐 **Multilingue** : Français & English (extensible)
 - 📱 **Responsive** : Desktop, tablette, mobile
 
 ## 🚀 Démarrage rapide
@@ -151,7 +152,8 @@ Ce projet est sous licence privée. Tous droits réservés.
 
 ## 🙏 Remerciements
 
-- Communauté SUP du Québec
+- Communauté mondiale du SUP
+- Communauté pionnière du Québec
 - [Weatherbit.io](https://www.weatherbit.io/) pour l'API météo
 - [Maptiler](https://www.maptiler.com/) pour les cartes
 - Tous les contributeurs qui partagent leurs spots favoris
@@ -160,4 +162,4 @@ Ce projet est sous licence privée. Tous droits réservés.
 
 **© 2025 Le Spot SUP - Alain Gagné. Tous droits réservés.**
 
-Fait avec ❤️ pour la communauté SUP du Québec
+Fait avec ❤️ pour la communauté mondiale du SUP

@@ -101,3 +101,6 @@ API Keys.txt
 *.key
 client_secret*.json
 credentials.json
+
+# Claude Code settings
+.claude/

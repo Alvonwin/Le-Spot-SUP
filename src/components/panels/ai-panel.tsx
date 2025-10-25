@@ -203,29 +203,111 @@ export default function AiPanel() {
         </Alert>
       )}
 
-      {recommendation && (
-        <Card className="bg-secondary">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <MapPin className="h-5 w-5 text-accent" />
-              {t('aiPanel.recommendationTitle')}
-            </CardTitle>
-            <CardDescription>{recommendation.recommendedSpot}</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div>
-              <h4 className="font-semibold">{t('aiPanel.reasoningTitle')}</h4>
-              <p className="text-sm text-muted-foreground">{recommendation.reasoning}</p>
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Alert variant="default" className="border-accent">
-                <AlertTriangle className="h-4 w-4 text-accent" />
-                <AlertTitle>{t('aiPanel.safetyTitle')}</AlertTitle>
-                <AlertDescription>{recommendation.safetyConsiderations}</AlertDescription>
-            </Alert>
-          </CardFooter>
-        </Card>
+      {recommendation && recommendation.recommendations.length > 0 && (
+        <div className="space-y-4">
+          {recommendation.recommendations.slice(0, 3).map((rec, index) => {
+            const scoreColor =
+              rec.score >= 80
+                ? 'text-green-500'
+                : rec.score >= 60
+                ? 'text-yellow-500'
+                : 'text-orange-500';
+
+            return (
+              <Card key={rec.spotId} className={index === 0 ? 'bg-secondary border-accent' : ''}>
+                <CardHeader>
+                  <CardTitle className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-accent" />
+                      <span>
+                        {index === 0 && '🏆 '}
+                        {rec.spotId}
+                      </span>
+                    </div>
+                    <span className={`text-2xl font-bold ${scoreColor}`}>
+                      {rec.score.toFixed(0)}/100
+                    </span>
+                  </CardTitle>
+                  {rec.scoreBreakdown && (
+                    <CardDescription className="text-xs space-y-1 mt-2">
+                      <div className="flex justify-between">
+                        <span>🛡️ Sécurité:</span>
+                        <span className="font-semibold">
+                          {rec.scoreBreakdown.safety.toFixed(0)}/100
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>📍 Accessibilité:</span>
+                        <span className="font-semibold">
+                          {rec.scoreBreakdown.accessibility.toFixed(0)}/100
+                        </span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>🎯 Niveau:</span>
+                        <span className="font-semibold">
+                          {rec.scoreBreakdown.experience.toFixed(0)}/100
+                        </span>
+                      </div>
+                    </CardDescription>
+                  )}
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div>
+                    <h4 className="font-semibold text-sm mb-2">Pourquoi ce spot?</h4>
+                    <ul className="text-sm text-muted-foreground space-y-1">
+                      {rec.reasons.map((reason, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <span className="mt-1">•</span>
+                          <span>{reason}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {rec.safetyWarnings && rec.safetyWarnings.length > 0 && (
+                    <Alert variant="default" className="border-yellow-500 bg-yellow-50 dark:bg-yellow-950/30">
+                      <AlertTriangle className="h-4 w-4 text-yellow-600" />
+                      <AlertTitle className="text-sm">Avertissements de sécurité</AlertTitle>
+                      <AlertDescription className="text-xs">
+                        <ul className="space-y-1 mt-2">
+                          {rec.safetyWarnings.map((warning, i) => (
+                            <li key={i}>• {warning}</li>
+                          ))}
+                        </ul>
+                      </AlertDescription>
+                    </Alert>
+                  )}
+                </CardContent>
+              </Card>
+            );
+          })}
+
+          <Alert variant="default" className="border-red-500 bg-red-50 dark:bg-red-950/30">
+            <AlertTriangle className="h-4 w-4 text-red-600" />
+            <AlertTitle>⚠️ Équipement Obligatoire (Transports Canada)</AlertTitle>
+            <AlertDescription className="text-xs space-y-1 mt-2">
+              <p className="font-semibold">VOUS DEVEZ TOUJOURS AVOIR:</p>
+              <ul className="space-y-1 mt-1">
+                <li>✓ VFI (Vêtement de Flottaison Individuel) - À PORTER en permanence</li>
+                <li>✓ Sifflet attaché au VFI</li>
+                <li>✓ Laisse de cheville (leash SUP)</li>
+                <li>✓ Avertir un proche de votre itinéraire et heure de retour</li>
+                <li>✓ AUCUN ALCOOL avant ou pendant la navigation</li>
+              </ul>
+            </AlertDescription>
+          </Alert>
+        </div>
+      )}
+
+      {recommendation && recommendation.recommendations.length === 0 && (
+        <Alert variant="destructive">
+          <AlertTriangle className="h-4 w-4" />
+          <AlertTitle>Aucune recommandation disponible</AlertTitle>
+          <AlertDescription>
+            Aucun spot ne répond aux critères de sécurité pour les conditions actuelles.
+            Essayez d'ajuster vos préférences ou réessayez plus tard.
+          </AlertDescription>
+        </Alert>
       )}
     </div>
   );

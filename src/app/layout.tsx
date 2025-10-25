@@ -21,15 +21,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Le Spot SUP - 250+ spots de SUP au Québec",
-  description: "Découvrez les meilleurs spots de SUP au Québec. Météo en temps réel, guide de sécurité, suivi de sessions. Par Alain Gagné.",
+  title: "Le Spot SUP - La référence mondiale du stand-up paddle",
+  description: "La plateforme mondiale de référence pour le SUP. Découvrez les meilleurs spots, météo en temps réel, guide de sécurité, suivi de sessions. Par Alain Gagné.",
   metadataBase: new URL('https://lespotsup.freeddns.org'),
   authors: [{ name: 'Alain Gagné' }],
   creator: 'Alain Gagné',
-  keywords: ['SUP', 'Stand-up paddle', 'Québec', 'paddle', 'spots', 'météo', 'communauté'],
+  keywords: ['SUP', 'Stand-up paddle', 'paddle boarding', 'spots SUP', 'météo', 'communauté mondiale', 'Québec', 'Canada', 'world reference'],
   openGraph: {
-    title: "Le Spot SUP - 250+ spots de SUP au Québec",
-    description: "Découvrez les meilleurs spots de SUP au Québec. Météo en temps réel, guide de sécurité, suivi de sessions.",
+    title: "Le Spot SUP - La référence mondiale du stand-up paddle",
+    description: "La plateforme mondiale de référence pour le SUP. Découvrez les meilleurs spots avec météo en temps réel, guide de sécurité et communauté active.",
     url: 'https://lespotsup.freeddns.org',
     siteName: 'Le Spot SUP',
     locale: 'fr_CA',
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Le Spot SUP",
-    description: "250+ spots de SUP au Québec avec météo en temps réel",
+    title: "Le Spot SUP - La référence mondiale du SUP",
+    description: "Découvrez les meilleurs spots SUP du monde avec météo en temps réel",
   },
 };
 

@@ -1,7 +1,7 @@
 {
   "name": "le-spot-sup",
   "version": "1.0.0",
-  "description": "Plateforme communautaire pour les passionnés de stand-up paddle au Québec",
+  "description": "La référence mondiale du stand-up paddle - Découvrez, partagez et explorez les meilleurs spots SUP",
   "author": "Alain Gagné <lespotsup@gmail.com>",
   "private": true,
   "scripts": {
