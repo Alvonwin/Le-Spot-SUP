@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 210 20% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 20% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 20% 15%;
+  /* Bleu océan/turquoise pour SUP */
+  --primary: 195 85% 45%;
+  --primary-foreground: 0 0% 100%;
+  /* Sable/beige naturel */
+  --secondary: 45 40% 85%;
+  --secondary-foreground: 210 20% 15%;
+  --muted: 195 25% 95%;
+  --muted-foreground: 210 15% 45%;
+  /* Accent turquoise clair */
+  --accent: 180 65% 92%;
+  --accent-foreground: 195 85% 25%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 195 20% 88%;
+  --input: 195 20% 88%;
+  --ring: 195 85% 45%;
+  --radius: 0.75rem;
+}
+
+.dark {
+  /* Bleu océan profond */
+  --background: 210 45% 8%;
+  --foreground: 195 25% 95%;
+  --card: 210 40% 12%;
+  --card-foreground: 195 25% 95%;
+  --popover: 210 40% 12%;
+  --popover-foreground: 195 25% 95%;
+  /* Turquoise lumineux pour mode sombre */
+  --primary: 185 75% 55%;
+  --primary-foreground: 210 45% 8%;
+  /* Accent sable foncé */
+  --secondary: 45 20% 25%;
+  --secondary-foreground: 195 25% 95%;
+  --muted: 210 35% 18%;
+  --muted-foreground: 195 15% 65%;
+  /* Accent turquoise foncé */
+  --accent: 180 40% 20%;
+  --accent-foreground: 185 75% 85%;
+  --destructive: 0 62.8% 50%;
+  --destructive-foreground: 195 25% 95%;
+  --border: 210 35% 22%;
+  --input: 210 35% 22%;
+  --ring: 185 75% 55%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+}

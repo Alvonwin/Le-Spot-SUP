@@ -1,0 +1,144 @@
+
+{
+  "entities": {
+    "PaddleSession": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "PaddleSession",
+      "type": "object",
+      "description": "Represents a single paddleboarding session recorded by a user.",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Reference to User. (Relationship: User 1:N PaddleSession)"
+        },
+        "spotId": {
+          "type": "string",
+          "description": "Reference to PaddleSpot. (Relationship: PaddleSpot 1:N PaddleSession). Represents the location where the session took place."
+        },
+        "startTime": {
+          "type": "string",
+          "description": "The date and time the session started.",
+          "format": "date-time"
+        },
+        "endTime": {
+          "type": "string",
+          "description": "The date and time the session ended.",
+          "format": "date-time"
+        },
+        "durationMinutes": {
+          "type": "number",
+          "description": "The duration of the session in minutes."
+        },
+        "distanceKilometers": {
+          "type": "number",
+          "description": "The distance covered during the session in kilometers."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes about the session, such as conditions or experiences."
+        },
+        "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Timestamp of when the session was created."
+        }
+      },
+      "required": [
+        "userId",
+        "spotId",
+        "startTime",
+        "endTime",
+        "durationMinutes",
+        "distanceKilometers",
+        "createdAt"
+      ]
+    },
+    "PaddleSpot": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "PaddleSpot",
+      "type": "object",
+      "description": "Represents a location where paddleboarding is possible.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the paddle spot."
+        },
+        "latitude": {
+          "type": "number",
+          "description": "The latitude coordinate of the paddle spot."
+        },
+        "longitude": {
+          "type": "number",
+          "description": "The longitude coordinate of the paddle spot."
+        },
+        "description": {
+          "type": "string",
+          "description": "A description of the paddle spot, including access details or hazards."
+        },
+        "amenities": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "List of available amenities."
+        },
+        "image": {
+            "type": "string",
+            "description": "An image hint or ID for a representative photo of the spot."
+        }
+      },
+      "required": [
+        "name",
+        "latitude",
+        "longitude",
+        "description",
+        "image"
+      ]
+    },
+    "User": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user of the application. Authentication details are assumed to be handled externally.",
+      "properties": {
+        "email": {
+          "type": "string",
+          "description": "The user's email address.",
+          "format": "email"
+        },
+        "name": {
+          "type": "string",
+          "description": "The user's display name."
+        },
+        "photoURL": {
+            "type": "string",
+            "description": "URL of the user's profile picture."
+        }
+      },
+      "required": [
+        "email",
+        "name"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "Stores user profile information. This collection is path-based owned, meaning only the authenticated user can access their own profile data."
+    },
+    "/users/{userId}/paddle_sessions/{sessionId}": {
+       "schema": { "$ref": "#/entities/PaddleSession" },
+       "description": "Stores paddle session data for each user. Includes denormalized 'userId' for authorization independence, ensuring rules can validate ownership without 'get()' calls."
+    },
+    "/paddle_spots/{spotId}": {
+       "schema": { "$ref": "#/entities/PaddleSpot" },
+       "description": "Stores global paddle spot information. Anyone can read, but creation might be restricted to admins (implementable via a separate `/roles_admin/{uid}` collection check)."
+    }
+  }
+}

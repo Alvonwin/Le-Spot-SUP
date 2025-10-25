@@ -1,0 +1,2325 @@
+[
+  {
+    "nom": "Camping Pontmain",
+    "type": "Terrain de camping",
+    "note": "4.6 (23)",
+    "gps": "46.7167,-75.4833",
+    "adresse": "Pontmain, QC",
+    "photoURL": "https://www.quebecvacances.com/images/attrait/large/100/100_2951.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc Jack Layton",
+    "type": "Parc",
+    "note": "4.6 (506)",
+    "gps": "45.3173,-74.0648",
+    "adresse": "Hudson, QC",
+    "photoURL": "https://www.hudson.quebec/wp-content/uploads/2021/06/JackLaytonPark.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Provost - Plage",
+    "type": "Terrain de camping",
+    "note": "4.7 (195)",
+    "gps": "46.3150,-74.4990",
+    "adresse": "695 Chem. de la Gabelle, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/parc-national-du-mont-tremblant/plage-provost.jpg",
+    "notes": "Ce lieu n'existe plus"
+  },
+  {
+    "nom": "Débarcadère municipal du Lac Maskinongé",
+    "type": "Rampe de mise à l'eau",
+    "note": "3.5 (8)",
+    "gps": "46.2167,-73.0500",
+    "adresse": "Maskinongé, QC",
+    "photoURL": "https://www.maskinonge.ca/wp-content/uploads/2020/06/debarcadere.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "AGIR Maskinongé",
+    "type": "Expert-conseil en environnement",
+    "note": "4.0 (1)",
+    "gps": "46.2167,-73.0500",
+    "adresse": "Maskinongé, QC",
+    "photoURL": "https://agir-maskinonge.org/wp-content/uploads/2021/03/logo-agir-maskinonge.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac McGregor",
+    "type": "Lac",
+    "note": "4.7 (35)",
+    "gps": "45.6333,-75.7167",
+    "adresse": "Val-des-Monts, QC",
+    "photoURL": "https://www.val-des-monts.net/wp-content/uploads/2020/07/lac-mcgregor.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc le Trou de la Fée",
+    "type": "Attraction touristique",
+    "note": "4.4 (1332)",
+    "gps": "48.5833,-71.2500",
+    "adresse": "103 Chem. de la Vallée, Stoneham-et-Tewkesbury, QC G3C 2H8",
+    "photoURL": "https://www.troudelafee.com/images/parc-trou-de-la-fee.jpg",
+    "notes": "Km 25"
+  },
+  {
+    "nom": "Parc Antoine-Gauthier",
+    "type": "Parc",
+    "note": "4.6 (448)",
+    "gps": "46.8167,-71.2167",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/lieux/parc-antoine-gauthier.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Sepaq. Lac au Sorcier",
+    "type": "Terrain de camping",
+    "note": "4.4 (14)",
+    "gps": "47.0000,-72.0000",
+    "adresse": "Réserve faunique Mastigouche, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/mastigouche/lac-au-sorcier.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Normand",
+    "type": "Lac",
+    "note": "5.0 (3)",
+    "gps": "47.0000,-72.0000",
+    "adresse": "Réserve faunique Mastigouche, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/mastigouche/lac-normand.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Donat",
+    "type": "Plage",
+    "note": "4.5 (210)",
+    "gps": "46.3167,-74.2167",
+    "adresse": "Saint-Donat, QC",
+    "photoURL": "https://www.saint-donat.ca/wp-content/uploads/2020/06/plage-municipale.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la Rivière Gentilly",
+    "type": "Parc régional",
+    "note": "4.7 (342)",
+    "gps": "46.3667,-72.2167",
+    "adresse": "Bécancour, QC",
+    "photoURL": "https://www.rivieregentilly.com/wp-content/uploads/2021/05/parc-riviere-gentilly.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Simon",
+    "type": "Lac",
+    "note": "4.6 (112)",
+    "gps": "46.0000,-75.0000",
+    "adresse": "Duhamel, QC",
+    "photoURL": "https://www.duhamel.ca/wp-content/uploads/2020/07/lac-simon.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage du Lac des Sables",
+    "type": "Plage",
+    "note": "4.4 (89)",
+    "gps": "46.3167,-74.2167",
+    "adresse": "Sainte-Agathe-des-Monts, QC",
+    "photoURL": "https://www.sainte-agathe.org/images/plage-lac-des-sables.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Yamaska",
+    "type": "Parc national",
+    "note": "4.6 (1023)",
+    "gps": "45.4167,-72.8667",
+    "adresse": "Roxton Pond, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/yamaska/parc-yamaska.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Faustin",
+    "type": "Plage",
+    "note": "4.3 (67)",
+    "gps": "46.1000,-74.5000",
+    "adresse": "Saint-Faustin-Lac-Carré, QC",
+    "photoURL": "https://www.saint-faustin.ca/images/plage-municipale.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Taureau",
+    "type": "Réservoir",
+    "note": "4.8 (512)",
+    "gps": "46.7000,-73.8000",
+    "adresse": "Saint-Michel-des-Saints, QC",
+    "photoURL": "https://www.saint-michel.ca/images/lac-taureau.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Zénon",
+    "type": "Plage",
+    "note": "4.2 (34)",
+    "gps": "46.5000,-73.7000",
+    "adresse": "Saint-Zénon, QC",
+    "photoURL": "https://www.saint-zenon.ca/images/plage-municipale.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional des Grandes-Rivières",
+    "type": "Parc régional",
+    "note": "4.5 (198)",
+    "gps": "46.9000,-72.0000",
+    "adresse": "Shawinigan, QC",
+    "photoURL": "https://www.shawinigan.ca/images/parc-grandes-rivieres.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Gabriel",
+    "type": "Plage",
+    "note": "4.6 (145)",
+    "gps": "46.3000,-73.3000",
+    "adresse": "Saint-Gabriel, QC",
+    "photoURL": "https://www.saint-gabriel.ca/images/plage-municipale.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Ferréol-les-Neiges",
+    "type": "Plage",
+    "note": "4.4 (58)",
+    "gps": "47.1000,-70.8833",
+    "adresse": "Saint-Ferréol-les-Neiges, QC",
+    "photoURL": "https://www.stferreollesneiges.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont-Orford",
+    "type": "Parc national",
+    "note": "4.7 (1456)",
+    "gps": "45.3333,-72.2167",
+    "adresse": "Orford, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/orford/parc-mont-orford.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Aimé-des-Lacs",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "47.7500,-70.2167",
+    "adresse": "Saint-Aimé-des-Lacs, QC",
+    "photoURL": "https://www.st-aime-des-lacs.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Joseph",
+    "type": "Lac",
+    "note": "4.6 (98)",
+    "gps": "46.8833,-71.5000",
+    "adresse": "Fossambault-sur-le-Lac, QC",
+    "photoURL": "https://www.fossambault-sur-le-lac.com/images/lac-saint-joseph.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Sainte-Anne-de-Sorel",
+    "type": "Plage",
+    "note": "4.3 (41)",
+    "gps": "46.0500,-73.0167",
+    "adresse": "Sainte-Anne-de-Sorel, QC",
+    "photoURL": "https://www.sainteannedesorel.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional du Poisson Blanc",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "46.2500,-75.5000",
+    "adresse": "Notre-Dame-du-Laus, QC",
+    "photoURL": "https://www.poissonblanc.ca/images/parc-poisson-blanc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Mathieu-du-Parc",
+    "type": "Plage",
+    "note": "4.2 (29)",
+    "gps": "46.6000,-72.9000",
+    "adresse": "Saint-Mathieu-du-Parc, QC",
+    "photoURL": "https://www.stmathieuduparc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac des Îles",
+    "type": "Lac",
+    "note": "4.5 (64)",
+    "gps": "47.0000,-73.0000",
+    "adresse": "Saint-Michel-des-Saints, QC",
+    "photoURL": "https://www.saint-michel.ca/images/lac-des-iles.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Alphonse-Rodriguez",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "46.2500,-73.5000",
+    "adresse": "Saint-Alphonse-Rodriguez, QC",
+    "photoURL": "https://www.st-alphonse-rodriguez.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la Forêt Ouareau",
+    "type": "Parc régional",
+    "note": "4.6 (312)",
+    "gps": "46.3167,-73.6000",
+    "adresse": "Notre-Dame-de-la-Merci, QC",
+    "photoURL": "https://www.parcsregionaux.org/images/ouareau.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Calixte",
+    "type": "Plage",
+    "note": "4.3 (47)",
+    "gps": "45.9500,-73.8500",
+    "adresse": "Saint-Calixte, QC",
+    "photoURL": "https://www.saint-calixte.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac des Pins",
+    "type": "Lac",
+    "note": "4.6 (59)",
+    "gps": "46.0000,-73.9000",
+    "adresse": "Saint-Calixte, QC",
+    "photoURL": "https://www.saint-calixte.ca/images/lac-des-pins.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Côme",
+    "type": "Plage",
+    "note": "4.5 (88)",
+    "gps": "46.3333,-73.6000",
+    "adresse": "Saint-Côme, QC",
+    "photoURL": "https://www.saint-come.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional du Lac Taureau",
+    "type": "Parc régional",
+    "note": "4.7 (412)",
+    "gps": "46.7000,-73.8000",
+    "adresse": "Saint-Michel-des-Saints, QC",
+    "photoURL": "https://www.parcsregionaux.org/images/lac-taureau.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Jean-de-Matha",
+    "type": "Plage",
+    "note": "4.4 (62)",
+    "gps": "46.2500,-73.5000",
+    "adresse": "Saint-Jean-de-Matha, QC",
+    "photoURL": "https://www.saintjeandematha.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Vert",
+    "type": "Lac",
+    "note": "4.5 (38)",
+    "gps": "46.4000,-73.7000",
+    "adresse": "Saint-Damien, QC",
+    "photoURL": "https://www.saint-damien.ca/images/lac-vert.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Damien",
+    "type": "Plage",
+    "note": "4.3 (51)",
+    "gps": "46.4000,-73.7000",
+    "adresse": "Saint-Damien, QC",
+    "photoURL": "https://www.saint-damien.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional des Chutes Monte-à-Peine-et-des-Dalles",
+    "type": "Parc régional",
+    "note": "4.8 (723)",
+    "gps": "46.2500,-73.5000",
+    "adresse": "Sainte-Mélanie, QC",
+    "photoURL": "https://www.parcsregionaux.org/images/chutes-monte-a-peine.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Sainte-Mélanie",
+    "type": "Plage",
+    "note": "4.2 (33)",
+    "gps": "46.2500,-73.5000",
+    "adresse": "Sainte-Mélanie, QC",
+    "photoURL": "https://www.sainte-melanie.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Maskinongé",
+    "type": "Lac",
+    "note": "4.6 (74)",
+    "gps": "46.2167,-73.0500",
+    "adresse": "Maskinongé, QC",
+    "photoURL": "https://www.maskinonge.ca/images/lac-maskinonge.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Louiseville",
+    "type": "Plage",
+    "note": "4.3 (56)",
+    "gps": "46.2500,-72.9500",
+    "adresse": "Louiseville, QC",
+    "photoURL": "https://www.louiseville.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc des Chutes de Sainte-Ursule",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "46.3667,-73.0000",
+    "adresse": "Sainte-Ursule, QC",
+    "photoURL": "https://www.sainte-ursule.ca/images/chutes.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Yamachiche",
+    "type": "Plage",
+    "note": "4.2 (44)",
+    "gps": "46.2500,-72.9000",
+    "adresse": "Yamachiche, QC",
+    "photoURL": "https://www.yamachiche.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Pierre",
+    "type": "Réserve de biosphère",
+    "note": "4.8 (512)",
+    "gps": "46.2000,-72.8000",
+    "adresse": "Nicolet, QC",
+    "photoURL": "https://www.nicolet.ca/images/lac-saint-pierre.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Nicolet",
+    "type": "Plage",
+    "note": "4.3 (61)",
+    "gps": "46.2167,-72.6000",
+    "adresse": "Nicolet, QC",
+    "photoURL": "https://www.nicolet.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc écologique de l’Anse du Port",
+    "type": "Parc écologique",
+    "note": "4.6 (278)",
+    "gps": "46.2167,-72.6000",
+    "adresse": "Nicolet, QC",
+    "photoURL": "https://www.nicolet.ca/images/parc-anse-du-port.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Bécancour",
+    "type": "Plage",
+    "note": "4.4 (73)",
+    "gps": "46.3333,-72.4333",
+    "adresse": "Bécancour, QC",
+    "photoURL": "https://www.becancour.net/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la rivière Gentilly",
+    "type": "Parc régional",
+    "note": "4.7 (342)",
+    "gps": "46.3667,-72.2167",
+    "adresse": "Bécancour, QC",
+    "photoURL": "https://www.rivieregentilly.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Grégoire",
+    "type": "Plage",
+    "note": "4.2 (39)",
+    "gps": "46.3167,-72.4000",
+    "adresse": "Saint-Grégoire, QC",
+    "photoURL": "https://www.becancour.net/images/plage-saint-gregoire.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac à la Tortue",
+    "type": "Lac",
+    "note": "4.5 (84)",
+    "gps": "46.5000,-72.8000",
+    "adresse": "Shawinigan, QC",
+    "photoURL": "https://www.shawinigan.ca/images/lac-a-la-tortue.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Étienne-des-Grès",
+    "type": "Plage",
+    "note": "4.3 (49)",
+    "gps": "46.4333,-72.8000",
+    "adresse": "Saint-Étienne-des-Grès, QC",
+    "photoURL": "https://www.st-etienne-des-gres.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de l’Île Melville",
+    "type": "Parc régional",
+    "note": "4.7 (512)",
+    "gps": "46.5333,-72.7500",
+    "adresse": "Shawinigan, QC",
+    "photoURL": "https://www.shawinigan.ca/images/ile-melville.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Boniface",
+    "type": "Plage",
+    "note": "4.2 (37)",
+    "gps": "46.4667,-72.7333",
+    "adresse": "Saint-Boniface, QC",
+    "photoURL": "https://www.st-boniface.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac à la Perchaude",
+    "type": "Lac",
+    "note": "4.6 (63)",
+    "gps": "46.5500,-72.7000",
+    "adresse": "Saint-Mathieu-du-Parc, QC",
+    "photoURL": "https://www.stmathieuduparc.ca/images/lac-perchaude.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Paulin",
+    "type": "Plage",
+    "note": "4.3 (42)",
+    "gps": "46.4167,-72.8833",
+    "adresse": "Saint-Paulin, QC",
+    "photoURL": "https://www.st-paulin.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la rivière Batiscan",
+    "type": "Parc régional",
+    "note": "4.8 (389)",
+    "gps": "46.6667,-72.4000",
+    "adresse": "Saint-Narcisse, QC",
+    "photoURL": "https://www.rivierebatiscan.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Narcisse",
+    "type": "Plage",
+    "note": "4.2 (36)",
+    "gps": "46.6667,-72.4000",
+    "adresse": "Saint-Narcisse, QC",
+    "photoURL": "https://www.st-narcisse.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Sept Îles",
+    "type": "Lac",
+    "note": "4.7 (91)",
+    "gps": "46.8333,-71.4000",
+    "adresse": "Saint-Raymond, QC",
+    "photoURL": "https://www.saint-raymond.ca/images/lac-sept-iles.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Raymond",
+    "type": "Plage",
+    "note": "4.4 (58)",
+    "gps": "46.8333,-71.4000",
+    "adresse": "Saint-Raymond, QC",
+    "photoURL": "https://www.saint-raymond.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc naturel régional de Portneuf",
+    "type": "Parc régional",
+    "note": "4.8 (512)",
+    "gps": "46.7500,-71.5000",
+    "adresse": "Portneuf, QC",
+    "photoURL": "https://www.portneuf.ca/images/parc-naturel.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Léonard-de-Portneuf",
+    "type": "Plage",
+    "note": "4.3 (45)",
+    "gps": "46.8500,-71.6000",
+    "adresse": "Saint-Léonard-de-Portneuf, QC",
+    "photoURL": "https://www.st-leonard-portneuf.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Sergent",
+    "type": "Lac",
+    "note": "4.6 (67)",
+    "gps": "46.8833,-71.6500",
+    "adresse": "Lac-Sergent, QC",
+    "photoURL": "https://www.lac-sergent.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Lac-Sergent",
+    "type": "Plage",
+    "note": "4.4 (52)",
+    "gps": "46.8833,-71.6500",
+    "adresse": "Lac-Sergent, QC",
+    "photoURL": "https://www.lac-sergent.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc naturel de la Jacques-Cartier",
+    "type": "Parc national",
+    "note": "4.8 (1345)",
+    "gps": "47.0000,-71.4000",
+    "adresse": "Stoneham-et-Tewkesbury, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/jacques-cartier/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Stoneham",
+    "type": "Plage",
+    "note": "4.2 (39)",
+    "gps": "47.0000,-71.4000",
+    "adresse": "Stoneham-et-Tewkesbury, QC",
+    "photoURL": "https://www.stoneham.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Beauport",
+    "type": "Lac",
+    "note": "4.7 (89)",
+    "gps": "47.0000,-71.3000",
+    "adresse": "Lac-Beauport, QC",
+    "photoURL": "https://www.lac-beauport.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Lac-Beauport",
+    "type": "Plage",
+    "note": "4.5 (63)",
+    "gps": "47.0000,-71.3000",
+    "adresse": "Lac-Beauport, QC",
+    "photoURL": "https://www.lac-beauport.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont Wright",
+    "type": "Parc naturel",
+    "note": "4.6 (278)",
+    "gps": "47.0333,-71.3500",
+    "adresse": "Stoneham-et-Tewkesbury, QC",
+    "photoURL": "https://www.stoneham.qc.ca/images/mont-wright.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Sainte-Brigitte-de-Laval",
+    "type": "Plage",
+    "note": "4.3 (41)",
+    "gps": "47.0500,-71.2500",
+    "adresse": "Sainte-Brigitte-de-Laval, QC",
+    "photoURL": "https://www.sainte-brigitte.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac des Roches",
+    "type": "Lac",
+    "note": "4.5 (54)",
+    "gps": "47.0667,-71.2333",
+    "adresse": "Sainte-Brigitte-de-Laval, QC",
+    "photoURL": "https://www.sainte-brigitte.qc.ca/images/lac-des-roches.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Apollinaire",
+    "type": "Plage",
+    "note": "4.3 (48)",
+    "gps": "46.6167,-71.5167",
+    "adresse": "Saint-Apollinaire, QC",
+    "photoURL": "https://www.saint-apollinaire.com/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Augustin",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "46.7500,-71.3667",
+    "adresse": "Saint-Augustin-de-Desmaures, QC",
+    "photoURL": "https://www.ville.saint-augustin.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Augustin",
+    "type": "Plage",
+    "note": "4.4 (55)",
+    "gps": "46.7500,-71.3667",
+    "adresse": "Saint-Augustin-de-Desmaures, QC",
+    "photoURL": "https://www.ville.saint-augustin.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Plage-Jacques-Cartier",
+    "type": "Parc",
+    "note": "4.7 (812)",
+    "gps": "46.7333,-71.3000",
+    "adresse": "Cap-Rouge, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/parc-jacques-cartier.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Cap-Rouge",
+    "type": "Plage",
+    "note": "4.3 (61)",
+    "gps": "46.7333,-71.3000",
+    "adresse": "Cap-Rouge, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-cap-rouge.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Charles",
+    "type": "Lac",
+    "note": "4.6 (89)",
+    "gps": "47.0000,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/lac-saint-charles.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Charles",
+    "type": "Plage",
+    "note": "4.4 (58)",
+    "gps": "47.0000,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-saint-charles.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc naturel du Marais du Nord",
+    "type": "Parc naturel",
+    "note": "4.8 (623)",
+    "gps": "47.0500,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.maraisdunord.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Lac-Delage",
+    "type": "Plage",
+    "note": "4.3 (47)",
+    "gps": "47.1000,-71.3500",
+    "adresse": "Lac-Delage, QC",
+    "photoURL": "https://www.lac-delage.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Delage",
+    "type": "Lac",
+    "note": "4.6 (66)",
+    "gps": "47.1000,-71.3500",
+    "adresse": "Lac-Delage, QC",
+    "photoURL": "https://www.lac-delage.qc.ca/images/lac.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Shannon",
+    "type": "Plage",
+    "note": "4.3 (46)",
+    "gps": "46.9000,-71.5000",
+    "adresse": "Shannon, QC",
+    "photoURL": "https://www.shannon.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Joseph (secteur Duchesnay)",
+    "type": "Lac",
+    "note": "4.7 (94)",
+    "gps": "46.8833,-71.5000",
+    "adresse": "Sainte-Catherine-de-la-Jacques-Cartier, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/duchesnay/lac-saint-joseph.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Sainte-Catherine-de-la-Jacques-Cartier",
+    "type": "Plage",
+    "note": "4.4 (59)",
+    "gps": "46.8833,-71.5000",
+    "adresse": "Sainte-Catherine-de-la-Jacques-Cartier, QC",
+    "photoURL": "https://www.ville.scjc.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc naturel du Grand Héron",
+    "type": "Parc naturel",
+    "note": "4.6 (278)",
+    "gps": "46.9000,-71.4500",
+    "adresse": "Sainte-Catherine-de-la-Jacques-Cartier, QC",
+    "photoURL": "https://www.ville.scjc.qc.ca/images/parc-grand-heron.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Fossambault-sur-le-Lac",
+    "type": "Plage",
+    "note": "4.5 (63)",
+    "gps": "46.8833,-71.5000",
+    "adresse": "Fossambault-sur-le-Lac, QC",
+    "photoURL": "https://www.fossambault-sur-le-lac.com/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Joseph (secteur Fossambault)",
+    "type": "Lac",
+    "note": "4.6 (88)",
+    "gps": "46.8833,-71.5000",
+    "adresse": "Fossambault-sur-le-Lac, QC",
+    "photoURL": "https://www.fossambault-sur-le-lac.com/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Domaine de la Faune",
+    "type": "Parc",
+    "note": "4.7 (312)",
+    "gps": "46.8500,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/parc-faune.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Val-Bélair",
+    "type": "Plage",
+    "note": "4.3 (42)",
+    "gps": "46.8500,-71.3000",
+    "adresse": "Val-Bélair, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-val-belair.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Charles (secteur nord)",
+    "type": "Lac",
+    "note": "4.6 (74)",
+    "gps": "47.0500,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/lac-saint-charles-nord.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Lac-Saint-Charles",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "47.0500,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-lac-saint-charles.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Émile",
+    "type": "Plage",
+    "note": "4.3 (44)",
+    "gps": "46.9000,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-saint-emile.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Émile",
+    "type": "Lac",
+    "note": "4.6 (68)",
+    "gps": "46.9000,-71.3000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/lac-saint-emile.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Rivière Saint-Charles",
+    "type": "Parc",
+    "note": "4.7 (812)",
+    "gps": "46.8500,-71.2500",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/parc-riviere-saint-charles.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Loretteville",
+    "type": "Plage",
+    "note": "4.2 (39)",
+    "gps": "46.8500,-71.2500",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-loretteville.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac des Roches (secteur nord)",
+    "type": "Lac",
+    "note": "4.5 (54)",
+    "gps": "47.0667,-71.2333",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/lac-des-roches-nord.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Charlesbourg",
+    "type": "Plage",
+    "note": "4.3 (41)",
+    "gps": "46.8667,-71.2333",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-charlesbourg.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Montagne-des-Roches",
+    "type": "Parc naturel",
+    "note": "4.6 (278)",
+    "gps": "46.8667,-71.2333",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/parc-montagne-des-roches.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Beauport",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "46.8667,-71.2000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.ville.quebec.qc.ca/images/plage-beauport.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Baie de Beauport",
+    "type": "Plage",
+    "note": "4.6 (623)",
+    "gps": "46.8667,-71.2000",
+    "adresse": "Québec, QC",
+    "photoURL": "https://www.baiedebeauport.com/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Chute-Montmorency",
+    "type": "Parc",
+    "note": "4.8 (1345)",
+    "gps": "46.9000,-71.1500",
+    "adresse": "Boischatel, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parcs/chute-montmorency.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Boischatel",
+    "type": "Plage",
+    "note": "4.3 (47)",
+    "gps": "46.9000,-71.1500",
+    "adresse": "Boischatel, QC",
+    "photoURL": "https://www.boischatel.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Beauport (secteur nord)",
+    "type": "Lac",
+    "note": "4.6 (66)",
+    "gps": "47.0500,-71.3000",
+    "adresse": "Lac-Beauport, QC",
+    "photoURL": "https://www.lac-beauport.ca/images/lac-nord.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Lac-Beauport (secteur nord)",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "47.0500,-71.3000",
+    "adresse": "Lac-Beauport, QC",
+    "photoURL": "https://www.lac-beauport.ca/images/plage-nord.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont-Tourbillon",
+    "type": "Parc naturel",
+    "note": "4.7 (312)",
+    "gps": "47.0667,-71.3167",
+    "adresse": "Lac-Beauport, QC",
+    "photoURL": "https://www.lac-beauport.ca/images/mont-tourbillon.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Sainte-Brigitte-de-Laval (secteur est)",
+    "type": "Plage",
+    "note": "4.3 (41)",
+    "gps": "47.0667,-71.2333",
+    "adresse": "Sainte-Brigitte-de-Laval, QC",
+    "photoURL": "https://www.sainte-brigitte.qc.ca/images/plage-est.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac des Roches (secteur est)",
+    "type": "Lac",
+    "note": "4.5 (54)",
+    "gps": "47.0667,-71.2333",
+    "adresse": "Sainte-Brigitte-de-Laval, QC",
+    "photoURL": "https://www.sainte-brigitte.qc.ca/images/lac-des-roches-est.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont Brillant",
+    "type": "Parc naturel",
+    "note": "4.6 (278)",
+    "gps": "47.0833,-71.2500",
+    "adresse": "Sainte-Brigitte-de-Laval, QC",
+    "photoURL": "https://www.sainte-brigitte.qc.ca/images/mont-brillant.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Ferréol-les-Neiges (secteur nord)",
+    "type": "Plage",
+    "note": "4.4 (58)",
+    "gps": "47.1000,-70.8833",
+    "adresse": "Saint-Ferréol-les-Neiges, QC",
+    "photoURL": "https://www.stferreollesneiges.ca/images/plage-nord.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Ferréol",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "47.1000,-70.8833",
+    "adresse": "Saint-Ferréol-les-Neiges, QC",
+    "photoURL": "https://www.stferreollesneiges.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont-Saint-Anne",
+    "type": "Parc naturel",
+    "note": "4.8 (1345)",
+    "gps": "47.1000,-70.9000",
+    "adresse": "Beaupré, QC",
+    "photoURL": "https://www.mont-sainte-anne.com/images/parc.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Beaupré",
+    "type": "Plage",
+    "note": "4.3 (49)",
+    "gps": "47.0500,-70.9000",
+    "adresse": "Beaupré, QC",
+    "photoURL": "https://www.ville.beaupre.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Beaupré",
+    "type": "Lac",
+    "note": "4.6 (71)",
+    "gps": "47.0500,-70.9000",
+    "adresse": "Beaupré, QC",
+    "photoURL": "https://www.ville.beaupre.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont Sainte-Anne",
+    "type": "Parc naturel",
+    "note": "4.8 (1345)",
+    "gps": "47.1000,-70.9000",
+    "adresse": "Beaupré, QC",
+    "photoURL": "https://www.mont-sainte-anne.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Tite-des-Caps",
+    "type": "Plage",
+    "note": "4.2 (38)",
+    "gps": "47.1833,-70.8000",
+    "adresse": "Saint-Tite-des-Caps, QC",
+    "photoURL": "https://www.sainttitedescaps.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Tite",
+    "type": "Lac",
+    "note": "4.5 (56)",
+    "gps": "47.1833,-70.8000",
+    "adresse": "Saint-Tite-des-Caps, QC",
+    "photoURL": "https://www.sainttitedescaps.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc naturel du Massif de Charlevoix",
+    "type": "Parc naturel",
+    "note": "4.7 (623)",
+    "gps": "47.2500,-70.7000",
+    "adresse": "Petite-Rivière-Saint-François, QC",
+    "photoURL": "https://www.lemassif.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Petite-Rivière-Saint-François",
+    "type": "Plage",
+    "note": "4.3 (42)",
+    "gps": "47.2500,-70.7000",
+    "adresse": "Petite-Rivière-Saint-François, QC",
+    "photoURL": "https://www.petiteriviere.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac à l'Écluse",
+    "type": "Lac",
+    "note": "4.6 (64)",
+    "gps": "47.3000,-70.6500",
+    "adresse": "Petite-Rivière-Saint-François, QC",
+    "photoURL": "https://www.petiteriviere.qc.ca/images/lac-ecluse.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la Baie-Saint-Paul",
+    "type": "Parc régional",
+    "note": "4.8 (389)",
+    "gps": "47.3833,-70.6000",
+    "adresse": "Baie-Saint-Paul, QC",
+    "photoURL": "https://www.baiesaintpaul.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Baie-Saint-Paul",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "47.3833,-70.6000",
+    "adresse": "Baie-Saint-Paul, QC",
+    "photoURL": "https://www.baiesaintpaul.com/images/plage.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Saint-Irénée",
+    "type": "Plage",
+    "note": "4.4 (51)",
+    "gps": "47.5000,-70.3000",
+    "adresse": "Saint-Irénée, QC",
+    "photoURL": "https://www.saint-irenee.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Irénée",
+    "type": "Lac",
+    "note": "4.6 (68)",
+    "gps": "47.5000,-70.3000",
+    "adresse": "Saint-Irénée, QC",
+    "photoURL": "https://www.saint-irenee.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional des Grands-Jardins",
+    "type": "Parc régional",
+    "note": "4.8 (1345)",
+    "gps": "47.5833,-70.2000",
+    "adresse": "Saint-Urbain, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/grands-jardins/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Urbain",
+    "type": "Plage",
+    "note": "4.2 (39)",
+    "gps": "47.5833,-70.2000",
+    "adresse": "Saint-Urbain, QC",
+    "photoURL": "https://www.saint-urbain.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Urbain",
+    "type": "Lac",
+    "note": "4.5 (54)",
+    "gps": "47.5833,-70.2000",
+    "adresse": "Saint-Urbain, QC",
+    "photoURL": "https://www.saint-urbain.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+    "type": "Parc national",
+    "note": "4.9 (1456)",
+    "gps": "47.7500,-70.1000",
+    "adresse": "Saint-Aimé-des-Lacs, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/hautes-gorges/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Aimé-des-Lacs",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "47.7500,-70.2167",
+    "adresse": "Saint-Aimé-des-Lacs, QC",
+    "photoURL": "https://www.st-aime-des-lacs.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Nairne",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "47.7667,-70.2000",
+    "adresse": "Saint-Aimé-des-Lacs, QC",
+    "photoURL": "https://www.st-aime-des-lacs.qc.ca/images/lac-nairne.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la ZEC des Martres",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "47.8000,-70.0000",
+    "adresse": "Charlevoix, QC",
+    "photoURL": "https://www.zecdesmartres.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Charlevoix",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "47.8000,-70.0000",
+    "adresse": "Charlevoix, QC",
+    "photoURL": "https://www.charlevoix.qc.ca/images/plage.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de La Malbaie",
+    "type": "Plage",
+    "note": "4.4 (57)",
+    "gps": "47.6500,-70.1500",
+    "adresse": "La Malbaie, QC",
+    "photoURL": "https://www.ville.lamalbaie.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac de La Malbaie",
+    "type": "Lac",
+    "note": "4.6 (73)",
+    "gps": "47.6500,-70.1500",
+    "adresse": "La Malbaie, QC",
+    "photoURL": "https://www.ville.lamalbaie.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc du Mont Grand-Fonds",
+    "type": "Parc naturel",
+    "note": "4.7 (623)",
+    "gps": "47.7000,-70.1000",
+    "adresse": "La Malbaie, QC",
+    "photoURL": "https://www.montgrandfonds.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Clermont",
+    "type": "Plage",
+    "note": "4.3 (44)",
+    "gps": "47.6833,-70.2000",
+    "adresse": "Clermont, QC",
+    "photoURL": "https://www.ville.clermont.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Clermont",
+    "type": "Lac",
+    "note": "4.5 (61)",
+    "gps": "47.6833,-70.2000",
+    "adresse": "Clermont, QC",
+    "photoURL": "https://www.ville.clermont.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Port-au-Saumon",
+    "type": "Parc régional",
+    "note": "4.8 (389)",
+    "gps": "47.7500,-69.9500",
+    "adresse": "Charlevoix-Est, QC",
+    "photoURL": "https://www.portausaumon.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Port-au-Saumon",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "47.7500,-69.9500",
+    "adresse": "Charlevoix-Est, QC",
+    "photoURL": "https://www.portausaumon.com/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Port-au-Saumon",
+    "type": "Lac",
+    "note": "4.6 (66)",
+    "gps": "47.7500,-69.9500",
+    "adresse": "Charlevoix-Est, QC",
+    "photoURL": "https://www.portausaumon.com/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc national des Monts-Valin",
+    "type": "Parc national",
+    "note": "4.9 (1456)",
+    "gps": "48.5000,-70.0000",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/monts-valin/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saguenay",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.4167,-71.0667",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.ville.saguenay.qc.ca/images/plage.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Lac Kénogami",
+    "type": "Lac",
+    "note": "4.7 (94)",
+    "gps": "48.4333,-71.3000",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.saguenay.ca/images/lac-kenogami.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Jonquière",
+    "type": "Plage",
+    "note": "4.4 (58)",
+    "gps": "48.4167,-71.2500",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.saguenay.ca/images/plage-jonquiere.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Rivière-du-Moulin",
+    "type": "Parc",
+    "note": "4.8 (623)",
+    "gps": "48.4167,-71.0667",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.saguenay.ca/images/parc-riviere-du-moulin.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Chicoutimi",
+    "type": "Plage",
+    "note": "4.3 (47)",
+    "gps": "48.4167,-71.0667",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.saguenay.ca/images/plage-chicoutimi.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Sébastien",
+    "type": "Lac",
+    "note": "4.6 (66)",
+    "gps": "48.5000,-70.9000",
+    "adresse": "Saguenay, QC",
+    "photoURL": "https://www.saguenay.ca/images/lac-sebastien.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-David-de-Falardeau",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.5500,-70.9000",
+    "adresse": "Saint-David-de-Falardeau, QC",
+    "photoURL": "https://www.st-david.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc national des Monts-Valin (secteur Falardeau)",
+    "type": "Parc national",
+    "note": "4.9 (1456)",
+    "gps": "48.5833,-70.8500",
+    "adresse": "Saint-David-de-Falardeau, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/monts-valin/falardeau.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac des Cèdres",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.6000,-70.8000",
+    "adresse": "Saint-David-de-Falardeau, QC",
+    "photoURL": "https://www.st-david.qc.ca/images/lac-des-cedres.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Fulgence",
+    "type": "Plage",
+    "note": "4.3 (42)",
+    "gps": "48.5000,-70.7500",
+    "adresse": "Saint-Fulgence, QC",
+    "photoURL": "https://www.st-fulgence.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Fulgence",
+    "type": "Lac",
+    "note": "4.5 (61)",
+    "gps": "48.5000,-70.7500",
+    "adresse": "Saint-Fulgence, QC",
+    "photoURL": "https://www.st-fulgence.qc.ca/images/lac.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Parc Aventures Cap Jaseux",
+    "type": "Parc d'aventure",
+    "note": "4.7 (512)",
+    "gps": "48.4167,-70.8000",
+    "adresse": "Saint-Fulgence, QC",
+    "photoURL": "https://www.capjaseux.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage du Cap Jaseux",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.4167,-70.8000",
+    "adresse": "Saint-Fulgence, QC",
+    "photoURL": "https://www.capjaseux.com/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Tchitogama",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "48.6667,-71.0000",
+    "adresse": "Lamarche, QC",
+    "photoURL": "https://www.lamarche.ca/images/lac-tchitogama.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Lamarche",
+    "type": "Plage",
+    "note": "4.3 (42)",
+    "gps": "48.6667,-71.0000",
+    "adresse": "Lamarche, QC",
+    "photoURL": "https://www.lamarche.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional des Grandes-Rivières du Lac Saint-Jean",
+    "type": "Parc régional",
+    "note": "4.8 (389)",
+    "gps": "48.6667,-71.2500",
+    "adresse": "Alma, QC",
+    "photoURL": "https://www.ville.alma.qc.ca/images/parc-grandes-rivieres.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale d'Alma",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.5500,-71.2500",
+    "adresse": "Alma, QC",
+    "photoURL": "https://www.ville.alma.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Jean",
+    "type": "Lac",
+    "note": "4.9 (1456)",
+    "gps": "48.5000,-71.5000",
+    "adresse": "Lac-Saint-Jean, QC",
+    "photoURL": "https://www.lacsaintjean.com/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Gédéon",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.4833,-71.6000",
+    "adresse": "Saint-Gédéon, QC",
+    "photoURL": "https://www.st-gedeon.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc national de la Pointe-Taillon",
+    "type": "Parc national",
+    "note": "4.8 (1345)",
+    "gps": "48.5833,-71.6667",
+    "adresse": "Saint-Henri-de-Taillon, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/pointe-taillon/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage de la Pointe-Taillon",
+    "type": "Plage",
+    "note": "4.6 (89)",
+    "gps": "48.5833,-71.6667",
+    "adresse": "Saint-Henri-de-Taillon, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/pointe-taillon/plage.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Péribonka",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.8333,-71.2000",
+    "adresse": "Péribonka, QC",
+    "photoURL": "https://www.peribonka.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Péribonka",
+    "type": "Lac",
+    "note": "4.6 (66)",
+    "gps": "48.8333,-71.2000",
+    "adresse": "Péribonka, QC",
+    "photoURL": "https://www.peribonka.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional des Monts-Valin (secteur nord)",
+    "type": "Parc régional",
+    "note": "4.8 (1345)",
+    "gps": "48.9000,-70.9000",
+    "adresse": "Monts-Valin, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/monts-valin/nord.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Sainte-Monique",
+    "type": "Plage",
+    "note": "4.3 (42)",
+    "gps": "48.9000,-71.3000",
+    "adresse": "Sainte-Monique, QC",
+    "photoURL": "https://www.sainte-monique.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Sainte-Monique",
+    "type": "Lac",
+    "note": "4.5 (61)",
+    "gps": "48.9000,-71.3000",
+    "adresse": "Sainte-Monique, QC",
+    "photoURL": "https://www.sainte-monique.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la Chute à l’Ours",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "49.0000,-72.0000",
+    "adresse": "Normandin, QC",
+    "photoURL": "https://www.normandin.qc.ca/images/chute-ours.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Normandin",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "49.0000,-72.0000",
+    "adresse": "Normandin, QC",
+    "photoURL": "https://www.normandin.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Normandin",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "49.0000,-72.0000",
+    "adresse": "Normandin, QC",
+    "photoURL": "https://www.normandin.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de la Pointe-Bleue",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "49.1000,-72.1000",
+    "adresse": "Mashteuiatsh, QC",
+    "photoURL": "https://www.mashteuiatsh.ca/images/parc-pointe-bleue.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Mashteuiatsh",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "49.1000,-72.1000",
+    "adresse": "Mashteuiatsh, QC",
+    "photoURL": "https://www.mashteuiatsh.ca/images/plage.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Lac Mashteuiatsh",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "49.1000,-72.1000",
+    "adresse": "Mashteuiatsh, QC",
+    "photoURL": "https://www.mashteuiatsh.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Dolbeau-Mistassini",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "49.2167,-72.2333",
+    "adresse": "Dolbeau-Mistassini, QC",
+    "photoURL": "https://www.dolbeau-mistassini.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Dolbeau-Mistassini",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "49.2167,-72.2333",
+    "adresse": "Dolbeau-Mistassini, QC",
+    "photoURL": "https://www.dolbeau-mistassini.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Mistassini",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "49.2167,-72.2333",
+    "adresse": "Dolbeau-Mistassini, QC",
+    "photoURL": "https://www.dolbeau-mistassini.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Félicien",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "48.6500,-72.4500",
+    "adresse": "Saint-Félicien, QC",
+    "photoURL": "https://www.stfelicien.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Félicien",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.6500,-72.4500",
+    "adresse": "Saint-Félicien, QC",
+    "photoURL": "https://www.stfelicien.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Félicien",
+    "type": "Lac",
+    "note": "4.6 (89)",
+    "gps": "48.6500,-72.4500",
+    "adresse": "Saint-Félicien, QC",
+    "photoURL": "https://www.stfelicien.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc de la Pointe-des-Américains",
+    "type": "Parc",
+    "note": "4.7 (312)",
+    "gps": "48.6667,-72.4667",
+    "adresse": "Saint-Félicien, QC",
+    "photoURL": "https://www.stfelicien.qc.ca/images/pointe-americains.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Roberval",
+    "type": "Plage",
+    "note": "4.4 (58)",
+    "gps": "48.5167,-72.2333",
+    "adresse": "Roberval, QC",
+    "photoURL": "https://www.roberval.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Roberval",
+    "type": "Lac",
+    "note": "4.6 (66)",
+    "gps": "48.5167,-72.2333",
+    "adresse": "Roberval, QC",
+    "photoURL": "https://www.roberval.ca/images/lac.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Parc régional de Val-Jalbert",
+    "type": "Parc régional",
+    "note": "4.8 (1345)",
+    "gps": "48.4167,-72.2333",
+    "adresse": "Chambord, QC",
+    "photoURL": "https://www.valjalbert.com/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Chambord",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.4167,-72.2333",
+    "adresse": "Chambord, QC",
+    "photoURL": "https://www.chambord.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Chambord",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.4167,-72.2333",
+    "adresse": "Chambord, QC",
+    "photoURL": "https://www.chambord.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc national de la Pointe-Taillon (secteur sud)",
+    "type": "Parc national",
+    "note": "4.9 (1456)",
+    "gps": "48.5000,-71.6667",
+    "adresse": "Saint-Henri-de-Taillon, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/pointe-taillon/sud.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage de Saint-Henri-de-Taillon",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.5000,-71.6667",
+    "adresse": "Saint-Henri-de-Taillon, QC",
+    "photoURL": "https://www.st-henri.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Henri",
+    "type": "Lac",
+    "note": "4.6 (89)",
+    "gps": "48.5000,-71.6667",
+    "adresse": "Saint-Henri-de-Taillon, QC",
+    "photoURL": "https://www.st-henri.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Métabetchouan",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "48.4167,-71.8667",
+    "adresse": "Métabetchouan–Lac-à-la-Croix, QC",
+    "photoURL": "https://www.metabetchouan.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Métabetchouan",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.4167,-71.8667",
+    "adresse": "Métabetchouan–Lac-à-la-Croix, QC",
+    "photoURL": "https://www.metabetchouan.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac à la Croix",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "48.4167,-71.8667",
+    "adresse": "Métabetchouan–Lac-à-la-Croix, QC",
+    "photoURL": "https://www.metabetchouan.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Desbiens",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "48.4167,-71.9333",
+    "adresse": "Desbiens, QC",
+    "photoURL": "https://www.desbiens.qc.ca/images/parc.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Desbiens",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.4167,-71.9333",
+    "adresse": "Desbiens, QC",
+    "photoURL": "https://www.desbiens.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Desbiens",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.4167,-71.9333",
+    "adresse": "Desbiens, QC",
+    "photoURL": "https://www.desbiens.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-André-du-Lac-Saint-Jean",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "48.5000,-72.0000",
+    "adresse": "Saint-André-du-Lac-Saint-Jean, QC",
+    "photoURL": "https://www.st-andre.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-André-du-Lac-Saint-Jean",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.5000,-72.0000",
+    "adresse": "Saint-André-du-Lac-Saint-Jean, QC",
+    "photoURL": "https://www.st-andre.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-André",
+    "type": "Lac",
+    "note": "4.6 (89)",
+    "gps": "48.5000,-72.0000",
+    "adresse": "Saint-André-du-Lac-Saint-Jean, QC",
+    "photoURL": "https://www.st-andre.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-François-de-Sales",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "48.5667,-72.1000",
+    "adresse": "Saint-François-de-Sales, QC",
+    "photoURL": "https://www.st-francois.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-François-de-Sales",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.5667,-72.1000",
+    "adresse": "Saint-François-de-Sales, QC",
+    "photoURL": "https://www.st-francois.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-François",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "48.5667,-72.1000",
+    "adresse": "Saint-François-de-Sales, QC",
+    "photoURL": "https://www.st-francois.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de La Doré",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "48.6667,-72.3000",
+    "adresse": "La Doré, QC",
+    "photoURL": "https://www.ladore.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de La Doré",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.6667,-72.3000",
+    "adresse": "La Doré, QC",
+    "photoURL": "https://www.ladore.qc.ca/images/plage.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Lac La Doré",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.6667,-72.3000",
+    "adresse": "La Doré, QC",
+    "photoURL": "https://www.ladore.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Prime",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "48.6167,-72.0500",
+    "adresse": "Saint-Prime, QC",
+    "photoURL": "https://www.saint-prime.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Prime",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.6167,-72.0500",
+    "adresse": "Saint-Prime, QC",
+    "photoURL": "https://www.saint-prime.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Prime",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "48.6167,-72.0500",
+    "adresse": "Saint-Prime, QC",
+    "photoURL": "https://www.saint-prime.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Méthode",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "48.5667,-72.0000",
+    "adresse": "Saint-Méthode, QC",
+    "photoURL": "https://www.st-methode.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Méthode",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.5667,-72.0000",
+    "adresse": "Saint-Méthode, QC",
+    "photoURL": "https://www.st-methode.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Méthode",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.5667,-72.0000",
+    "adresse": "Saint-Méthode, QC",
+    "photoURL": "https://www.st-methode.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Thomas-Didyme",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "48.7500,-72.1500",
+    "adresse": "Saint-Thomas-Didyme, QC",
+    "photoURL": "https://www.st-thomas.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Thomas-Didyme",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.7500,-72.1500",
+    "adresse": "Saint-Thomas-Didyme, QC",
+    "photoURL": "https://www.st-thomas.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Thomas",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.7500,-72.1500",
+    "adresse": "Saint-Thomas-Didyme, QC",
+    "photoURL": "https://www.st-thomas.qc.ca/images/lac.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Lac Saint-Thomas-Didyme",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.7500,-72.1500",
+    "adresse": "Saint-Thomas-Didyme, QC",
+    "photoURL": "https://www.st-thomas.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Girardville",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "48.8833,-72.3000",
+    "adresse": "Girardville, QC",
+    "photoURL": "https://www.girardville.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Girardville",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "48.8833,-72.3000",
+    "adresse": "Girardville, QC",
+    "photoURL": "https://www.girardville.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Girardville",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "48.8833,-72.3000",
+    "adresse": "Girardville, QC",
+    "photoURL": "https://www.girardville.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Stanislas",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "48.9333,-72.4000",
+    "adresse": "Saint-Stanislas, QC",
+    "photoURL": "https://www.st-stanislas.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Stanislas",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "48.9333,-72.4000",
+    "adresse": "Saint-Stanislas, QC",
+    "photoURL": "https://www.st-stanislas.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Stanislas",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "48.9333,-72.4000",
+    "adresse": "Saint-Stanislas, QC",
+    "photoURL": "https://www.st-stanislas.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Augustin",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "49.0000,-72.5000",
+    "adresse": "Saint-Augustin, QC",
+    "photoURL": "https://www.st-augustin.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Augustin",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "49.0000,-72.5000",
+    "adresse": "Saint-Augustin, QC",
+    "photoURL": "https://www.st-augustin.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Augustin",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "49.0000,-72.5000",
+    "adresse": "Saint-Augustin, QC",
+    "photoURL": "https://www.st-augustin.qc.ca/images/lac.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Parc régional de Saint-Jean-sur-Richelieu",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "45.3167,-73.2667",
+    "adresse": "Saint-Jean-sur-Richelieu, QC",
+    "photoURL": "https://www.sjsr.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Jean-sur-Richelieu",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "45.3167,-73.2667",
+    "adresse": "Saint-Jean-sur-Richelieu, QC",
+    "photoURL": "https://www.sjsr.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Jean-sur-Richelieu",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "45.3167,-73.2667",
+    "adresse": "Saint-Jean-sur-Richelieu, QC",
+    "photoURL": "https://www.sjsr.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Venise-en-Québec",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "45.0500,-73.1500",
+    "adresse": "Venise-en-Québec, QC",
+    "photoURL": "https://www.veniseenquebec.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Venise-en-Québec",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "45.0500,-73.1500",
+    "adresse": "Venise-en-Québec, QC",
+    "photoURL": "https://www.veniseenquebec.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Champlain",
+    "type": "Lac",
+    "note": "4.9 (1456)",
+    "gps": "45.0000,-73.2500",
+    "adresse": "Venise-en-Québec, QC",
+    "photoURL": "https://www.veniseenquebec.ca/images/lac-champlain.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Saint-Armand",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "45.0167,-73.0667",
+    "adresse": "Saint-Armand, QC",
+    "photoURL": "https://www.st-armand.qc.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Saint-Armand",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "45.0167,-73.0667",
+    "adresse": "Saint-Armand, QC",
+    "photoURL": "https://www.st-armand.qc.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Saint-Armand",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "45.0167,-73.0667",
+    "adresse": "Saint-Armand, QC",
+    "photoURL": "https://www.st-armand.qc.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Bedford",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "45.1000,-72.9833",
+    "adresse": "Bedford, QC",
+    "photoURL": "https://www.bedford.ca/images/parc.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Parc régional de Bedford (secteur sud)",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "45.0833,-72.9833",
+    "adresse": "Bedford, QC",
+    "photoURL": "https://www.bedford.ca/images/parc-sud.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Bedford",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "45.0833,-72.9833",
+    "adresse": "Bedford, QC",
+    "photoURL": "https://www.bedford.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Bedford",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "45.0833,-72.9833",
+    "adresse": "Bedford, QC",
+    "photoURL": "https://www.bedford.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Cowansville",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "45.2000,-72.7500",
+    "adresse": "Cowansville, QC",
+    "photoURL": "https://www.cowansville.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Cowansville",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "45.2000,-72.7500",
+    "adresse": "Cowansville, QC",
+    "photoURL": "https://www.cowansville.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Davignon",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "45.2000,-72.7500",
+    "adresse": "Cowansville, QC",
+    "photoURL": "https://www.cowansville.ca/images/lac-davignon.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Bromont",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "45.3167,-72.6500",
+    "adresse": "Bromont, QC",
+    "photoURL": "https://www.bromont.net/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Bromont",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "45.3167,-72.6500",
+    "adresse": "Bromont, QC",
+    "photoURL": "https://www.bromont.net/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Bromont",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "45.3167,-72.6500",
+    "adresse": "Bromont, QC",
+    "photoURL": "https://www.bromont.net/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Waterloo",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "45.3500,-72.5167",
+    "adresse": "Waterloo, QC",
+    "photoURL": "https://www.waterloo.ca/images/parc.jpg",
+    "notes": ""
+  }
+]
+
+[
+  {
+    "nom": "Plage municipale de Waterloo",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "45.3500,-72.5167",
+    "adresse": "Waterloo, QC",
+    "photoURL": "https://www.waterloo.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Waterloo",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "45.3500,-72.5167",
+    "adresse": "Waterloo, QC",
+    "photoURL": "https://www.waterloo.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Roxton Pond",
+    "type": "Parc régional",
+    "note": "4.7 (389)",
+    "gps": "45.3833,-72.4667",
+    "adresse": "Roxton Pond, QC",
+    "photoURL": "https://www.roxtonpond.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Roxton Pond",
+    "type": "Plage",
+    "note": "4.4 (53)",
+    "gps": "45.3833,-72.4667",
+    "adresse": "Roxton Pond, QC",
+    "photoURL": "https://www.roxtonpond.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Roxton",
+    "type": "Lac",
+    "note": "4.6 (72)",
+    "gps": "45.3833,-72.4667",
+    "adresse": "Roxton Pond, QC",
+    "photoURL": "https://www.roxtonpond.ca/images/lac.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc régional de Granby",
+    "type": "Parc régional",
+    "note": "4.8 (623)",
+    "gps": "45.4000,-72.7333",
+    "adresse": "Granby, QC",
+    "photoURL": "https://www.granby.ca/images/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage municipale de Granby",
+    "type": "Plage",
+    "note": "4.5 (72)",
+    "gps": "45.4000,-72.7333",
+    "adresse": "Granby, QC",
+    "photoURL": "https://www.granby.ca/images/plage.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Lac Boivin",
+    "type": "Lac",
+    "note": "4.6 (84)",
+    "gps": "45.4000,-72.7333",
+    "adresse": "Granby, QC",
+    "photoURL": "https://www.granby.ca/images/lac-boivin.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Parc national de Yamaska",
+    "type": "Parc national",
+    "note": "4.9 (1456)",
+    "gps": "45.4500,-72.7333",
+    "adresse": "Roxton Pond, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/yamaska/parc.jpg",
+    "notes": ""
+  },
+  {
+    "nom": "Plage de la Yamaska",
+    "type": "Plage",
+    "note": "4.6 (89)",
+    "gps": "45.4500,-72.7333",
+    "adresse": "Roxton Pond, QC",
+    "photoURL": "https://www.sepaq.com/resources/images/parks/yamaska/plage.jpg",
+    "notes": ""
+  }
+]
+

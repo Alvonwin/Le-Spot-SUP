@@ -1,0 +1,248 @@
+
+'use client';
+
+import Header from '@/components/layout/header';
+import { useTranslation } from '@/context/language-context';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { PlusCircle, Info, BarChart2, Trash2, CalendarDays, Timer, Milestone, BotMessageSquare } from 'lucide-react';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/ui/alert-dialog';
+import AddSessionForm from './_components/add-session-form';
+import { useState, useEffect, Suspense, lazy } from 'react';
+import { useAuth } from '@/lib/auth-provider';
+import type { PaddleSession } from '@/lib/types';
+import { format } from 'date-fns';
+import { fr } from 'date-fns/locale';
+import { useToast } from '@/hooks/use-toast';
+import { getSessions } from '@/services/session-service';
+import { Loader2 } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { useLoading } from '@/context/loading-context';
+
+const SessionStats = lazy(() => import('./_components/session-stats'));
+const AiCoachNotes = lazy(() => import('./_components/ai-coach-notes'));
+
+export default function SessionsPage() {
+  const { t } = useTranslation();
+  const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
+  const { user, loading: authLoading } = useAuth();
+  const { toast } = useToast();
+  const router = useRouter();
+  const { setIsLoading: setAppIsLoading } = useLoading();
+
+  const [sessions, setSessions] = useState<PaddleSession[]>([]);
+  const [isLoadingSessions, setIsLoadingSessions] = useState(true);
+
+  useEffect(() => {
+    setAppIsLoading(authLoading || isLoadingSessions);
+  }, [authLoading, isLoadingSessions, setAppIsLoading]);
+
+  useEffect(() => {
+    if (!authLoading && !user) {
+      router.push('/login');
+    }
+  }, [user, authLoading, router]);
+  
+  useEffect(() => {
+    async function loadSessions() {
+      if (user) {
+        setIsLoadingSessions(true);
+        const fetchedSessions = await getSessions(user.uid);
+        setSessions(fetchedSessions);
+        setIsLoadingSessions(false);
+      } else {
+        setIsLoadingSessions(false);
+      }
+    }
+    if (!authLoading) {
+        loadSessions();
+    }
+  }, [user, authLoading]);
+
+  const handleDeleteSession = (sessionId: string) => {
+    toast({
+      title: 'Fonctionnalité désactivée',
+      description: 'La suppression de sessions est désactivée dans cet environnement local.',
+    });
+  }
+  
+  const handleSessionAdded = (newSession: PaddleSession) => {
+    setSessions(prevSessions => [newSession, ...prevSessions].sort((a, b) => 
+      new Date(b.startTime).getTime() - new Date(a.startTime).getTime()
+    ));
+    setIsAddDialogOpen(false);
+  }
+
+  if (authLoading || isLoadingSessions) {
+    return (
+      <div className="flex min-h-screen flex-col">
+        <Header />
+        <main className="flex flex-1 flex-col items-center justify-center">
+          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+          <p className="mt-2 text-muted-foreground">En chargement...</p>
+        </main>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return null;
+  }
+
+  return (
+    <div className="flex min-h-screen flex-col">
+      <Header />
+      <main className="flex-1 bg-secondary/50">
+        <div className="container py-8">
+          <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
+            <div>
+              <h1 className="font-headline text-3xl font-bold md:text-4xl">
+                🏄‍♂️ {t('sessionsPage.title')}
+              </h1>
+              <p className="mt-1 text-muted-foreground">📊 {t('sessionsPage.description')}</p>
+            </div>
+            <Dialog open={isAddDialogOpen} onOpenChange={setIsAddDialogOpen}>
+              <DialogTrigger asChild>
+                <Button>
+                  <PlusCircle className="mr-2" />
+                  {t('sessionsPage.addSession')}
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-2xl">
+                <DialogHeader>
+                  <DialogTitle>{t('addSessionForm.title')}</DialogTitle>
+                  <DialogDescription>{t('addSessionForm.description')}</DialogDescription>
+                </DialogHeader>
+                <AddSessionForm onFinished={handleSessionAdded} />
+              </DialogContent>
+            </Dialog>
+          </div>
+
+          {sessions.length > 0 ? (
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+              <div className="lg:col-span-2">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>📖 {t('sessionsPage.recentSessions')}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead><CalendarDays className="mr-1 inline-block h-4 w-4 text-muted-foreground"/>{t('sessionsPage.date')}</TableHead>
+                          <TableHead className="text-right"><Timer className="mr-1 inline-block h-4 w-4 text-muted-foreground"/>{t('sessionsPage.duration')}</TableHead>
+                          <TableHead className="text-right"><Milestone className="mr-1 inline-block h-4 w-4 text-muted-foreground"/>{t('sessionsPage.distance')}</TableHead>
+                          <TableHead className="text-center"><BotMessageSquare className="mr-1 inline-block h-4 w-4 text-muted-foreground"/>{t('mapPage.aiPanel')}</TableHead>
+                          <TableHead className="text-right">Actions</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {sessions.map(session => (
+                          <TableRow key={session.id}>
+                            <TableCell>{format(new Date(session.startTime), 'd MMM yyyy', { locale: fr })}</TableCell>
+                            <TableCell className="text-right">{session.durationMinutes}</TableCell>
+                            <TableCell className="text-right">{session.distanceKilometers.toFixed(2)}</TableCell>
+                            <TableCell className="text-center">
+                              <Dialog>
+                                <DialogTrigger asChild>
+                                   <Button variant="ghost" size="icon">
+                                    <Info className="h-4 w-4" />
+                                  </Button>
+                                </DialogTrigger>
+                                <DialogContent>
+                                  <DialogHeader>
+                                    <DialogTitle>{t('sessionsPage.coachTitle')}</DialogTitle>
+                                  </DialogHeader>
+                                  <Suspense fallback={<div className="flex flex-col items-center justify-center p-8"><Loader2 className="animate-spin" /><p className="mt-2">En chargement...</p></div>}>
+                                    <AiCoachNotes session={session}/>
+                                  </Suspense>
+                                </DialogContent>
+                              </Dialog>
+                            </TableCell>
+                            <TableCell className="text-right">
+                              <AlertDialog>
+                                <AlertDialogTrigger asChild>
+                                  <Button variant="ghost" size="icon" className="text-destructive hover:text-destructive">
+                                    <Trash2 className="h-4 w-4" />
+                                  </Button>
+                                </AlertDialogTrigger>
+                                <AlertDialogContent>
+                                  <AlertDialogHeader>
+                                    <AlertDialogTitle>Êtes-vous sûr ?</AlertDialogTitle>
+                                    <AlertDialogDescription>
+                                      Cette action est irréversible. La session sera définitivement supprimée.
+                                    </AlertDialogDescription>
+                                  </AlertDialogHeader>
+                                  <AlertDialogFooter>
+                                    <AlertDialogCancel>Annuler</AlertDialogCancel>
+                                    <AlertDialogAction
+                                      onClick={() => handleDeleteSession(session.id)}
+                                      className="bg-destructive hover:bg-destructive/90"
+                                    >
+                                      Supprimer
+                                    </AlertDialogAction>
+                                  </AlertDialogFooter>
+                                </AlertDialogContent>
+                              </AlertDialog>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </CardContent>
+                </Card>
+              </div>
+              <div className="space-y-8">
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center">
+                      <BarChart2 className="mr-2" />
+                      {t('sessionsPage.stats')}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <Suspense fallback={<div className="flex flex-col items-center justify-center p-8"><Loader2 className="animate-spin" /><p className="mt-2">En chargement...</p></div>}>
+                      <SessionStats sessions={sessions} />
+                    </Suspense>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          ) : (
+            <Card className="py-20 text-center">
+              <CardContent>
+                <p className="text-muted-foreground">🏝️ {t('sessionsPage.noSessions')}</p>
+              </CardContent>
+            </Card>
+          )}
+        </div>
+      </main>
+    </div>
+  );
+}

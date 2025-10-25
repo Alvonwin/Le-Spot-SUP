@@ -1,0 +1,182 @@
+/* Page d'accueil - Le Spot SUP */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.heroImage {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  filter: brightness(0.9);
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.4), transparent, rgba(15, 23, 42, 0.6));
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  max-width: 48rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.heroButton {
+  background-color: #f97316;
+  color: white;
+  padding: 1.5rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.heroButton:hover {
+  background-color: #ea580c;
+}
+
+.features {
+  background-color: #1e293b;
+  padding: 5rem 1rem;
+}
+
+.featuresContainer {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.featuresHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.featuresBadge {
+  display: inline-block;
+  background-color: #334155;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.featuresTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.featuresSubtitle {
+  font-size: 1.125rem;
+  color: #cbd5e1;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.featureCard {
+  text-align: center;
+}
+
+.featureIcon {
+  width: 5rem;
+  height: 5rem;
+  background-color: #60a5fa;
+  color: #0f172a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 2.5rem;
+}
+
+.featureTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.featureDescription {
+  color: #cbd5e1;
+}
+
+.footer {
+  background-color: #0f172a;
+  border-top: 1px solid #334155;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.footerText {
+  font-size: 0.875rem;
+  color: #94a3b8;
+}
+
+@media (min-width: 768px) {
+  .heroTitle {
+    font-size: 4rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.5rem;
+  }
+
+  .featuresGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroTitle {
+    font-size: 5rem;
+  }
+}

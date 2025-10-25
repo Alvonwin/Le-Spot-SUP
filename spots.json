@@ -1,0 +1,2646 @@
+
+[
+  {
+    "id": "1",
+    "name": "Baie d'Émeraude, Lac Tahoe",
+    "latitude": 38.9531,
+    "longitude": -120.1098,
+    "description": "Un endroit magnifique sur le lac Tahoe avec des eaux cristallines et des paysages magnifiques. Parfait pour tous les niveaux. Visitez l'île Fannette au milieu de la baie.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "emerald-bay",
+    "country": "USA",
+    "province": "Californie"
+  },
+  {
+    "id": "2",
+    "name": "Jetée de Santa Monica, CA",
+    "latitude": 34.0089,
+    "longitude": -118.4981,
+    "description": "Pagayez le long de la côte emblématique de Santa Monica avec vue sur la jetée. Un endroit idéal pour admirer les couchers de soleil. Peut être fréquenté par les surfeurs.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "santa-monica",
+    "country": "USA",
+    "province": "Californie"
+  },
+  {
+    "id": "3",
+    "name": "Horseshoe Bend, Rivière Colorado",
+    "latitude": 36.8792,
+    "longitude": -111.5103,
+    "description": "Une pagaie inoubliable à travers le célèbre Horseshoe Bend. Nécessite un peu de planification et un service de navette, mais les vues en valent la peine. Idéal pour les pagayeurs intermédiaires.",
+    "amenities": [],
+    "image": "colorado-river",
+    "country": "USA",
+    "province": "Arizona"
+  },
+  {
+    "id": "4",
+    "name": "Key West, Floride",
+    "latitude": 24.5551,
+    "longitude": -81.78,
+    "description": "Explorez les forêts de mangroves et les eaux claires et peu profondes autour de Key West. Idéal pour observer la vie marine. Très accueillant pour les chiens !",
+    "amenities": [
+      "rentals",
+      "dog_friendly"
+    ],
+    "image": "key-west",
+    "country": "USA",
+    "province": "Floride"
+  },
+  {
+    "id": "5",
+    "name": "Nærøyfjord, Norvège",
+    "latitude": 60.9423,
+    "longitude": 6.9422,
+    "description": "Un site du patrimoine mondial de l'UNESCO, offrant l'un des paysages de paddle les plus spectaculaires au monde. Entouré de falaises imposantes et de cascades. Pour les pagayeurs avancés en raison de l'eau froide et des conditions changeantes.",
+    "amenities": [],
+    "image": "norway-fjord",
+    "country": "Norvège",
+    "province": "Vestland"
+  },
+  {
+    "id": "6",
+    "name": "Lac Moraine, Parc National de Banff",
+    "latitude": 51.3217,
+    "longitude": -116.186,
+    "description": "Pagayez sur les eaux turquoise emblématiques du lac Moraine, entouré par la vallée des Dix Pics. Une expérience inoubliable au cœur des Rocheuses canadiennes. L'accès est réglementé, il faut planifier sa visite.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "moraine-lake",
+    "country": "Canada",
+    "province": "Alberta"
+  },
+  {
+    "id": "7",
+    "name": "Parc national des Îles-de-Boucherville, QC",
+    "latitude": 45.59,
+    "longitude": -73.49,
+    "description": "À quelques minutes de Montréal, un dédale de chenaux tranquilles parfaits pour les débutants et les amoureux de la nature. Idéal pour observer les oiseaux.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "boucherville-park",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "8",
+    "name": "Baie de Fundy, NB/NS",
+    "latitude": 45.3,
+    "longitude": -65.5,
+    "description": "Pagayez avec les plus hautes marées du monde. Explorez des formations rocheuses uniques comme les rochers Hopewell. Une expérience puissante réservée aux pagayeurs avertis et bien planifiés.",
+    "amenities": [],
+    "image": "fundy-bay",
+    "country": "Canada",
+    "province": "Nouveau-Brunswick"
+  },
+  {
+    "id": "9",
+    "name": "Costa Brava, Espagne",
+    "latitude": 41.97,
+    "longitude": 3.1,
+    "description": "Explorez des criques cachées, des grottes marines et des eaux cristallines le long de la côte sauvage de la Catalogne. Idéal pour l'aventure et la découverte.",
+    "amenities": [
+      "dog_friendly"
+    ],
+    "image": "costa-brava",
+    "country": "Espagne",
+    "province": "Catalogne"
+  },
+  {
+    "id": "10",
+    "name": "Abel Tasman National Park, Nouvelle-Zélande",
+    "latitude": -40.9,
+    "longitude": 173.04,
+    "description": "L'un des meilleurs spots de kayak et de paddle au monde. Plages de sable doré, eaux turquoise et une faune abondante, y compris des otaries à fourrure et des dauphins.",
+    "amenities": [
+      "restrooms"
+    ],
+    "image": "abel-tasman",
+    "country": "Nouvelle-Zélande",
+    "province": "Tasman"
+  },
+  {
+    "id": "11",
+    "name": "Lagon des Maldives",
+    "latitude": 3.2,
+    "longitude": 73.22,
+    "description": "Pagayez sur des eaux incroyablement claires et calmes d'un bleu éclatant. Entouré de sable blanc et d'une vie marine riche, c'est l'expérience tropicale ultimate.",
+    "amenities": [
+      "rentals"
+    ],
+    "image": "maldives-lagoon",
+    "country": "Maldives",
+    "province": "Atoll Malé Nord"
+  },
+  {
+    "id": "12",
+    "name": "Bora Bora, Polynésie Française",
+    "latitude": -16.5004,
+    "longitude": -151.7415,
+    "description": "Glissez sur le lagon emblématique de Bora Bora avec le mont Otemanu en toile de fond. Les eaux peu profondes et protégées sont parfaites pour tous les niveaux.",
+    "amenities": [
+      "rentals"
+    ],
+    "image": "bora-bora",
+    "country": "France",
+    "province": "Polynésie Française"
+  },
+  {
+    "id": "13",
+    "name": "Rivière Amazone, Brésil",
+    "latitude": -2.37,
+    "longitude": -54.9,
+    "description": "Une aventure de paddle unique en son genre, en explorant les affluents du plus grand fleuve du monde. Immergez-vous dans la jungle luxuriante et sa faune exotique. Pour les pagayeurs expérimentés et aventureux.",
+    "amenities": [],
+    "image": "amazon-river",
+    "country": "Brésil",
+    "province": "Pará"
+  },
+  {
+    "id": "14",
+    "name": "Lac de Bled, Slovénie",
+    "latitude": 46.3636,
+    "longitude": 14.0938,
+    "description": "Pagayez sur un lac alpin pittoresque jusqu'à une île avec une église. Profitez de vues sur un château médiéval perché sur une falaise et des montagnes en arrière-plan. Une expérience de conte de fées.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "lake-bled",
+    "country": "Slovénie",
+    "province": "Haute-Carniole"
+  },
+  {
+    "id": "15",
+    "name": "Fjord du Saguenay, Québec",
+    "latitude": 48.33,
+    "longitude": -70.55,
+    "description": "Pagayez au cœur d'un fjord majestueux, entouré de falaises vertigineuses. Une expérience grandiose et inoubliable. Gardez l'œil ouvert pour les bélugas !",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "fjord-saguenay",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "16",
+    "name": "Lac Mégantic, Québec",
+    "latitude": 45.57,
+    "longitude": -70.88,
+    "description": "Un immense lac frontalier entouré de montagnes, offrant de superbes couchers de soleil et de longues distances à parcourir. La région est étoilée et magnifique.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "lac-megantic",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "17",
+    "name": "Parc national de la Mauricie, Québec",
+    "latitude": 46.78,
+    "longitude": -72.97,
+    "description": "Un havre de paix avec d'innombrables lacs et rivières serpentant à travers des forêts denses. L'endroit idéal pour une immersion en nature sauvage.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "mauricie-park",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "18",
+    "name": "Rivière Bonaventure, Gaspésie",
+    "latitude": 48.049,
+    "longitude": -65.492,
+    "description": "Descendez une des rivières les plus limpides au monde. L'eau est si claire que vous aurez l'impression de flotter dans les airs. Une expérience inoubliable en Gaspésie.",
+    "amenities": [
+      "rentals",
+      "parking"
+    ],
+    "image": "riviere-bonaventure",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "19",
+    "name": "Parc national du Mont-Tremblant",
+    "latitude": 46.416,
+    "longitude": -74.333,
+    "description": "Explorez les nombreux lacs et la sinueuse Rivière du Diable dans le plus grand parc national du Québec. Un immense terrain de jeu pour les amateurs de plein air.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "mont-tremblant",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "20",
+    "name": "Îles de la Madeleine",
+    "latitude": 47.37,
+    "longitude": -61.87,
+    "description": "Pagayez le long des spectaculaires falaises de grès rouge et explorez des grottes marines accessibles à marée basse. Une destination unique pour le paddle en mer.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "iles-de-la-madeleine",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "fr-1",
+    "name": "Lac d'Annecy, Haute-Savoie",
+    "latitude": 45.873,
+    "longitude": 6.155,
+    "description": "Considéré comme l'un des lacs les plus purs d'Europe, ses eaux cristallines et son décor alpin en font un lieu de rêve pour le paddle. Explorez ses villages riverains et ses plages.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals",
+      "dog_friendly"
+    ],
+    "image": "fr-lac-annecy",
+    "country": "France",
+    "province": "Haute-Savoie"
+  },
+  {
+    "id": "fr-2",
+    "name": "Gorges du Verdon, Provence",
+    "latitude": 43.74,
+    "longitude": 6.32,
+    "description": "Pagayez dans le plus grand canyon d'Europe, sur des eaux turquoise spectaculaires. L'entrée par le Lac de Sainte-Croix est le point de départ le plus populaire.",
+    "amenities": [
+      "parking",
+      "rentals"
+    ],
+    "image": "fr-gorges-verdon",
+    "country": "France",
+    "province": "Provence"
+  },
+  {
+    "id": "fr-3",
+    "name": "Calanques de Cassis, Méditerranée",
+    "latitude": 43.2,
+    "longitude": 5.5,
+    "description": "Explorez les criques de calcaire blanc aux eaux turquoise. La Calanque d'En-Vau est l'une des plus célèbres et spectaculaires. Accès par la mer recommandé.",
+    "amenities": [],
+    "image": "fr-calanques-cassis",
+    "country": "France",
+    "province": "Provence"
+  },
+  {
+    "id": "fr-4",
+    "name": "Falaises d'Étretat, Normandie",
+    "latitude": 49.7076,
+    "longitude": 0.201,
+    "description": "Admirez les célèbres falaises d'albâtre, y compris l'Aiguille Creuse et la Porte d'Aval, depuis la mer. Une expérience unique, mais attention aux marées et au courant.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "fr-etretat",
+    "country": "France",
+    "province": "Normandie"
+  },
+  {
+    "id": "fr-5",
+    "name": "Bassin d'Arcachon, Gironde",
+    "latitude": 44.68,
+    "longitude": -1.17,
+    "description": "Un vaste lagon ouvert sur l'Atlantique. Pagayez vers l'Île aux Oiseaux et ses cabanes tchanquées, ou longez la majestueuse Dune du Pilat. Forts courants à l'entrée du bassin.",
+    "amenities": [
+      "rentals",
+      "dog_friendly"
+    ],
+    "image": "fr-arcachon",
+    "country": "France",
+    "province": "Nouvelle-Aquitaine"
+  },
+  {
+    "id": "fr-6",
+    "name": "Île de Porquerolles, Var",
+    "latitude": 43,
+    "longitude": 6.2,
+    "description": "Évadez-vous sur une île paradisiaque aux plages de sable fin comme la Plage d'Argent. Des eaux protégées et une nature préservée en font un joyau de la Méditerranée.",
+    "amenities": [
+      "restrooms",
+      "rentals"
+    ],
+    "image": "fr-porquerolles",
+    "country": "France",
+    "province": "Provence"
+  },
+  {
+    "id": "fr-7",
+    "name": "Lac du Salagou, Hérault",
+    "latitude": 43.65,
+    "longitude": 3.35,
+    "description": "Un paysage presque martien avec sa terre rouge (la 'ruffe') qui contraste avec les eaux bleues du lac. Un spot dépaysant et magnifique, idéal par vent calme.",
+    "amenities": [
+      "parking",
+      "dog_friendly"
+    ],
+    "image": "fr-lac-salagou",
+    "country": "France",
+    "province": "Occitanie"
+  },
+  {
+    "id": "qc-101",
+    "name": "Parc de la Rivière-des-Mille-Îles, Laval",
+    "latitude": 45.6033,
+    "longitude": -73.805,
+    "description": "Un incroyable archipel en milieu urbain. Explorez le labyrinthe d'îles et de chenaux de la rivière des Prairies. Idéal pour les débutants et l'observation de la faune.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "urban-archipelago",
+    "country": "Canada",
+    "province": "Laval"
+  },
+  {
+    "id": "qc-102",
+    "name": "Canal de Lachine, Montréal",
+    "latitude": 45.474,
+    "longitude": -73.585,
+    "description": "Pagayez au cœur de l'histoire industrielle de Montréal. Un parcours urbain unique et calme, bordé de pistes cyclables et d'espaces verts. Parfait pour une sortie après le travail.",
+    "amenities": [
+      "parking",
+      "rentals"
+    ],
+    "image": "urban-canal",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-103",
+    "name": "Réservoir Kiamika, Laurentides",
+    "latitude": 46.6667,
+    "longitude": -75.0833,
+    "description": "Une vaste mer intérieure parsemée de plages de sable et d'îles sauvages. Une destination de choix pour le paddle-camping et l'aventure en pleine nature.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "wild-reservoir",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-104",
+    "name": "Lac Massawippi, Estrie",
+    "latitude": 45.21,
+    "longitude": -72.21,
+    "description": "Un grand lac profond et magnifique, entouré de villages pittoresques comme North Hatley. Idéal pour de longues excursions et pour profiter des paysages des Cantons-de-l'Est.",
+    "amenities": [
+      "parking",
+      "rentals"
+    ],
+    "image": "eastern-townships",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-105",
+    "name": "Lac Brome, Estrie",
+    "latitude": 45.22,
+    "longitude": -72.52,
+    "description": "Très populaire pour les activités nautiques, ce lac offre une ambiance animée et une vue superbe. La plage Douglass est un excellent point de départ.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "popular-lake",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-106",
+    "name": "Rivière Rouge (secteur Labelle), Laurentides",
+    "latitude": 46.28,
+    "longitude": -74.75,
+    "description": "La rivière Rouge est célèbre pour ses plages de sable fin qui apparaissent à l'étiage. Le secteur de Labelle est idéal pour une descente facile et relaxante.",
+    "amenities": [
+      "parking",
+      "rentals"
+    ],
+    "image": "sandy-river",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-107",
+    "name": "Lac des Trente et Un Milles, Outaouais",
+    "latitude": 46.12,
+    "longitude": -75.9,
+    "description": "Un lac immense et labyrinthique, parsemé de dizaines d'îles. Un paradis pour les explorateurs et les amateurs de camping sauvage.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "island-maze",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-108",
+    "name": "Parc National d'Oka, Laurentides",
+    "latitude": 45.47,
+    "longitude": -74.07,
+    "description": "Situé sur le lac des Deux Montagnes, ce parc offre une longue plage de sable et des zones de marais à explorer. Idéal pour les familles et les débutants.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "oka-beach",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-109",
+    "name": "Parc National du Bic, Bas-Saint-Laurent",
+    "latitude": 48.35,
+    "longitude": -68.83,
+    "description": "Pagayez au milieu des îles, des anses et des baies de cet estuaire du Saint-Laurent. Gardez l'œil ouvert pour observer les phoques qui se prélassent au soleil.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "bic-seals",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-110",
+    "name": "Rivière Jacques-Cartier",
+    "latitude": 47.31,
+    "longitude": -71.35,
+    "description": "La rivière Jacques-Cartier serpente au fond d'une spectaculaire vallée glaciaire. C'est l'un des plus beaux parcours de descente de rivière au Québec.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "glacial-valley",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-111",
+    "name": "Parc national du Fjord-du-Saguenay (Baie-Éternité)",
+    "latitude": 48.336,
+    "longitude": -70.407,
+    "description": "Le secteur de Baie-Éternité est le cœur du Fjord. Pagayez au pied de la statue Notre-Dame-du-Saguenay et admirez les falaises vertigineuses.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "saguenay-cliffs",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "qc-112",
+    "name": "Parc national du Lac-Témiscouata",
+    "latitude": 47.66,
+    "longitude": -68.74,
+    "description": "Explorez le deuxième plus grand lac au sud du Saint-Laurent. Un site d'une grande beauté naturelle et d'une riche histoire archéologique.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "temiscouata-lake",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-113",
+    "name": "Archipel de l'Isle-aux-Grues",
+    "latitude": 47.05,
+    "longitude": -70.55,
+    "description": "Pagayez dans cet archipel du fleuve Saint-Laurent, un paradis pour l'observation des oiseaux migrateurs. Attention aux marées et aux courants.",
+    "amenities": [],
+    "image": "river-archipelago",
+    "country": "Canada",
+    "province": "Chaudière-Appalaches"
+  },
+  {
+    "id": "qc-114",
+    "name": "Parc National des Grands-Jardins",
+    "latitude": 47.68,
+    "longitude": -70.83,
+    "description": "Un paysage de taïga unique au Québec, avec des lacs aux eaux sombres comme le lac Arthabaska, offrant une expérience de paddle sauvage et dépaysante.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "taiga-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-115",
+    "name": "Parc national de Plaisance",
+    "latitude": 45.6,
+    "longitude": -75.13,
+    "description": "Situé sur la rivière des Outaouais, ce parc est un immense marais aménagé, réputé pour sa faune ailée. Parfait pour une sortie en paddle tranquille.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "outaouais-marsh",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-116",
+    "name": "Bassin de Chambly",
+    "latitude": 45.45,
+    "longitude": -73.28,
+    "description": "Un vaste plan d'eau historique au pied du Fort Chambly. Très populaire pour tous les types d'activités nautiques, avec des vues magnifiques et un accès facile.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "historic-lake",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-117",
+    "name": "Canal de Chambly",
+    "latitude": 45.44,
+    "longitude": -73.285,
+    "description": "Un parcours calme et historique qui longe la rivière Richelieu. Idéal pour une longue balade paisible, en observant les écluses et le paysage.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "urban-canal",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-118",
+    "name": "Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+    "latitude": 47.93,
+    "longitude": -70.47,
+    "description": "Pagayez sur la rivière Malbaie, encaissée entre les plus hautes parois rocheuses de l'Est canadien. Une expérience vertigineuse et inoubliable. Service de navette disponible.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "glacial-valley",
+    "country": "Canada",
+    "province": "Charlevoix"
+  },
+  {
+    "id": "qc-119",
+    "name": "Berge des Baigneurs, Sainte-Rose",
+    "latitude": 45.613,
+    "longitude": -73.785,
+    "description": "Point de départ principal pour le Parc de la Rivière-des-Mille-Îles. Accès facile à la rivière, location d'équipement et ambiance familiale dans le Vieux Sainte-Rose.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "river-park",
+    "country": "Canada",
+    "province": "Laval"
+  },
+  {
+    "id": "qc-120",
+    "name": "Parc Jean-Drapeau, Montréal",
+    "latitude": 45.51,
+    "longitude": -73.53,
+    "description": "Une oasis de plein air au cœur de Montréal. Explorez les lagunes et les canaux autour des îles Sainte-Hélène et Notre-Dame avec une vue imprenable sur la ville.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "urban-skyline",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-121",
+    "name": "Parc Marcil, Salaberry-de-Valleyfield",
+    "latitude": 45.2538,
+    "longitude": -74.1493,
+    "description": "Un charmant parc riverain à Salaberry-de-Valleyfield qui offre un excellent point d'accès au fleuve Saint-Laurent (Lac Saint-François). Idéal pour une mise à l'eau facile et pour profiter des vues.",
+    "amenities": [
+      "parking",
+      "dog_friendly"
+    ],
+    "image": "river-bank",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-41",
+    "name": "Plage municipale de Louiseville",
+    "latitude": 46.25,
+    "longitude": -72.95,
+    "description": "Accès au Lac Saint-Pierre, partie intégrante du fleuve Saint-Laurent. Un site exceptionnel pour explorer un écosystème riche et vaste.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-beach",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-42",
+    "name": "Parc des Chutes de Sainte-Ursule",
+    "latitude": 46.3667,
+    "longitude": -73,
+    "description": "Bien que célèbre pour ses chutes, le parc donne accès à la rivière Maskinongé en amont, où des sections plus calmes peuvent être pagayées.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "waterfall-park",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-43",
+    "name": "Plage municipale de Yamachiche",
+    "latitude": 46.25,
+    "longitude": -72.9,
+    "description": "Un autre point d'accès au magnifique Lac Saint-Pierre. Idéal pour observer les oiseaux et profiter de la grandeur du fleuve.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-bank",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-44",
+    "name": "Lac Saint-Pierre",
+    "latitude": 46.2,
+    "longitude": -72.8,
+    "description": "Réserve de la biosphère de l'UNESCO, ce vaste élargissement du fleuve Saint-Laurent est un paradis pour la faune et un défi passionnant pour les pagayeurs.",
+    "amenities": [],
+    "image": "biosphere-reserve",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-45",
+    "name": "Plage municipale de Nicolet",
+    "latitude": 46.2167,
+    "longitude": -72.6,
+    "description": "Située à l'embouchure de la rivière Nicolet dans le Lac Saint-Pierre, cette plage est un point de départ stratégique pour explorer les deux plans d'eau.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "river-mouth",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-46",
+    "name": "Parc écologique de l’Anse du Port",
+    "latitude": 46.2167,
+    "longitude": -72.6,
+    "description": "Ce parc de Nicolet offre un accès protégé au Lac Saint-Pierre et est un site exceptionnel pour l'ornithologie en paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "ecological-park",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-47",
+    "name": "Plage municipale de Bécancour",
+    "latitude": 46.3333,
+    "longitude": -72.4333,
+    "description": "Une plage sur la rive sud du fleuve Saint-Laurent, offrant une perspective différente et de belles vues sur le fleuve.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "st-lawrence",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-48",
+    "name": "Parc de la rivière Gentilly",
+    "latitude": 46.3667,
+    "longitude": -72.2167,
+    "description": "Ce parc offre une rivière calme et sinueuse, idéale pour les débutants et les familles. Un cadre naturel paisible à découvrir.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "gentle-river",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-49",
+    "name": "Plage municipale de Saint-Grégoire",
+    "latitude": 46.3167,
+    "longitude": -72.4,
+    "description": "Un accès public à Bécancour qui permet de profiter du fleuve Saint-Laurent dans un secteur généralement plus calme.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-access",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-50",
+    "name": "Lac à la Tortue",
+    "latitude": 46.5,
+    "longitude": -72.8,
+    "description": "Un lac historique près de Shawinigan, connu pour être le site du premier vol d'hydravion au Canada. Un beau plan d'eau pour le paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "historic-lake",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-51",
+    "name": "Plage municipale de Saint-Étienne-des-Grès",
+    "latitude": 46.4333,
+    "longitude": -72.8,
+    "description": "Accès à la rivière Saint-Maurice, offrant la possibilité de pagayer sur l'une des plus belles rivières du Québec.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "mauricie-river",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-52",
+    "name": "Parc de l’Île Melville",
+    "latitude": 46.5333,
+    "longitude": -72.75,
+    "description": "Situé au pied des chutes de Shawinigan, ce parc est un havre de plein air. On peut y pagayer sur la rivière Saint-Maurice dans un cadre spectaculaire.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "island-park",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-53",
+    "name": "Plage municipale de Saint-Boniface",
+    "latitude": 46.4667,
+    "longitude": -72.7333,
+    "description": "Une plage donnant accès à la rivière Saint-Maurice, idéale pour une journée de détente et d'activités nautiques en Mauricie.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "river-beach",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-54",
+    "name": "Lac à la Perchaude",
+    "latitude": 46.55,
+    "longitude": -72.7,
+    "description": "Un lac typique de la Mauricie, entouré de forêt. Un endroit calme et parfait pour une sortie en paddle en pleine nature.",
+    "amenities": [],
+    "image": "forest-lake",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-55",
+    "name": "Plage municipale de Saint-Paulin",
+    "latitude": 46.4167,
+    "longitude": -72.8833,
+    "description": "Accès au Lac-à-l'Eau-Claire, un grand lac magnifique offrant de nombreuses possibilités d'exploration en paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "clear-lake",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-56",
+    "name": "Parc régional de la rivière Batiscan",
+    "latitude": 46.6667,
+    "longitude": -72.4,
+    "description": "Ce parc protège une section magnifique de la rivière Batiscan. Plusieurs secteurs sont navigables et offrent des paysages à couper le souffle.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "batiscan-river",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-57",
+    "name": "Plage municipale de Saint-Narcisse",
+    "latitude": 46.6667,
+    "longitude": -72.4,
+    "description": "Accès à la rivière Batiscan, permettant de profiter de ce cours d'eau magnifique pour une aventure en paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "quebec-river",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-58",
+    "name": "Lac Sept Îles",
+    "latitude": 46.8333,
+    "longitude": -71.4,
+    "description": "Comme son nom l'indique, ce lac près de Saint-Raymond est parsemé d'îles, ce qui en fait un terrain de jeu fascinant pour le paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "seven-islands",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-59",
+    "name": "Plage municipale de Saint-Raymond",
+    "latitude": 46.8333,
+    "longitude": -71.4,
+    "description": "Accès principal au Lac Sept Îles, cette plage est un point de départ idéal pour une journée d'exploration sur le lac.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "lake-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-60",
+    "name": "Parc naturel régional de Portneuf",
+    "latitude": 46.75,
+    "longitude": -71.5,
+    "description": "Un parc immense avec de nombreux lacs et rivières. Un territoire sauvage parfait pour les aventuriers en paddle, avec des possibilités de parcours sur plusieurs jours.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "portneuf-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-61",
+    "name": "Plage municipale de Saint-Léonard-de-Portneuf",
+    "latitude": 46.85,
+    "longitude": -71.6,
+    "description": "Donne accès à la rivière Batiscan dans un secteur plus rural. Idéal pour une descente de rivière tranquille.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-town",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-62",
+    "name": "Lac Sergent",
+    "latitude": 46.8833,
+    "longitude": -71.65,
+    "description": "Un lac de villégiature agréable près de Québec. Le tour du lac est une balade populaire pour les pagayeurs.",
+    "amenities": [],
+    "image": "cottage-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-63",
+    "name": "Plage municipale de Lac-Sergent",
+    "latitude": 46.8833,
+    "longitude": -71.65,
+    "description": "Plage publique donnant un accès facile au Lac Sergent pour tous.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "public-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-64",
+    "name": "Vallée Bras-du-Nord",
+    "latitude": 47,
+    "longitude": -71.4,
+    "description": "L'une des plus belles vallées glaciaires du Québec, avec une rivière sinueuse parfaite pour de longues descentes en paddle. Un incontournable.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "valley-river",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-65",
+    "name": "Plage municipale de Stoneham",
+    "latitude": 47,
+    "longitude": -71.4,
+    "description": "Accès à la rivière Jacques-Cartier, à proximité de la station de ski. Un beau point de départ pour une aventure sur la rivière.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-access",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-66",
+    "name": "Lac Beauport",
+    "latitude": 47,
+    "longitude": -71.3,
+    "description": "Un lac magnifique entouré de montagnes, tout près de Québec. Très populaire pour le paddle, avec plusieurs clubs et accès.",
+    "amenities": [
+      "parking",
+      "rentals"
+    ],
+    "image": "mountain-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-67",
+    "name": "Plage municipale de Lac-Beauport",
+    "latitude": 47,
+    "longitude": -71.3,
+    "description": "La plage principale du Lac Beauport, offrant un accès facile et des services pour profiter de ce superbe plan d'eau.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "lake-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-68",
+    "name": "Parc du Mont Wright",
+    "latitude": 47.0333,
+    "longitude": -71.35,
+    "description": "Bien que principalement un parc de randonnée, il est proche de plusieurs petits lacs qui peuvent être explorés en paddle pour une expérience plus sauvage.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "forest-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-69",
+    "name": "Plage municipale de Sainte-Brigitte-de-Laval",
+    "latitude": 47.05,
+    "longitude": -71.25,
+    "description": "Accès à la rivière Montmorency, qui offre des sections calmes pour le paddle dans un décor enchanteur.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-town",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-70",
+    "name": "Lac des Roches",
+    "latitude": 47.0667,
+    "longitude": -71.2333,
+    "description": "Un lac plus sauvage à Sainte-Brigitte-de-Laval, pour ceux qui cherchent à s'éloigner de la foule.",
+    "amenities": [],
+    "image": "rocky-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-71",
+    "name": "Plage municipale de Saint-Apollinaire",
+    "latitude": 46.6167,
+    "longitude": -71.5167,
+    "description": "Un accès à la rivière Beaurivage, une petite rivière charmante qui serpente à travers la campagne de Lotbinière.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "country-river",
+    "country": "Canada",
+    "province": "Chaudière-Appalaches"
+  },
+  {
+    "id": "qc-72",
+    "name": "Lac Saint-Augustin",
+    "latitude": 46.75,
+    "longitude": -71.3667,
+    "description": "Un lac urbain situé dans la banlieue de Québec. Facile d'accès, c'est un endroit populaire pour une sortie rapide en paddle après le travail.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "urban-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-73",
+    "name": "Plage municipale de Saint-Augustin",
+    "latitude": 46.75,
+    "longitude": -71.3667,
+    "description": "L'accès public principal pour le Lac Saint-Augustin, offrant un point de départ pratique.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "public-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-74",
+    "name": "Parc de la Plage-Jacques-Cartier",
+    "latitude": 46.7333,
+    "longitude": -71.3,
+    "description": "Un magnifique parc urbain en bordure du fleuve Saint-Laurent à Québec. Un excellent endroit pour pagayer avec une vue imprenable sur les ponts.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "city-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-75",
+    "name": "Plage municipale de Cap-Rouge",
+    "latitude": 46.7333,
+    "longitude": -71.3,
+    "description": "Située à l'embouchure de la rivière du Cap Rouge, cette plage offre un accès au fleuve Saint-Laurent avec le célèbre Tracel de Cap-Rouge en toile de fond.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "railway-bridge",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-76",
+    "name": "Lac Saint-Charles",
+    "latitude": 47,
+    "longitude": -71.3,
+    "description": "La principale source d'eau potable de Québec. C'est un grand lac protégé, offrant un cadre naturel exceptionnel pour le paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "nature-reserve",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-77",
+    "name": "Plage municipale de Lac-Saint-Charles",
+    "latitude": 47,
+    "longitude": -71.3,
+    "description": "Un des accès au Lac Saint-Charles, permettant de profiter de ce magnifique plan d'eau.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "lake-shore",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-78",
+    "name": "Parc naturel du Marais du Nord",
+    "latitude": 47.05,
+    "longitude": -71.3,
+    "description": "Situé à l'extrémité nord du Lac Saint-Charles, ce parc est un paradis pour les ornithologues. Pagayer dans le marais est une expérience unique.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "marshland-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-79",
+    "name": "Plage municipale de Lac-Delage",
+    "latitude": 47.1,
+    "longitude": -71.35,
+    "description": "Une plage bien aménagée donnant sur le Lac Delage, un endroit populaire pour les activités estivales avec un cadre montagneux.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "resort-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-80",
+    "name": "Lac Delage",
+    "latitude": 47.1,
+    "longitude": -71.35,
+    "description": "Un lac magnifique et accessible, entouré par la nature. Parfait pour une journée complète de paddle et de détente.",
+    "amenities": [
+      "rentals"
+    ],
+    "image": "mountain-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-81",
+    "name": "Plage municipale de Shannon",
+    "latitude": 46.9,
+    "longitude": -71.5,
+    "description": "Accès à la rivière Jacques-Cartier dans un cadre semi-urbain. Populaire auprès des familles locales.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-82",
+    "name": "Lac Saint-Joseph (secteur Duchesnay)",
+    "latitude": 46.8833,
+    "longitude": -71.5,
+    "description": "La station touristique Duchesnay de la Sépaq offre un accès privilégié à ce grand lac, avec location d'équipement et de nombreuses autres activités.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "tourist-resort",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-83",
+    "name": "Plage municipale de Sainte-Catherine-de-la-Jacques-Cartier",
+    "latitude": 46.8833,
+    "longitude": -71.5,
+    "description": "Une plage publique offrant un autre point d'accès à la rivière Jacques-Cartier, très appréciée des résidents.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "town-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-84",
+    "name": "Parc naturel du Grand Héron",
+    "latitude": 46.9,
+    "longitude": -71.45,
+    "description": "Un parc axé sur la conservation des milieux humides le long de la rivière Jacques-Cartier. Idéal pour une balade éducative et paisible.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "nature-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-85",
+    "name": "Plage municipale de Fossambault-sur-le-Lac",
+    "latitude": 46.8833,
+    "longitude": -71.5,
+    "description": "L'une des plages du Lac Saint-Joseph, offrant un cadre magnifique pour le paddle et la baignade.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "lake-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-86",
+    "name": "Lac Saint-Joseph (secteur Fossambault)",
+    "latitude": 46.8833,
+    "longitude": -71.5,
+    "description": "Un secteur populaire du lac, avec de nombreuses résidences mais aussi des accès pour profiter de ce grand plan d'eau.",
+    "amenities": [],
+    "image": "large-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-87",
+    "name": "Parc du Domaine de la Faune",
+    "latitude": 46.85,
+    "longitude": -71.3,
+    "description": "Un parc urbain surprenant avec un lac où il est possible de pagayer en toute tranquillité, en pleine ville.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "urban-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-88",
+    "name": "Plage municipale de Val-Bélair",
+    "latitude": 46.85,
+    "longitude": -71.3,
+    "description": "Une plage populaire dans un quartier de Québec, offrant un lieu de rafraîchissement et d'activités nautiques pour les résidents.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "suburban-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-89",
+    "name": "Lac Saint-Charles (secteur nord)",
+    "latitude": 47.05,
+    "longitude": -71.3,
+    "description": "La partie plus sauvage du Lac Saint-Charles, idéale pour une exploration en nature et l'observation de la faune.",
+    "amenities": [],
+    "image": "wild-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-90",
+    "name": "Plage municipale de Lac-Saint-Charles",
+    "latitude": 47.05,
+    "longitude": -71.3,
+    "description": "Principal accès public au lac du même nom, c'est un point de départ essentiel pour explorer la réserve d'eau de Québec.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "lake-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-91",
+    "name": "Plage municipale de Saint-Émile",
+    "latitude": 46.9,
+    "longitude": -71.3,
+    "description": "Un petit plan d'eau dans un quartier de Québec, parfait pour une initiation au paddle ou une courte sortie.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "local-pond",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-92",
+    "name": "Lac Saint-Émile",
+    "latitude": 46.9,
+    "longitude": -71.3,
+    "description": "Le lac desservi par la plage municipale, offrant une petite étendue d'eau calme pour la pratique du paddle.",
+    "amenities": [],
+    "image": "small-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-93",
+    "name": "Parc de la Rivière Saint-Charles",
+    "latitude": 46.85,
+    "longitude": -71.25,
+    "description": "Ce parc linéaire suit la rivière Saint-Charles sur plusieurs kilomètres. Il offre de multiples points de mise à l'eau pour une balade urbaine unique.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "urban-river",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-94",
+    "name": "Plage municipale de Loretteville",
+    "latitude": 46.85,
+    "longitude": -71.25,
+    "description": "Accès à la rivière Saint-Charles dans un cadre verdoyant, très apprécié des habitants du secteur.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-95",
+    "name": "Lac des Roches (secteur nord)",
+    "latitude": 47.0667,
+    "longitude": -71.2333,
+    "description": "La partie nord de ce lac sauvage, offrant un paysage plus accidenté et une sensation d'isolement.",
+    "amenities": [],
+    "image": "rocky-lake",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-96",
+    "name": "Plage municipale de Charlesbourg",
+    "latitude": 46.8667,
+    "longitude": -71.2333,
+    "description": "Accès à la rivière du Berger. C'est un petit cours d'eau qui serpente à travers le quartier, pour une courte balade.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "suburban-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-97",
+    "name": "Parc de la Montagne-des-Roches",
+    "latitude": 46.8667,
+    "longitude": -71.2333,
+    "description": "Parc principalement terrestre mais situé à proximité de cours d'eau, offrant un cadre agréable pour une journée de plein air.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "forest-park",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-98",
+    "name": "Plage municipale de Beauport",
+    "latitude": 46.8667,
+    "longitude": -71.2,
+    "description": "Cette plage offre un accès direct au fleuve Saint-Laurent avec une vue imprenable sur l'île d'Orléans. Un spot magnifique, surtout au lever du soleil.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "sunrise-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-99",
+    "name": "Baie de Beauport",
+    "latitude": 46.8667,
+    "longitude": -71.2,
+    "description": "Une véritable oasis urbaine. Cette plage sur le fleuve est un lieu vibrant d'activités nautiques, avec location d'équipement et ambiance estivale.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "urban-beach",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-100",
+    "name": "Parc de la Chute-Montmorency",
+    "latitude": 46.9,
+    "longitude": -71.15,
+    "description": "Pagayer au pied de cette chute spectaculaire, plus haute que celles du Niagara, est une expérience à couper le souffle. Accessible depuis le fleuve.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "huge-waterfall",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-122",
+    "name": "Rampe de mise à l'eau de Beauharnois",
+    "latitude": 45.316,
+    "longitude": -73.876,
+    "description": "Accès direct au Lac Saint-Louis, un vaste plan d'eau idéal pour les longues excursions. La rampe est publique et bien entretenue.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "boat-ramp",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-123",
+    "name": "Rampe de mise à l'eau de Vaudreuil-Dorion",
+    "latitude": 45.4,
+    "longitude": -74.03,
+    "description": "Point d'accès au Lac des Deux Montagnes, cette rampe est populaire et offre un accès à de superbes zones de pagayage.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "boat-ramp",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-124",
+    "name": "Marina de Lachine",
+    "latitude": 45.433,
+    "longitude": -73.68,
+    "description": "En plus de la marina, il existe une rampe de mise à l'eau donnant un accès privilégié au Lac Saint-Louis, avec vue sur Montréal.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "marina-view",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-125",
+    "name": "Rampe de mise à l'eau de Pointe-Claire",
+    "latitude": 45.45,
+    "longitude": -73.82,
+    "description": "Située dans le West Island de Montréal, cette rampe donne accès à la partie ouest du Lac Saint-Louis, connue pour ses belles demeures et ses parcs.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "boat-ramp",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-126",
+    "name": "Rampe de mise à l'eau de Longueuil",
+    "latitude": 45.54,
+    "longitude": -73.5,
+    "description": "Accès au fleuve Saint-Laurent sur la Rive-Sud de Montréal, offrant une vue spectaculaire sur la ville et le pont Jacques-Cartier.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "marina-view",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-127",
+    "name": "Rampe de mise à l'eau de Sorel-Tracy",
+    "latitude": 46.05,
+    "longitude": -73.12,
+    "description": "Point de confluence du fleuve Saint-Laurent et de la rivière Richelieu. Explorez l'archipel du Lac Saint-Pierre, un site de la biosphère de l'UNESCO.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-mouth",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-128",
+    "name": "Quai municipal de Saint-Jean-sur-Richelieu",
+    "latitude": 45.3,
+    "longitude": -73.25,
+    "description": "Accès facile à la rivière Richelieu, un cours d'eau calme et historique, parfait pour les longues balades en paddle.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-dock",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-129",
+    "name": "Quai de Contrecoeur",
+    "latitude": 45.86,
+    "longitude": -73.23,
+    "description": "Permet d'accéder au fleuve Saint-Laurent et de pagayer vers les îles de Contrecœur, un important site de conservation.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "municipal-wharf",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-130",
+    "name": "Rampe de mise à l'eau de Repentigny",
+    "latitude": 45.75,
+    "longitude": -73.44,
+    "description": "Accès au fleuve Saint-Laurent sur la Rive-Nord de Montréal. Idéal pour explorer les îles environnantes et profiter de la nature près de la ville.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "boat-ramp",
+    "country": "Canada",
+    "province": "Lanaudière"
+  },
+  {
+    "id": "qc-131",
+    "name": "Rampe de mise à l'eau du Parc de la Frayère, Boucherville",
+    "latitude": 45.6,
+    "longitude": -73.46,
+    "description": "En plus de l'accès au parc national, cette rampe permet d'accéder rapidement au fleuve Saint-Laurent et à ses chenaux.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "river-park",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-132",
+    "name": "Marina de Trois-Rivières",
+    "latitude": 46.34,
+    "longitude": -72.53,
+    "description": "Point d'accès central où la rivière Saint-Maurice rencontre le fleuve Saint-Laurent, offrant une multitude d'options de parcours.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "marina-view",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-133",
+    "name": "Quai de Sainte-Anne-de-la-Pérade",
+    "latitude": 46.57,
+    "longitude": -72.19,
+    "description": "Accès à la rivière Sainte-Anne, célèbre pour sa pêche aux poulamons en hiver, mais une charmante rivière pour le paddle en été.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "municipal-wharf",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-134",
+    "name": "Rampe de mise à l'eau de Deschaillons-sur-Saint-Laurent",
+    "latitude": 46.55,
+    "longitude": -72.05,
+    "description": "Profitez d'une vue imprenable sur le fleuve Saint-Laurent depuis cette rampe publique bien située entre Québec et Trois-Rivières.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "st-lawrence",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-135",
+    "name": "Marina de Québec",
+    "latitude": 46.8,
+    "longitude": -71.22,
+    "description": "Située dans le port de Québec, cette marina donne un accès direct au fleuve pour pagayer avec une vue unique sur le Château Frontenac et le Vieux-Québec.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "urban-skyline",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-136",
+    "name": "Rampe de mise à l'eau de Lévis",
+    "latitude": 46.8,
+    "longitude": -71.18,
+    "description": "Pagayez sur le fleuve Saint-Laurent en face de Québec pour obtenir les meilleures photos de la ville. Une perspective inoubliable.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "urban-skyline",
+    "country": "Canada",
+    "province": "Chaudière-Appalaches"
+  },
+  {
+    "id": "qc-137",
+    "name": "Quai de Saint-Michel-de-Bellechasse",
+    "latitude": 46.87,
+    "longitude": -70.9,
+    "description": "Explorez le fleuve depuis l'un des plus beaux villages du Québec. Pagayez le long du littoral et admirez les maisons ancestrales.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "municipal-wharf",
+    "country": "Canada",
+    "province": "Chaudière-Appalaches"
+  },
+  {
+    "id": "qc-138",
+    "name": "Rampe de mise à l'eau de Tadoussac",
+    "latitude": 48.14,
+    "longitude": -69.72,
+    "description": "Un point de départ mythique à l'embouchure du Fjord du Saguenay. C'est le lieu idéal pour l'observation des baleines, mais soyez prudent, les eaux sont froides et les courants forts.",
+    "amenities": [
+      "parking",
+      "rentals"
+    ],
+    "image": "river-mouth",
+    "country": "Canada",
+    "province": "Côte-Nord"
+  },
+  {
+    "id": "qc-139",
+    "name": "Rampe de mise à l'eau de Magog",
+    "latitude": 45.26,
+    "longitude": -72.15,
+    "description": "Accès principal au magnifique Lac Memphrémagog. Partez de la ville animée de Magog pour explorer ce lac transfrontalier et ses légendes.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "lake-access",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-140",
+    "name": "Quai Fédéral de Percé",
+    "latitude": 48.52,
+    "longitude": -64.21,
+    "description": "Pagayez autour de l'emblématique Rocher Percé et de l'île Bonaventure. Une expérience de paddle de renommée mondiale, au cœur de la Gaspésie.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "ocean-cliffs",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-141",
+    "name": "Rampe de mise à l'eau de Hull (Gatineau)",
+    "latitude": 45.43,
+    "longitude": -75.72,
+    "description": "Accédez à la rivière des Outaouais avec une vue imprenable sur les édifices du Parlement à Ottawa. Un excellent spot de paddle urbain.",
+    "amenities": [
+      "parking"
+    ],
+    "image": "urban-river",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "on-201",
+    "name": "Parc provincial Sandbanks",
+    "latitude": 43.9,
+    "longitude": -77.25,
+    "description": "Célèbre pour ses plages de sable fin et ses dunes géantes. Les eaux du lac Ontario y sont relativement chaudes en été.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "sandbanks-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-202",
+    "name": "Parc provincial Long Point",
+    "latitude": 42.55,
+    "longitude": -80.38,
+    "description": "Une immense pointe de sable de 40 km sur le lac Érié, reconnue comme une réserve de la biosphère. Les zones abritées sont parfaites pour le paddle.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "long-point-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-203",
+    "name": "Wasaga Beach",
+    "latitude": 44.52,
+    "longitude": -79.98,
+    "description": "La plus longue plage d'eau douce au monde. Des kilomètres de sable pour mettre à l'eau et profiter de la baie Georgienne.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "wasaga-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-204",
+    "name": "Sauble Beach",
+    "latitude": 44.63,
+    "longitude": -81.27,
+    "description": "Une autre plage d'eau douce très populaire, longue de 11 km sur le lac Huron. Célèbre pour ses couchers de soleil.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "sauble-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-205",
+    "name": "Grand Bend Beach",
+    "latitude": 43.31,
+    "longitude": -81.76,
+    "description": "Une plage animée sur le lac Huron, surnommée la 'Floride du Canada'. Ambiance estivale garantie.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "grand-bend-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-206",
+    "name": "Port Stanley Main Beach",
+    "latitude": 42.66,
+    "longitude": -81.21,
+    "description": "L'une des plages les plus réputées sur la rive nord du lac Érié. Certifiée Blue Flag pour sa qualité d'eau et sa gestion environnementale.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "port-stanley-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-207",
+    "name": "Turkey Point Provincial Park",
+    "latitude": 42.7,
+    "longitude": -80.33,
+    "description": "Située dans une baie protégée sur le lac Érié, cette plage offre des eaux plus calmes et plus chaudes, idéales pour les familles et les débutants.",
+    "amenities": [
+      "parking",
+      "restrooms",
+      "rentals"
+    ],
+    "image": "turkey-point-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-208",
+    "name": "Bayfield Main Beach",
+    "latitude": 43.56,
+    "longitude": -81.7,
+    "description": "Une plage pittoresque dans un charmant village sur les rives du lac Huron. Parfait pour une escapade relaxante.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "bayfield-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-209",
+    "name": "Southampton Beach",
+    "latitude": 44.49,
+    "longitude": -81.37,
+    "description": "Une longue plage de sable sur le lac Huron, célèbre pour ses magnifiques couchers de soleil et la vue sur l'île Chantry.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "southampton-beach",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "on-210",
+    "name": "George Lake, Killarney Provincial Park",
+    "latitude": 46.03,
+    "longitude": -81.4,
+    "description": "Pagayez sur des eaux d'un bleu saphir entourées par les collines de quartzite blanc du bouclier laurentien. Une expérience de paddle en nature sauvage inoubliable.",
+    "amenities": [
+      "parking",
+      "restrooms"
+    ],
+    "image": "killarney-lake",
+    "country": "Canada",
+    "province": "Ontario"
+  },
+  {
+    "id": "qc-211",
+    "name": "Parc régional du Lac Taureau",
+    "latitude": 46.79,
+    "longitude": -73.7,
+    "description": "Un immense réservoir avec 45 îles et des kilomètres de plages de sable fin. C'est un paradis pour le paddle-camping et l'exploration.",
+    "amenities": ["parking", "rentals", "restrooms"],
+    "image": "sandy-reservoir",
+    "country": "Canada",
+    "province": "Lanaudière"
+  },
+  {
+    "id": "qc-212",
+    "name": "Parc régional des Sept-Chutes",
+    "latitude": 46.52,
+    "longitude": -73.48,
+    "description": "Bien que connu pour ses sentiers, le parc donne accès à des lacs tranquilles comme le lac Régnier, parfaits pour une sortie en paddle en toute quiétude.",
+    "amenities": ["parking", "restrooms"],
+    "image": "forest-lake",
+    "country": "Canada",
+    "province": "Lanaudière"
+  },
+  {
+    "id": "qc-213",
+    "name": "Parc régional de la Forêt Ouareau",
+    "latitude": 46.25,
+    "longitude": -73.95,
+    "description": "Ce parc offre plusieurs lacs et la rivière Ouareau pour le canotage. Le secteur du Pont-Suspendu est un point de départ populaire.",
+    "amenities": ["parking", "restrooms"],
+    "image": "ouareau-forest",
+    "country": "Canada",
+    "province": "Lanaudière"
+  },
+  {
+    "id": "qc-214",
+    "name": "Parc régional de la Chute-à-Bull",
+    "latitude": 46.43,
+    "longitude": -73.6,
+    "description": "Au-delà de la chute, le lac Guénier offre un plan d'eau paisible pour une sortie en paddle relaxante au cœur de la forêt.",
+    "amenities": ["parking", "restrooms"],
+    "image": "small-waterfall",
+    "country": "Canada",
+    "province": "Lanaudière"
+  },
+  {
+    "id": "qc-215",
+    "name": "Parc des Pionniers, Saint-Donat",
+    "latitude": 46.32,
+    "longitude": -74.22,
+    "description": "Accès direct au magnifique Lac Archambault, un grand lac entouré de montagnes. Plage publique, location et ambiance de vacances.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "archambault-lake",
+    "country": "Canada",
+    "province": "Lanaudière"
+  },
+  {
+    "id": "qc-216",
+    "name": "Lac Sacacomie, Saint-Alexis-des-Monts",
+    "latitude": 46.6,
+    "longitude": -73.12,
+    "description": "Un lac majestueux réputé pour son eau limpide et son hôtel célèbre. Plus de 40 km de rivage à explorer dans un cadre naturel exceptionnel.",
+    "amenities": ["rentals"],
+    "image": "sacacomie-lake",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-217",
+    "name": "Lac-à-l'Eau-Claire, Saint-Alexis-des-Monts",
+    "latitude": 46.58,
+    "longitude": -73.05,
+    "description": "Un autre joyau de la région, ce lac est vaste et offre une expérience de nature sauvage accessible. Idéal pour de longues excursions.",
+    "amenities": ["parking", "rentals"],
+    "image": "clear-water-lake",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-218",
+    "name": "Parc de l'Île-Saint-Quentin, Trois-Rivières",
+    "latitude": 46.35,
+    "longitude": -72.54,
+    "description": "Situé à la confluence de la rivière Saint-Maurice et du fleuve Saint-Laurent, ce parc urbain offre une plage et un accès facile à l'eau.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "urban-island",
+    "country": "Canada",
+    "province": "Mauricie"
+  },
+  {
+    "id": "qc-219",
+    "name": "Parc national de la Yamaska",
+    "latitude": 45.39,
+    "longitude": -72.63,
+    "description": "Centré autour du réservoir Choinière, ce parc est parfait pour les familles et les débutants. Location d'équipement sur place.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "yamaska-park",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-220",
+    "name": "Parc national du Mont-Orford",
+    "latitude": 45.33,
+    "longitude": -72.23,
+    "description": "Pagayez sur les lacs Stukely ou Fraser au pied du Mont-Orford. Un cadre magnifique avec des plages et des sentiers de randonnée à proximité.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "orford-park",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-221",
+    "name": "Plage de Baie-des-Sables, Lac-Mégantic",
+    "latitude": 45.58,
+    "longitude": -70.89,
+    "description": "Une grande plage de sable qui offre un accès facile au Lac Mégantic. Idéal pour une journée complète d'activités nautiques.",
+    "amenities": ["parking", "restrooms"],
+    "image": "sandy-bay",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-222",
+    "name": "Parc de la Baie-de-Magog",
+    "latitude": 45.27,
+    "longitude": -72.15,
+    "description": "Point de départ principal pour explorer le majestueux lac Memphrémagog. Plage, sentiers et ambiance animée au cœur de Magog.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "magog-bay",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-223",
+    "name": "Centre de la nature de Farnham",
+    "latitude": 45.28,
+    "longitude": -72.97,
+    "description": "Accès à la rivière Yamaska dans un cadre paisible. Idéal pour une descente de rivière relaxante.",
+    "amenities": ["parking", "restrooms"],
+    "image": "yamaska-river",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-224",
+    "name": "Parc régional des Îles-de-Saint-Timothée",
+    "latitude": 45.28,
+    "longitude": -74.08,
+    "description": "Une plage et des eaux claires dans un cadre insulaire sur le fleuve Saint-Laurent. Un secret bien gardé près de Salaberry-de-Valleyfield.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "timothee-islands",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-225",
+    "name": "RécréoParc, Sainte-Catherine",
+    "latitude": 45.4,
+    "longitude": -73.57,
+    "description": "Accès facile au fleuve Saint-Laurent, juste à côté des rapides de Lachine. Zone de mise à l'eau dédiée pour les embarcations non motorisées.",
+    "amenities": ["parking", "restrooms"],
+    "image": "recreoparc-beach",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-226",
+    "name": "Parc national du Mont-Saint-Bruno",
+    "latitude": 45.54,
+    "longitude": -73.31,
+    "description": "Le Lac Seigneurial offre un petit plan d'eau très calme et protégé, parfait pour une première initiation ou une sortie en famille.",
+    "amenities": ["parking", "restrooms"],
+    "image": "seigneurial-lake",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-227",
+    "name": "Parc régional du Bois de Belle-Rivière",
+    "latitude": 45.69,
+    "longitude": -74.03,
+    "description": "Ce parc de Mirabel dispose de quelques étangs paisibles où il est possible de pratiquer le paddle dans un environnement forestier.",
+    "amenities": ["parking", "restrooms"],
+    "image": "forest-pond",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-228",
+    "name": "Parc de la Rivière-du-Nord, Saint-Jérôme",
+    "latitude": 45.8,
+    "longitude": -74.0,
+    "description": "Accès à la rivière du Nord avec des sections calmes idéales pour une balade en paddle. Le parc est magnifique, surtout à l'automne.",
+    "amenities": ["parking", "restrooms"],
+    "image": "riviere-du-nord",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-229",
+    "name": "Plage de Saint-Zotique",
+    "latitude": 45.25,
+    "longitude": -74.25,
+    "description": "Une immense plage sur le lac Saint-François avec une ambiance de station balnéaire. Parfait pour une journée complète de plaisir sur l'eau.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "zotique-beach",
+    "country": "Canada",
+    "province": "Montérégie"
+  },
+  {
+    "id": "qc-230",
+    "name": "Parc écologique Godefroy, Bécancour",
+    "latitude": 46.36,
+    "longitude": -72.46,
+    "description": "Explorez les méandres de la rivière Godefroy jusqu'à son embouchure dans le fleuve. Un parcours riche en biodiversité.",
+    "amenities": ["parking"],
+    "image": "godefroy-river",
+    "country": "Canada",
+    "province": "Centre-du-Québec"
+  },
+  {
+    "id": "qc-231",
+    "name": "Parc de l'Aventure Joannès, Rouyn-Noranda",
+    "latitude": 48.2,
+    "longitude": -78.85,
+    "description": "Ce centre de plein air donne accès au Lac Joannès, un beau plan d'eau pour découvrir le paddle en Abitibi-Témiscamingue.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "joannes-lake",
+    "country": "Canada",
+    "province": "Abitibi-Témiscamingue"
+  },
+  {
+    "id": "qc-232",
+    "name": "Parc national d'Aiguebelle",
+    "latitude": 48.5,
+    "longitude": -78.75,
+    "description": "Pagayez sur le lac La Haie, traversé par une passerelle suspendue spectaculaire. Un paysage unique façonné par les glaciers.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "aiguebelle-park",
+    "country": "Canada",
+    "province": "Abitibi-Témiscamingue"
+  },
+  {
+    "id": "qc-233",
+    "name": "Plage du parc thématique de la P'tite-Bière, Gaspé",
+    "latitude": 48.8,
+    "longitude": -64.4,
+    "description": "Point de départ pour explorer la Baie de Gaspé, pagayer vers le Parc Forillon ou simplement profiter de la plage.",
+    "amenities": ["parking", "restrooms"],
+    "image": "gaspe-bay",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-234",
+    "name": "Plage de Haldimand, Gaspé",
+    "latitude": 48.81,
+    "longitude": -64.45,
+    "description": "Une longue plage de sable qui offre une vue imprenable sur la baie de Gaspé et le Parc National Forillon.",
+    "amenities": ["parking"],
+    "image": "haldimand-beach",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-235",
+    "name": "Parc national de Miguasha",
+    "latitude": 48.1,
+    "longitude": -66.36,
+    "description": "Pagayez le long de la falaise fossilifère, un site du patrimoine mondial de l'UNESCO. Une expérience paléontologique sur l'eau.",
+    "amenities": ["parking", "restrooms"],
+    "image": "miguasha-cliffs",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-236",
+    "name": "Lac-Simon, Outaouais",
+    "latitude": 45.9,
+    "longitude": -75.1,
+    "description": "Un immense et populaire lac de villégiature avec de nombreuses plages de sable et des eaux claires. Centre touristique et Sépaq sur place.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "simon-lake",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-237",
+    "name": "Parc du Lac-Beauchamp, Gatineau",
+    "latitude": 45.48,
+    "longitude": -75.64,
+    "description": "Un lac en milieu urbain à Gatineau, idéal pour une sortie rapide et familiale. Location d'embarcations disponible.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "beauchamp-lake",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-238",
+    "name": "Parc des Chutes Coulonge",
+    "latitude": 45.85,
+    "longitude": -76.73,
+    "description": "Bien que le parc soit axé sur les chutes, la rivière Coulonge en amont est un magnifique terrain de jeu pour le paddle, avec des paysages sauvages.",
+    "amenities": ["parking", "restrooms"],
+    "image": "coulonge-river",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-239",
+    "name": "Parc national de Frontenac",
+    "latitude": 45.9,
+    "longitude": -71.2,
+    "description": "Situé sur les rives du Grand lac Saint-François, ce parc est un paradis pour les amateurs de nautisme. De nombreuses baies à explorer.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "frontenac-park",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-240",
+    "name": "Plage de l'Anse-à-Beaufils, Percé",
+    "latitude": 48.57,
+    "longitude": -64.28,
+    "description": "Une belle anse avec une plage et un port de pêche pittoresque. C'est aussi le site de la Vieille Usine. Moins achalandé que le quai de Percé.",
+    "amenities": ["parking", "restrooms"],
+    "image": "beaufils-cove",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-241",
+    "name": "Plage de Cap-d'Espoir",
+    "latitude": 48.43,
+    "longitude": -64.33,
+    "description": "Une longue plage qui offre une vue magnifique sur le phare de Cap-d'Espoir. Un bel endroit pour une balade en bord de mer.",
+    "amenities": ["parking"],
+    "image": "espoir-cape",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-242",
+    "name": "Plage de Newport",
+    "latitude": 48.16,
+    "longitude": -64.7,
+    "description": "Une belle plage de sable dans la baie de Pabos, idéale pour une journée en famille et une sortie en paddle en eau salée.",
+    "amenities": ["parking", "restrooms"],
+    "image": "newport-beach",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-243",
+    "name": "Plage de Carleton-sur-Mer",
+    "latitude": 48.1,
+    "longitude": -66.13,
+    "description": "Pagayez dans le barachois, une lagune protégée par une bande de sable, avec le Mont Saint-Joseph en arrière-plan. Idéal pour tous les niveaux.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "carleton-beach",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-244",
+    "name": "Plage de Paspébiac",
+    "latitude": 48.02,
+    "longitude": -65.25,
+    "description": "Une plage historique près du Banc de Pêche de Paspébiac, un site historique majeur. Pagayez dans la baie des Chaleurs.",
+    "amenities": ["parking", "restrooms"],
+    "image": "paspebiac-beach",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-245",
+    "name": "Parc national de l'Île-Bonaventure-et-du-Rocher-Percé",
+    "latitude": 48.5,
+    "longitude": -64.16,
+    "description": "Faites le tour de l'île Bonaventure pour observer la plus grande colonie de fous de Bassan au monde. Une expérience inoubliable, réservée aux pagayeurs avertis.",
+    "amenities": [],
+    "image": "bonaventure-island",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-246",
+    "name": "Parc Côté-Plage, Gaspé",
+    "latitude": 48.83,
+    "longitude": -64.48,
+    "description": "Une autre belle plage à Gaspé, idéale pour une mise à l'eau facile et pour profiter des vues sur la baie.",
+    "amenities": ["parking", "restrooms"],
+    "image": "cote-plage",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-247",
+    "name": "Centre de Plein Air du Lac-Leamy",
+    "latitude": 45.45,
+    "longitude": -75.72,
+    "description": "Situé à Gatineau, ce lac est parfait pour l'initiation et les sorties en famille. Le centre offre la location d'équipement.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "leamy-lake",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-248",
+    "name": "Parc du Lac-des-Nations, Sherbrooke",
+    "latitude": 45.39,
+    "longitude": -72.5,
+    "description": "Un lac en plein cœur de Sherbrooke, avec un sentier pédestre qui en fait le tour. Un spot urbain très agréable.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "nations-lake",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-249",
+    "name": "Plage de l'Est, Magog",
+    "latitude": 45.28,
+    "longitude": -72.13,
+    "description": "Une autre plage sur le lac Memphrémagog, plus tranquille que la baie de Magog, idéale pour une journée de détente.",
+    "amenities": ["parking", "restrooms"],
+    "image": "east-beach",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-250",
+    "name": "Centre d'activités nautiques de LaSalle",
+    "latitude": 45.41,
+    "longitude": -73.66,
+    "description": "Accès au fleuve Saint-Laurent et au lac Saint-Louis. Le centre propose des cours et de la location d'équipement.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "lasalle-nautical",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-251",
+    "name": "Parc-nature du Cap-Saint-Jacques",
+    "latitude": 45.47,
+    "longitude": -73.95,
+    "description": "Le plus grand parc de Montréal, avec une plage sur le lac des Deux Montagnes et des zones marécageuses à explorer dans la rivière des Prairies.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "cap-saint-jacques",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-252",
+    "name": "Parc-nature du Bois-de-l'Île-Bizard",
+    "latitude": 45.5,
+    "longitude": -73.9,
+    "description": "Explorez les marais et les baies du lac des Deux Montagnes dans ce magnifique parc-nature. Excellent pour l'observation d'oiseaux.",
+    "amenities": ["parking", "restrooms"],
+    "image": "ile-bizard",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-253",
+    "name": "Plage de l'Horloge, Montréal",
+    "latitude": 45.51,
+    "longitude": -73.54,
+    "description": "Même si la baignade est interdite, il est possible de mettre son paddle à l'eau pour une expérience urbaine unique dans le Vieux-Port.",
+    "amenities": ["parking", "restrooms"],
+    "image": "clock-tower-beach",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-254",
+    "name": "Plage de Verdun",
+    "latitude": 45.44,
+    "longitude": -73.57,
+    "description": "Une plage urbaine populaire sur le fleuve Saint-Laurent. Idéal pour se rafraîchir et pagayer avec la ville en arrière-plan.",
+    "amenities": ["restrooms"],
+    "image": "verdun-beach",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-255",
+    "name": "Parc de la Promenade-Bellerive",
+    "latitude": 45.6,
+    "longitude": -73.5,
+    "description": "Un grand parc dans l'est de Montréal avec un accès facile au fleuve Saint-Laurent et une vue sur les îles de Boucherville.",
+    "amenities": ["parking", "restrooms"],
+    "image": "bellerive-park",
+    "country": "Canada",
+    "province": "Montréal"
+  },
+  {
+    "id": "qc-256",
+    "name": "Centre de plein air de l'UQAM, Lac-Supérieur",
+    "latitude": 46.2,
+    "longitude": -74.45,
+    "description": "Accès au magnifique Lac Supérieur dans un cadre forestier. Le centre offre des locations et une ambiance paisible.",
+    "amenities": ["parking", "rentals"],
+    "image": "superior-lake",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-257",
+    "name": "Parc Régional du Poisson Blanc",
+    "latitude": 46.3,
+    "longitude": -75.7,
+    "description": "Un immense réservoir parsemé d'îles où l'on peut camper. Un paradis pour le canot-camping et le paddle-camping.",
+    "amenities": ["parking", "rentals"],
+    "image": "poisson-blanc",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-258",
+    "name": "Parc Régional Kiamika",
+    "latitude": 46.66,
+    "longitude": -75.08,
+    "description": "Similaire au Poisson Blanc, ce parc protège le réservoir Kiamika et ses îles, offrant une expérience de nature sauvage et de camping rustique.",
+    "amenities": ["parking", "rentals"],
+    "image": "kiamika-park",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-259",
+    "name": "Kayak-Café, Labelle",
+    "latitude": 46.28,
+    "longitude": -74.74,
+    "description": "Point de départ populaire pour une descente facile de la rivière Rouge. Service de navette et location sur place, avec un café sympathique à l'arrivée.",
+    "amenities": ["parking", "rentals"],
+    "image": "kayak-cafe",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-260",
+    "name": "Parc de la Gatineau - Lac Philippe & La Pêche",
+    "latitude": 45.65,
+    "longitude": -75.95,
+    "description": "Le parc de la Gatineau compte plusieurs lacs accessibles. Les lacs Philippe et La Pêche sont les plus grands et offrent des plages et la location d'embarcations.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "gatineau-park",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-261",
+    "name": "Pohénégamook",
+    "latitude": 47.47,
+    "longitude": -69.22,
+    "description": "Explorez ce lac frontalier célèbre pour son monstre légendaire, Ponik. Un beau lac avec une base de plein air et de belles plages.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "pohenegamook-lake",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-262",
+    "name": "Parc régional du Mont-Ham",
+    "latitude": 45.88,
+    "longitude": -71.68,
+    "description": "Bien que le Mont-Ham soit connu pour la randonnée, les lacs à proximité (Lac Nicolet, Lac du Huit) sont d'excellents spots de paddle.",
+    "amenities": ["parking"],
+    "image": "mont-ham",
+    "country": "Canada",
+    "province": "Estrie"
+  },
+  {
+    "id": "qc-263",
+    "name": "Parc Éco-Laurentides, Mont-Blanc",
+    "latitude": 46.1,
+    "longitude": -74.4,
+    "description": "Un centre de plein air offrant l'accès à plusieurs lacs (Cordon, Truite, etc.) dans un cadre naturel préservé. Idéal pour la tranquillité.",
+    "amenities": ["parking", "rentals"],
+    "image": "eco-laurentides",
+    "country": "Canada",
+    "province": "Laurentides"
+  },
+  {
+    "id": "qc-264",
+    "name": "Réservoir Baskatong",
+    "latitude": 46.8,
+    "longitude": -75.8,
+    "description": "Une véritable mer intérieure de 320 km². Un immense terrain de jeu pour les amateurs de grands espaces, avec de nombreuses pourvoiries et campings.",
+    "amenities": ["parking", "rentals"],
+    "image": "baskatong-reservoir",
+    "country": "Canada",
+    "province": "Outaouais"
+  },
+  {
+    "id": "qc-265",
+    "name": "Parc régional des Appalaches",
+    "latitude": 46.8,
+    "longitude": -70.1,
+    "description": "Ce parc offre plusieurs rivières et lacs, dont le Lac Frontière. Un territoire sauvage à explorer dans la région de Chaudière-Appalaches.",
+    "amenities": ["parking", "restrooms"],
+    "image": "appalaches-park",
+    "country": "Canada",
+    "province": "Chaudière-Appalaches"
+  },
+  {
+    "id": "qc-266",
+    "name": "Parc du Mont-Comi",
+    "latitude": 48.48,
+    "longitude": -68.2,
+    "description": "En été, les environs de la station de ski offrent des lacs et rivières pour des activités nautiques dans un décor montagneux.",
+    "amenities": ["parking"],
+    "image": "mont-comi",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-267",
+    "name": "Parc Beauséjour, Rimouski",
+    "latitude": 48.44,
+    "longitude": -68.52,
+    "description": "Le lac au milieu de ce parc urbain est un endroit parfait pour s'initier au paddle en toute sécurité.",
+    "amenities": ["parking", "restrooms"],
+    "image": "beausejour-park",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-268",
+    "name": "Plage de Sainte-Luce",
+    "latitude": 48.54,
+    "longitude": -68.38,
+    "description": "Une plage très populaire sur le bord du fleuve Saint-Laurent, avec une promenade animée et de superbes couchers de soleil.",
+    "amenities": ["parking", "restrooms"],
+    "image": "sainte-luce-beach",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-269",
+    "name": "Rivière Matapédia",
+    "latitude": 48.5,
+    "longitude": -67.0,
+    "description": "Réputée mondialement pour la pêche au saumon, cette rivière magnifique offre également de superbes parcours de descente en paddle.",
+    "amenities": ["parking"],
+    "image": "matapedia-river",
+    "country": "Canada",
+    "province": "Gaspésie-Îles-de-la-Madeleine"
+  },
+  {
+    "id": "qc-270",
+    "name": "Parc national du Lac Témiscouata - Anse à William",
+    "latitude": 47.6,
+    "longitude": -68.78,
+    "description": "Une belle anse sur le lac Témiscouata avec une plage, offrant un accès facile à ce grand lac historique.",
+    "amenities": ["parking", "restrooms"],
+    "image": "william-cove",
+    "country": "Canada",
+    "province": "Bas-Saint-Laurent"
+  },
+  {
+    "id": "qc-271",
+    "name": "Centre de plein air du Lac-Bouchette",
+    "latitude": 48.27,
+    "longitude": -72.23,
+    "description": "Accès au lac des Commissaires, un grand lac idéal pour les longues excursions en paddle au Saguenay-Lac-Saint-Jean.",
+    "amenities": ["parking", "rentals"],
+    "image": "bouchette-lake",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "qc-272",
+    "name": "Village historique de Val-Jalbert",
+    "latitude": 48.44,
+    "longitude": -72.17,
+    "description": "Pagayez sur la rivière Ouiatchouan en amont de la chute spectaculaire. Une expérience qui combine nature et histoire.",
+    "amenities": ["parking", "restrooms"],
+    "image": "val-jalbert",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "qc-273",
+    "name": "Plage de la Pointe-Taillon (Parc national)",
+    "latitude": 48.68,
+    "longitude": -71.95,
+    "description": "Une immense plage de sable sur le lac Saint-Jean. Les eaux peu profondes se réchauffent rapidement en été, ce qui en fait un spot familial par excellence.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "pointe-taillon",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "qc-274",
+    "name": "Plage de Saint-Gédéon",
+    "latitude": 48.5,
+    "longitude": -71.77,
+    "description": "Une autre belle plage sur le lac Saint-Jean, avec une vue magnifique sur la 'mer intérieure'.",
+    "amenities": ["parking", "restrooms"],
+    "image": "saint-gedeon-beach",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "qc-275",
+    "name": "Plage Le Rigolet, Métabetchouan",
+    "latitude": 48.42,
+    "longitude": -71.86,
+    "description": "Plage municipale animée avec de nombreuses activités. Accès facile au lac Saint-Jean.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "rigolet-beach",
+    "country": "Canada",
+    "province": "Saguenay-Lac-Saint-Jean"
+  },
+  {
+    "id": "qc-276",
+    "name": "Canyon de la rivière Sainte-Anne",
+    "latitude": 47.07,
+    "longitude": -70.88,
+    "description": "En amont du canyon et de ses chutes, la rivière Sainte-Anne est une belle rivière pour une descente tranquille dans la région de la Côte-de-Beaupré.",
+    "amenities": ["parking"],
+    "image": "sainte-anne-canyon",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-277",
+    "name": "Parc de la Jacques-Cartier - Secteur La Vallée",
+    "latitude": 47.31,
+    "longitude": -71.35,
+    "description": "Point de départ principal pour la descente de la rivière Jacques-Cartier. La vallée est spectaculaire. Service de navette offert par la SEPAQ.",
+    "amenities": ["parking", "restrooms", "rentals"],
+    "image": "jacques-cartier-valley",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-278",
+    "name": "Parc Nautique de Lévy, Île d'Orléans",
+    "latitude": 46.86,
+    "longitude": -71.18,
+    "description": "Mettez à l'eau depuis la pointe de l'île d'Orléans pour une vue imprenable sur la chute Montmorency et la ville de Québec.",
+    "amenities": ["parking"],
+    "image": "orleans-island",
+    "country": "Canada",
+    "province": "Capitale-Nationale"
+  },
+  {
+    "id": "qc-279",
+    "name": "Baie de Saint-Paul",
+    "latitude": 47.43,
+    "longitude": -70.5,
+    "description": "Pagayez dans cette baie magnifique où le fleuve Saint-Laurent devient maritime. La ville de Baie-Saint-Paul est un centre artistique réputé.",
+    "amenities": ["parking", "restrooms"],
+    "image": "baie-saint-paul",
+    "country": "Canada",
+    "province": "Charlevoix"
+  },
+  {
+    "id": "qc-280",
+    "name": "Parc marin du Saguenay–Saint-Laurent",
+    "latitude": 48.12,
+    "longitude": -69.7,
+    "description": "La zone de confluence entre le Fjord et le fleuve est l'un des meilleurs endroits au monde pour l'observation des baleines. Réservé aux pagayeurs expérimentés et bien équipés.",
+    "amenities": ["rentals"],
+    "image": "saguenay-marine-park",
+    "country": "Canada",
+    "province": "Côte-Nord"
+  }
+]

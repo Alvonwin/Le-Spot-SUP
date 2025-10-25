@@ -1,0 +1,325 @@
+.container {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #1e293b;
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.pageHeader {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+.pageSubtitle {
+  opacity: 0.9;
+  font-size: 1.125rem;
+}
+
+.tabs {
+  display: flex;
+  background: #334155;
+  border-bottom: 2px solid #475569;
+  overflow-x: auto;
+}
+
+.tab {
+  flex: 1;
+  padding: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: #cbd5e1;
+  white-space: nowrap;
+  min-width: 150px;
+}
+
+.tab:hover {
+  background: #475569;
+  color: white;
+}
+
+.tab.active {
+  background: #1e293b;
+  color: #60a5fa;
+  border-bottom: 3px solid #60a5fa;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.tabContent {
+  display: none;
+}
+
+.tabContent.active {
+  display: block;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.formGroup {
+  margin-bottom: 1.25rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #475569;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border 0.3s;
+  background: #334155;
+  color: white;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #60a5fa;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.button {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.sessionsList {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.sessionCard {
+  background: #334155;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border-left: 5px solid #60a5fa;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sessionCard:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sessionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sessionSpot {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #60a5fa;
+}
+
+.sessionDate {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.sessionDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailLabel {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 0.3rem;
+}
+
+.detailValue {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e2e8f0;
+}
+
+.sessionActions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.625rem;
+}
+
+.buttonSmall {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  width: auto;
+}
+
+.buttonDanger {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  padding: 1.75rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.statValue {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+.statLabel {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.spotsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.spotCard {
+  background: #334155;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 3px solid transparent;
+}
+
+.spotCard:hover {
+  border-color: #60a5fa;
+  transform: scale(1.05);
+}
+
+.spotCard.selected {
+  border-color: #60a5fa;
+  background: #1e3a8a;
+}
+
+.spotName {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.625rem;
+  color: #60a5fa;
+}
+
+.spotSessions {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 4rem 1.25rem;
+  color: #94a3b8;
+}
+
+.emptyStateIcon {
+  font-size: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+.successMessage {
+  background: #10b981;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+  display: none;
+}
+
+.successMessage.show {
+  display: block;
+  animation: slideDown 0.3s;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

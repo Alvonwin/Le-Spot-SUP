@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaddlePlanet - Gestion de Sessions SUP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            border: none;
+            background: none;
+            font-size: 1em;
+        }
+
+        .tab:hover {
+            background: #e9ecef;
+        }
+
+        .tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border 0.3s;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .sessions-list {
+            display: grid;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .session-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .session-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .session-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .session-spot {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #1e3c72;
+        }
+
+        .session-date {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .session-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .detail-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .detail-label {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .detail-value {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .session-actions {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-small {
+            padding: 8px 16px;
+            font-size: 0.9em;
+            width: auto;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #f85032 0%, #e73827 100%);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .spots-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .spot-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 3px solid transparent;
+        }
+
+        .spot-card:hover {
+            border-color: #667eea;
+            transform: scale(1.05);
+        }
+
+        .spot-card.selected {
+            border-color: #667eea;
+            background: #e7f0ff;
+        }
+
+        .spot-name {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #1e3c72;
+        }
+
+        .spot-sessions {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .empty-state-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .success-message.show {
+            display: block;
+            animation: slideDown 0.3s;
+        }
+
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏄‍♂️ PaddlePlanet</h1>
+            <p>Suivez vos sessions de Stand Up Paddle</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('nouvelle')">➕ Nouvelle Session</button>
+            <button class="tab" onclick="switchTab('sessions')">📊 Mes Sessions</button>
+            <button class="tab" onclick="switchTab('spots')">📍 Mes Spots</button>
+            <button class="tab" onclick="switchTab('stats')">📈 Statistiques</button>
+        </div>
+
+        <div class="content">
+            <!-- Nouvelle Session -->
+            <div id="nouvelle" class="tab-content active">
+                <div id="successMessage" class="success-message">
+                    ✅ Session enregistrée avec succès !
+                </div>
+
+                <form id="sessionForm">
+                    <div class="form-group">
+                        <label for="spot">🏖️ Spot</label>
+                        <select id="spot" required>
+                            <option value="">Sélectionnez un spot</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">📅 Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="heure">⏰ Heure de début</label>
+                        <input type="time" id="heure" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="duree">⏱️ Durée (minutes)</label>
+                        <input type="number" id="duree" min="1" placeholder="Ex: 60" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="distance">📏 Distance (km)</label>
+                        <input type="number" id="distance" step="0.1" min="0" placeholder="Ex: 5.2">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="conditions">🌊 Conditions</label>
+                        <select id="conditions">
+                            <option value="Calme">Calme</option>
+                            <option value="Modéré">Modéré</option>
+                            <option value="Agité">Agité</option>
+                            <option value="Très agité">Très agité</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="vent">💨 Vent</label>
+                        <select id="vent">
+                            <option value="Aucun">Aucun</option>
+                            <option value="Léger">Léger</option>
+                            <option value="Modéré">Modéré</option>
+                            <option value="Fort">Fort</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">📝 Notes</label>
+                        <textarea id="notes" placeholder="Commentaires sur la session..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Enregistrer la Session</button>
+                </form>
+            </div>
+
+            <!-- Mes Sessions -->
+            <div id="sessions" class="tab-content">
+                <div id="sessionsList" class="sessions-list"></div>
+            </div>
+
+            <!-- Mes Spots -->
+            <div id="spots" class="tab-content">
+                <div class="form-group">
+                    <label for="newSpot">➕ Ajouter un nouveau spot</label>
+                    <input type="text" id="newSpot" placeholder="Nom du spot">
+                    <button onclick="addSpot()" class="btn" style="margin-top: 10px;">Ajouter</button>
+                </div>
+                <div id="spotsList" class="spots-grid"></div>
+            </div>
+
+            <!-- Statistiques -->
+            <div id="stats" class="tab-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalSessions">0</div>
+                        <div class="stat-label">Sessions totales</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalDistance">0 km</div>
+                        <div class="stat-label">Distance totale</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalTime">0h</div>
+                        <div class="stat-label">Temps total</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="favoriteSpot">-</div>
+                        <div class="stat-label">Spot préféré</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let sessions = [];
+        let spots = ['Lac des Deux-Montagnes', 'Parc de la Rivière-des-Mille-Îles', 'Plage de Saint-Eustache'];
+
+        function init() {
+            const saved = localStorage.getItem('paddleplanet_sessions');
+            const savedSpots = localStorage.getItem('paddleplanet_spots');
+            
+            if (saved) sessions = JSON.parse(saved);
+            if (savedSpots) spots = JSON.parse(savedSpots);
+            
+            document.getElementById('date').valueAsDate = new Date();
+            updateSpotSelect();
+            updateSpotsList();
+            updateSessionsList();
+            updateStats();
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+            
+            if (tabName === 'stats') updateStats();
+            if (tabName === 'sessions') updateSessionsList();
+        }
+
+        function updateSpotSelect() {
+            const select = document.getElementById('spot');
+            select.innerHTML = '<option value="">Sélectionnez un spot</option>';
+            spots.forEach(spot => {
+                const option = document.createElement('option');
+                option.value = spot;
+                option.textContent = spot;
+                select.appendChild(option);
+            });
+        }
+
+        function addSpot() {
+            const input = document.getElementById('newSpot');
+            const spotName = input.value.trim();
+            
+            if (spotName && !spots.includes(spotName)) {
+                spots.push(spotName);
+                localStorage.setItem('paddleplanet_spots', JSON.stringify(spots));
+                input.value = '';
+                updateSpotSelect();
+                updateSpotsList();
+            }
+        }
+
+        function updateSpotsList() {
+            const container = document.getElementById('spotsList');
+            
+            if (spots.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📍</div><p>Aucun spot enregistré</p></div>';
+                return;
+            }
+            
+            container.innerHTML = spots.map(spot => {
+                const count = sessions.filter(s => s.spot === spot).length;
+                return `
+                    <div class="spot-card">
+                        <div class="spot-name">${spot}</div>
+                        <div class="spot-sessions">${count} session${count !== 1 ? 's' : ''}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        document.getElementById('sessionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const session = {
+                id: Date.now(),
+                spot: document.getElementById('spot').value,
+                date: document.getElementById('date').value,
+                heure: document.getElementById('heure').value,
+                duree: parseInt(document.getElementById('duree').value),
+                distance: parseFloat(document.getElementById('distance').value) || 0,
+                conditions: document.getElementById('conditions').value,
+                vent: document.getElementById('vent').value,
+                notes: document.getElementById('notes').value
+            };
+            
+            sessions.unshift(session);
+            localStorage.setItem('paddleplanet_sessions', JSON.stringify(sessions));
+            
+            document.getElementById('successMessage').classList.add('show');
+            setTimeout(() => {
+                document.getElementById('successMessage').classList.remove('show');
+            }, 3000);
+            
+            this.reset();
+            document.getElementById('date').valueAsDate = new Date();
+            updateStats();
+        });
+
+        function updateSessionsList() {
+            const container = document.getElementById('sessionsList');
+            
+            if (sessions.length === 0) {
+                container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">🏄‍♂️</div><p>Aucune session enregistrée</p><p>Commencez par ajouter votre première session !</p></div>';
+                return;
+            }
+            
+            container.innerHTML = sessions.map(session => `
+                <div class="session-card">
+                    <div class="session-header">
+                        <div class="session-spot">${session.spot}</div>
+                        <div class="session-date">${new Date(session.date).toLocaleDateString('fr-FR')}</div>
+                    </div>
+                    <div class="session-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Heure</span>
+                            <span class="detail-value">${session.heure}</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Durée</span>
+                            <span class="detail-value">${session.duree} min</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Distance</span>
+                            <span class="detail-value">${session.distance} km</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Conditions</span>
+                            <span class="detail-value">${session.conditions}</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Vent</span>
+                            <span class="detail-value">${session.vent}</span>
+                        </div>
+                    </div>
+                    ${session.notes ? `<p style="margin-top: 15px; color: #6c757d;"><em>${session.notes}</em></p>` : ''}
+                    <div class="session-actions">
+                        <button onclick="deleteSession(${session.id})" class="btn btn-small btn-danger">🗑️ Supprimer</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function deleteSession(id) {
+            if (confirm('Voulez-vous vraiment supprimer cette session ?')) {
+                sessions = sessions.filter(s => s.id !== id);
+                localStorage.setItem('paddleplanet_sessions', JSON.stringify(sessions));
+                updateSessionsList();
+                updateStats();
+            }
+        }
+
+        function updateStats() {
+            document.getElementById('totalSessions').textContent = sessions.length;
+            
+            const totalDist = sessions.reduce((sum, s) => sum + s.distance, 0);
+            document.getElementById('totalDistance').textContent = totalDist.toFixed(1) + ' km';
+            
+            const totalMin = sessions.reduce((sum, s) => sum + s.duree, 0);
+            document.getElementById('totalTime').textContent = Math.round(totalMin / 60) + 'h';
+            
+            const spotCounts = {};
+            sessions.forEach(s => {
+                spotCounts[s.spot] = (spotCounts[s.spot] || 0) + 1;
+            });
+            
+            let favSpot = '-';
+            let maxCount = 0;
+            for (const [spot, count] of Object.entries(spotCounts)) {
+                if (count > maxCount) {
+                    maxCount = count;
+                    favSpot = spot;
+                }
+            }
+            document.getElementById('favoriteSpot').textContent = favSpot;
+        }
+
+        init();
+    </script>
+</body>
+</html>
