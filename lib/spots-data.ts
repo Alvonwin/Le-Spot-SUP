@@ -1753,8 +1753,8 @@ const rawSpots = [
     "nom": "Club nautique de Longueuil",
     "type": "Marina / Club nautique",
     "note": "4.2 (45)",
-    "gps": "45.5289,-73.5045",
-    "adresse": "950 Rue Marie-Victorin, Longueuil, QC J4G 1E5",
+    "gps": "45.5347555,-73.5193415",
+    "adresse": "601 Chemin de la Rive, Longueuil, QC J4H 1G8",
     "photoURL": "/spots/spot_3.webp",
     "notes": "Rampe de mise à l'eau publique disponible moyennant frais. 35$/essieu. Accès fleuve Saint-Laurent. Installations nautiques complètes. Idéal pour embarquement rapide proche de chez toi."
   },
