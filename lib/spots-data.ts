@@ -1737,7 +1737,7 @@ const rawSpots = [
     "note": "4.7 (2400+)",
     "gps": "45.5833,-73.5000",
     "adresse": "55 Île Sainte-Marguerite, Boucherville, QC J4B 5J6",
-    "photoURL": "https://www.tourisme-monteregie.qc.ca/wp-content/uploads/2025/03/parc-national-des-iles-de-boucherville-kayak.jpg",
+    "photoURL": "/spots/spot_1.webp",
     "notes": "⭐ TRÈS PROCHE! Location SUP disponible dès 17 mai 2025. Deux sentiers nautiques: Grand-Héron (8 km, 3h, intermédiaire) et Castor (4 km, 1h30, facile). Équipement inclus: pagaies, VFI. Centre de location sur Île Sainte-Marguerite et Centre des visiteurs Grosbois. Réservation recommandée. Tel: 450-928-5088"
   },
   {
@@ -1755,7 +1755,7 @@ const rawSpots = [
     "note": "4.2 (45)",
     "gps": "45.5289,-73.5045",
     "adresse": "950 Rue Marie-Victorin, Longueuil, QC J4G 1E5",
-    "photoURL": "https://www.tourisme-monteregie.qc.ca/wp-content/uploads/2025/03/club-nautique-de-longueuil-le-cnl.jpg",
+    "photoURL": "/spots/spot_3.webp",
     "notes": "Rampe de mise à l'eau publique disponible moyennant frais. 35$/essieu. Accès fleuve Saint-Laurent. Installations nautiques complètes. Idéal pour embarquement rapide proche de chez toi."
   },
   {
@@ -1764,7 +1764,7 @@ const rawSpots = [
     "note": "4.5 (3500+)",
     "gps": "45.5133,-73.5300",
     "adresse": "1 Circuit Gilles Villeneuve, Montréal, QC H3C 1A9",
-    "photoURL": "https://www.parcjeandrapeau.com/medias/images/header/plage-jean-dore-sable-baignade-natation-soleil-parc-jean-drapeau-montreal-1920x700.jpg",
+    "photoURL": "/spots/spot_4.webp",
     "notes": "Navette fluviale depuis Vieux-Port Montréal et Longueuil durant l'été. SUP disponible dans les eaux calmes du lac et lagunes de la plage. Possibilité de pagayer entre la zone de baignade et Casino de Montréal, ou explorer centre Île Notre-Dame et Jardins. Activités KSF relocalisées à Plage Jean-Doré (saison 2024-2025)."
   },
   {
@@ -1773,7 +1773,7 @@ const rawSpots = [
     "note": "4.6 (320)",
     "gps": "45.4494,-73.2875",
     "adresse": "1800 Avenue Bourgogne, Chambly, QC J3L 1Z4",
-    "photoURL": "https://pcweb2.azureedge.net/-/media/lhn-nhs/qc/chambly/WET4/Home/canal-chambly-1920-a.jpg",
+    "photoURL": "/spots/spot_5.webp",
     "notes": "Sur la rivière Richelieu au Bassin de Chambly. Location SUP, kayaks récréatifs et océaniques, canots, pédalos. Ouvert 28 mai - 25 septembre 2025. Vue sur Fort de Chambly depuis l'eau (spectaculaire!). PERMIS REQUIS pour navigation sur Canal de Chambly (1 permis par personne, embarcation non motorisée). Rampes de mise à l'eau le long du canal. Halte Belvédère Carignan: plage intime pour mise à l'eau."
   },
   {
@@ -1791,7 +1791,7 @@ const rawSpots = [
     "note": "4.6 (950)",
     "gps": "45.3833,-73.7500",
     "adresse": "480 Boulevard D'Youville, Châteauguay, QC J6J 5T9",
-    "photoURL": "https://www.voileboucherville.ca/wp-content/uploads/2025/05/cropped-DSC6646-1.jpg",
+    "photoURL": "/spots/spot_7.webp",
     "notes": "Accès Lac Saint-Louis et Rivière Châteauguay. Boucle autour de l'île possible en SUP/kayak. ⚠️ BAIGNADE INTERDITE (refuge faunique). Mise à l'eau depuis plage rocheuse. Stationnement à proximité. Paysages magnifiques. Observation faune aquatique. Sentiers nautiques balisés."
   },
   {
@@ -1800,7 +1800,7 @@ const rawSpots = [
     "note": "4.2 (210)",
     "gps": "45.3756,-73.7422",
     "adresse": "Parc Joseph-Laberge, Châteauguay, QC",
-    "photoURL": "https://www.canada.ca/content/canadasite/en/environment-climate-change/services/national-wildlife-areas/locations/iles-de-la-paix/_jcr_content/par/mwsadaptiveimage/image.img.jpg/1643302331818.jpg",
+    "photoURL": "/spots/spot_8.webp",
     "notes": "Point de mise à l'eau officiel pour embarcations légères non motorisées. Accès Lac Saint-Louis. Location SUP disponible avec cours (intro, yoga, etc.). Service weekends, congés, événements spéciaux jusqu'au 13 octobre 2025. Quais publics le long de la rivière. Plage rocheuse pour mise à l'eau facile. Stationnement sur rue ou petit parking selon trafic."
   },
   {
@@ -1809,7 +1809,7 @@ const rawSpots = [
     "note": "4.8 (580)",
     "gps": "45.4333,-73.6167",
     "adresse": "Rives du Saint-Laurent, LaSalle, Montréal, QC",
-    "photoURL": "https://recreoparc.org/wp-content/uploads/2024/09/17.png",
+    "photoURL": "/spots/spot_9.webp",
     "notes": "⭐ ÉCOLE PIONNIÈRE SUP au Québec! Expériences éco-certifiées. Cours de surf de rivière (river surfing) et excursions kayak/SUP sur le Saint-Laurent. Location équipement. Instructeurs certifiés. Parfait pour apprendre ou améliorer technique. Ambiance professionnelle et conviviale. Été 2024: relocalisé à Plage Jean-Doré (Parc Jean-Drapeau)."
   },
   {
@@ -1818,7 +1818,7 @@ const rawSpots = [
     "note": "4.7 (420)",
     "gps": "45.4500,-73.2833",
     "adresse": "Bassin de Chambly, Chambly, QC",
-    "photoURL": "https://chambly.ca/resize/018bec1424e55009699ab11d84d78e56-1",
+    "photoURL": "/spots/spot_10.webp",
     "notes": "Plan d'eau historique magnifique relié au Canal de Chambly. Eaux généralement calmes, idéal débutants/intermédiaires. Vue imprenable sur Fort de Chambly depuis l'eau. Accès via rampes municipales ou Centre nautique Gervais-Désourdy. Navigation libre (avec permis). Possibilité combiner SUP + visite historique Fort. Couchers de soleil spectaculaires."
   }
 ];
