@@ -96,7 +96,7 @@ export default function MapPage() {
               <ChevronLeft size={16} />
               Retour à la liste
             </button>
-            <h2 className="text-xl font-bold mt-1">PlanètePaddle</h2>
+            <h2 className="text-xl font-bold mt-1">Le Spot SUP</h2>
           </div>
         </div>
       )}
