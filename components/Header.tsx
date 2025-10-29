@@ -100,7 +100,7 @@ export default function Header() {
               <CloudSun size={22} className="text-yellow-400 group-hover:text-yellow-300 transition-colors drop-shadow-glow" />
             </button>
             {isWeatherOpen && (
-              <div className="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-2xl py-3 px-4 text-gray-800 dark:text-white border border-ocean-light/20">
+              <div className="absolute right-0 mt-2 w-56 sm:w-64 bg-white dark:bg-gray-800 rounded-xl shadow-2xl py-3 px-4 text-gray-800 dark:text-white border border-ocean-light/20">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-bold text-sm">Météo Actuelle</h3>
                   <button onClick={() => setIsWeatherOpen(false)} className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
