@@ -1744,7 +1744,7 @@ const rawSpots = [
     "nom": "Parc Marie-Victorin",
     "type": "Parc municipal",
     "note": "4.4 (850+)",
-    "gps": "45.5347,-73.5013",
+    "gps": "45.5442,-73.5098",
     "adresse": "1200 Rue Marie-Victorin, Longueuil, QC J4K 2X1",
     "photoURL": "https://www.longueuil.quebec/files/longueuil/images/loisirs/Parc_Marie-Victorin_AML_Marina_10.jpg",
     "notes": "⭐ LE PLUS PROCHE! Accès direct au fleuve Saint-Laurent. Sentier pédestre longeant le fleuve avec vue sur Montréal. Plusieurs points d'accès à l'eau le long du sentier pour mettre SUP/kayak. Idéal pour débutants (eaux calmes). Plage informelle. Stationnement gratuit."
