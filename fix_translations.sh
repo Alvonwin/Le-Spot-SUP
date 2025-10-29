@@ -1,3 +1,13 @@
+#!/bin/bash
+# Add missing translations
+
+FILE="lib/translations.ts"
+
+# Read the current content
+CONTENT=$(cat "$FILE")
+
+# Create the new content with additions
+cat > "$FILE" << 'EOF'
 export type Language = "fr" | "en";
 
 export const translations = {
@@ -174,3 +184,6 @@ export const translations = {
     },
   },
 };
+EOF
+
+echo "✅ Translations updated"

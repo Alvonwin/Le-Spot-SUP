@@ -45,23 +45,6 @@ export const translations = {
         ],
       },
     },
-    about: {
-      title: "À Propos de Le Spot SUP",
-      description:
-        "LA plateforme mondiale de référence pour le stand-up paddle. Découvrez, partagez et explorez les meilleurs spots SUP partout dans le monde, avec une couverture initiale exceptionnelle de",
-      quebecSpots: "250+ spots au Québec",
-      stats: {
-        spots: "Spots au Québec",
-        realtime: "Temps Réel",
-        weather: "Météo et conditions",
-        community: "Communauté",
-        worldwide: "Mondiale de passionnés",
-      },
-      discoverButton: "Découvrir les Spots",
-    },
-    footer: {
-      copyright: "© 2025 Le Spot SUP. Tous droits réservés.",
-    },
     auth: {
       signup: {
         title: "Créer un Compte",
@@ -130,23 +113,6 @@ export const translations = {
           },
         ],
       },
-    },
-    about: {
-      title: "About Le Spot SUP",
-      description:
-        "THE global reference platform for stand-up paddleboarding. Discover, share and explore the best SUP spots around the world, with exceptional initial coverage of",
-      quebecSpots: "250+ spots in Quebec",
-      stats: {
-        spots: "Spots in Quebec",
-        realtime: "Real-Time",
-        weather: "Weather and conditions",
-        community: "Community",
-        worldwide: "Worldwide enthusiasts",
-      },
-      discoverButton: "Discover Spots",
-    },
-    footer: {
-      copyright: "© 2025 Le Spot SUP. All rights reserved.",
     },
     auth: {
       signup: {

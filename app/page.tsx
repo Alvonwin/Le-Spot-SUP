@@ -123,27 +123,27 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-5xl sm:text-6xl mb-4 sm:mb-6">🏄‍♂️</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-            À Propos de Le Spot SUP
+            {t.about.title}
           </h2>
           <p className="text-base sm:text-xl text-gray-700 dark:text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            LA plateforme mondiale de référence pour le stand-up paddle. Découvrez, partagez et explorez les meilleurs spots SUP partout dans le monde, avec une couverture initiale exceptionnelle de <span className="font-bold text-ocean">250+ spots au Québec</span>.
+            {t.about.description} <span className="font-bold text-ocean">{t.about.quebecSpots}</span>.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mt-12">
             <div className="bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg">
               <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">🌍</div>
               <h3 className="text-xl sm:text-2xl font-bold text-ocean mb-1 sm:mb-2">250+</h3>
-              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Spots au Québec</p>
+              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">{t.about.stats.spots}</p>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg">
               <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">⛅</div>
-              <h3 className="text-xl sm:text-2xl font-bold text-ocean mb-1 sm:mb-2">Temps Réel</h3>
-              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Météo et conditions</p>
+              <h3 className="text-xl sm:text-2xl font-bold text-ocean mb-1 sm:mb-2">{t.about.stats.realtime}</h3>
+              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">{t.about.stats.weather}</p>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-lg">
               <div className="text-3xl sm:text-4xl mb-2 sm:mb-3">👥</div>
-              <h3 className="text-xl sm:text-2xl font-bold text-ocean mb-1 sm:mb-2">Communauté</h3>
-              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">Mondiale de passionnés</p>
+              <h3 className="text-xl sm:text-2xl font-bold text-ocean mb-1 sm:mb-2">{t.about.stats.community}</h3>
+              <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300">{t.about.stats.worldwide}</p>
             </div>
           </div>
 
@@ -160,7 +160,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="bg-ocean-dark text-white py-6 sm:py-8 text-center">
-          <p>© 2025 Le Spot SUP. Tous droits réservés.</p>
+          <p>{t.footer.copyright}</p>
         </footer>
       </div>
     </>
