@@ -15,7 +15,7 @@ const rawSpots = [
     "nom": "Camping Pontmain",
     "type": "Terrain de camping",
     "note": "4.6 (23)",
-    "gps": "46.7167,-75.4833",
+    "gps": "46.2645373,-75.7649461",
     "adresse": "Pontmain, QC",
     "photoURL": "https://www.quebecvacances.com/images/attrait/large/100/100_2951.jpg",
     "notes": ""
@@ -78,7 +78,7 @@ const rawSpots = [
     "nom": "Parc Antoine-Gauthier",
     "type": "Parc",
     "note": "4.6 (448)",
-    "gps": "46.8167,-71.2167",
+    "gps": "46.2816889,-72.6615870",
     "adresse": "10601, rue Notre-Dame Ouest, Trois-Rivières, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/lieux/parc-antoine-gauthier.jpg",
     "notes": "Situé à Trois-Rivières. Informations sur l'accès à l'eau pour SUP non disponibles."
@@ -96,7 +96,7 @@ const rawSpots = [
     "nom": "Lac Normand",
     "type": "Lac",
     "note": "5.0 (3)",
-    "gps": "47.0000,-72.0000",
+    "gps": "47.0841900,-73.2545207",
     "adresse": "Réserve faunique du Saint-Maurice, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parks/mastigouche/lac-normand.jpg",
     "notes": "Belle plage sablonneuse. Location GRATUITE de kayak, canot et SUP avec réservation de chalet. BBQ, chaloupe et kayak offerts gratuitement. Location également disponible séparément."
@@ -114,7 +114,7 @@ const rawSpots = [
     "nom": "Parc régional de la Rivière Gentilly",
     "type": "Parc régional",
     "note": "4.7 (342)",
-    "gps": "46.3667,-72.2167",
+    "gps": "46.3262320,-72.2377404",
     "adresse": "Bécancour, QC",
     "photoURL": "https://www.rivieregentilly.com/wp-content/uploads/2021/05/parc-riviere-gentilly.jpg",
     "notes": ""
@@ -123,7 +123,7 @@ const rawSpots = [
     "nom": "Lac Simon",
     "type": "Lac",
     "note": "4.6 (112)",
-    "gps": "46.0000,-75.0000",
+    "gps": "45.9542176,-75.0812598",
     "adresse": "Duhamel, QC",
     "photoURL": "https://www.duhamel.ca/wp-content/uploads/2020/07/lac-simon.jpg",
     "notes": ""
@@ -141,7 +141,7 @@ const rawSpots = [
     "nom": "Parc de la Yamaska",
     "type": "Parc national",
     "note": "4.6 (1023)",
-    "gps": "45.4167,-72.8667",
+    "gps": "45.4257937,-72.5953372",
     "adresse": "Roxton Pond, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parks/yamaska/parc-yamaska.jpg",
     "notes": ""
@@ -159,7 +159,7 @@ const rawSpots = [
     "nom": "Lac Taureau",
     "type": "Réservoir",
     "note": "4.8 (512)",
-    "gps": "46.7000,-73.8000",
+    "gps": "46.7849931,-73.8204536",
     "adresse": "Saint-Michel-des-Saints, QC",
     "photoURL": "https://www.saint-michel.ca/images/lac-taureau.jpg",
     "notes": ""
@@ -186,7 +186,7 @@ const rawSpots = [
     "nom": "Plage municipale de Saint-Gabriel",
     "type": "Plage",
     "note": "4.6 (145)",
-    "gps": "46.3000,-73.3000",
+    "gps": "46.3013187,-73.3895640",
     "adresse": "Saint-Gabriel, QC",
     "photoURL": "https://www.saint-gabriel.ca/images/plage-municipale.jpg",
     "notes": ""
@@ -204,7 +204,7 @@ const rawSpots = [
     "nom": "Parc du Mont-Orford",
     "type": "Parc national",
     "note": "4.7 (1456)",
-    "gps": "45.3333,-72.2167",
+    "gps": "45.3487547,-72.2086087",
     "adresse": "Orford, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parks/orford/parc-mont-orford.jpg",
     "notes": ""
@@ -222,7 +222,7 @@ const rawSpots = [
     "nom": "Lac Saint-Joseph",
     "type": "Lac",
     "note": "4.6 (98)",
-    "gps": "46.8833,-71.5000",
+    "gps": "46.9020725,-71.6314978",
     "adresse": "Fossambault-sur-le-Lac, QC",
     "photoURL": "https://www.fossambault-sur-le-lac.com/images/lac-saint-joseph.jpg",
     "notes": ""
@@ -240,7 +240,7 @@ const rawSpots = [
     "nom": "Parc régional du Poisson Blanc",
     "type": "Parc régional",
     "note": "4.8 (623)",
-    "gps": "46.2500,-75.5000",
+    "gps": "46.1273565,-75.7242532",
     "adresse": "Notre-Dame-du-Laus, QC",
     "photoURL": "https://www.poissonblanc.ca/images/parc-poisson-blanc.jpg",
     "notes": ""
@@ -276,7 +276,7 @@ const rawSpots = [
     "nom": "Parc régional de la Forêt Ouareau",
     "type": "Parc régional",
     "note": "4.6 (312)",
-    "gps": "46.3167,-73.6000",
+    "gps": "46.2145412,-73.9406746",
     "adresse": "Notre-Dame-de-la-Merci, QC",
     "photoURL": "https://www.parcsregionaux.org/images/ouareau.jpg",
     "notes": ""
@@ -312,7 +312,7 @@ const rawSpots = [
     "nom": "Parc régional du Lac Taureau",
     "type": "Parc régional",
     "note": "4.7 (412)",
-    "gps": "46.7000,-73.8000",
+    "gps": "46.7849931,-73.8204536",
     "adresse": "Saint-Michel-des-Saints, QC",
     "photoURL": "https://www.parcsregionaux.org/images/lac-taureau.jpg",
     "notes": ""
@@ -330,7 +330,7 @@ const rawSpots = [
     "nom": "Lac Vert",
     "type": "Lac",
     "note": "4.5 (38)",
-    "gps": "46.4000,-73.7000",
+    "gps": "46.6413668,-70.6431623",
     "adresse": "Saint-Damien, QC",
     "photoURL": "https://www.saint-damien.ca/images/lac-vert.jpg",
     "notes": ""
@@ -366,7 +366,7 @@ const rawSpots = [
     "nom": "Lac Maskinongé",
     "type": "Lac",
     "note": "4.6 (74)",
-    "gps": "46.2167,-73.0500",
+    "gps": "46.1664733,-72.8732674",
     "adresse": "Maskinongé, QC",
     "photoURL": "https://www.maskinonge.ca/images/lac-maskinonge.jpg",
     "notes": ""
@@ -402,7 +402,7 @@ const rawSpots = [
     "nom": "Lac Saint-Pierre",
     "type": "Réserve de biosphère",
     "note": "4.8 (512)",
-    "gps": "46.2000,-72.8000",
+    "gps": "46.1664733,-72.8732674",
     "adresse": "Nicolet, QC",
     "photoURL": "https://www.nicolet.ca/images/lac-saint-pierre.jpg",
     "notes": ""
@@ -438,7 +438,7 @@ const rawSpots = [
     "nom": "Parc de la rivière Gentilly",
     "type": "Parc régional",
     "note": "4.7 (342)",
-    "gps": "46.3667,-72.2167",
+    "gps": "46.3262320,-72.2377404",
     "adresse": "Bécancour, QC",
     "photoURL": "https://www.rivieregentilly.com/images/parc.jpg",
     "notes": ""
@@ -456,7 +456,7 @@ const rawSpots = [
     "nom": "Lac à la Tortue",
     "type": "Lac",
     "note": "4.5 (84)",
-    "gps": "46.5000,-72.8000",
+    "gps": "46.6114790,-72.6333620",
     "adresse": "Shawinigan, QC",
     "photoURL": "https://www.shawinigan.ca/images/lac-a-la-tortue.jpg",
     "notes": ""
@@ -474,7 +474,7 @@ const rawSpots = [
     "nom": "Parc de l'Île Melville",
     "type": "Parc régional",
     "note": "4.7 (512)",
-    "gps": "46.5333,-72.7500",
+    "gps": "46.5342742,-72.7566569",
     "adresse": "Shawinigan, QC",
     "photoURL": "https://www.shawinigan.ca/images/ile-melville.jpg",
     "notes": ""
@@ -528,7 +528,7 @@ const rawSpots = [
     "nom": "Lac Sept Îles",
     "type": "Lac",
     "note": "4.7 (91)",
-    "gps": "46.8333,-71.4000",
+    "gps": "46.9314070,-71.7556164",
     "adresse": "Saint-Raymond, QC",
     "photoURL": "https://www.saint-raymond.ca/images/lac-sept-iles.jpg",
     "notes": ""
@@ -546,7 +546,7 @@ const rawSpots = [
     "nom": "Parc naturel régional de Portneuf",
     "type": "Parc régional",
     "note": "4.8 (512)",
-    "gps": "46.7500,-71.5000",
+    "gps": "46.8447839,-72.1689516",
     "adresse": "Portneuf, QC",
     "photoURL": "https://www.portneuf.ca/images/parc-naturel.jpg",
     "notes": ""
@@ -564,7 +564,7 @@ const rawSpots = [
     "nom": "Lac Sergent",
     "type": "Lac",
     "note": "4.6 (67)",
-    "gps": "46.8833,-71.6500",
+    "gps": "46.8666820,-71.7198550",
     "adresse": "Lac-Sergent, QC",
     "photoURL": "https://www.lac-sergent.qc.ca/images/lac.jpg",
     "notes": ""
@@ -600,7 +600,7 @@ const rawSpots = [
     "nom": "Lac Beauport",
     "type": "Lac",
     "note": "4.7 (89)",
-    "gps": "47.0000,-71.3000",
+    "gps": "46.9536748,-71.2756544",
     "adresse": "Lac-Beauport, QC",
     "photoURL": "https://www.lac-beauport.ca/images/lac.jpg",
     "notes": ""
@@ -618,7 +618,7 @@ const rawSpots = [
     "nom": "Parc du Mont Wright",
     "type": "Parc naturel",
     "note": "4.6 (278)",
-    "gps": "47.0333,-71.3500",
+    "gps": "47.0091776,-71.3489155",
     "adresse": "Stoneham-et-Tewkesbury, QC",
     "photoURL": "https://www.stoneham.qc.ca/images/mont-wright.jpg",
     "notes": ""
@@ -654,7 +654,7 @@ const rawSpots = [
     "nom": "Lac Saint-Augustin",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "46.7500,-71.3667",
+    "gps": "46.7492967,-71.3929206",
     "adresse": "Saint-Augustin-de-Desmaures, QC",
     "photoURL": "https://www.ville.saint-augustin.qc.ca/images/lac.jpg",
     "notes": ""
@@ -672,7 +672,7 @@ const rawSpots = [
     "nom": "Parc de la Plage-Jacques-Cartier",
     "type": "Parc",
     "note": "4.7 (812)",
-    "gps": "46.7333,-71.3000",
+    "gps": "46.7472629,-71.3419269",
     "adresse": "Cap-Rouge, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/parc-jacques-cartier.jpg",
     "notes": ""
@@ -690,7 +690,7 @@ const rawSpots = [
     "nom": "Lac Saint-Charles",
     "type": "Lac",
     "note": "4.6 (89)",
-    "gps": "47.0000,-71.3000",
+    "gps": "46.9082950,-71.3764570",
     "adresse": "Québec, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/lac-saint-charles.jpg",
     "notes": ""
@@ -726,7 +726,7 @@ const rawSpots = [
     "nom": "Lac Delage",
     "type": "Lac",
     "note": "4.6 (66)",
-    "gps": "47.1000,-71.3500",
+    "gps": "46.9657760,-71.4039365",
     "adresse": "Lac-Delage, QC",
     "photoURL": "https://www.lac-delage.qc.ca/images/lac.jpg",
     "notes": ""
@@ -834,7 +834,7 @@ const rawSpots = [
     "nom": "Lac Saint-Émile",
     "type": "Lac",
     "note": "4.6 (68)",
-    "gps": "46.9000,-71.3000",
+    "gps": "45.9270607,-74.9160222",
     "adresse": "Québec, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/lac-saint-emile.jpg",
     "notes": ""
@@ -843,7 +843,7 @@ const rawSpots = [
     "nom": "Parc de la Rivière Saint-Charles",
     "type": "Parc",
     "note": "4.7 (812)",
-    "gps": "46.8500,-71.2500",
+    "gps": "46.8143423,-71.2922654",
     "adresse": "Québec, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/parc-riviere-saint-charles.jpg",
     "notes": ""
@@ -870,7 +870,7 @@ const rawSpots = [
     "nom": "Plage municipale de Charlesbourg",
     "type": "Plage",
     "note": "4.3 (41)",
-    "gps": "46.8667,-71.2333",
+    "gps": "46.8765935,-71.2578715",
     "adresse": "Québec, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/plage-charlesbourg.jpg",
     "notes": ""
@@ -879,7 +879,7 @@ const rawSpots = [
     "nom": "Parc de la Montagne-des-Roches",
     "type": "Parc naturel",
     "note": "4.6 (278)",
-    "gps": "46.8667,-71.2333",
+    "gps": "46.8765935,-71.2578715",
     "adresse": "Québec, QC",
     "photoURL": "https://www.ville.quebec.qc.ca/images/parc-montagne-des-roches.jpg",
     "notes": ""
@@ -897,7 +897,7 @@ const rawSpots = [
     "nom": "Baie de Beauport",
     "type": "Plage",
     "note": "4.6 (623)",
-    "gps": "46.8667,-71.2000",
+    "gps": "46.8377433,-71.1948658",
     "adresse": "Québec, QC",
     "photoURL": "https://www.baiedebeauport.com/images/plage.jpg",
     "notes": ""
@@ -906,7 +906,7 @@ const rawSpots = [
     "nom": "Parc de la Chute-Montmorency",
     "type": "Parc",
     "note": "4.8 (1345)",
-    "gps": "46.9000,-71.1500",
+    "gps": "46.8905531,-71.1475263",
     "adresse": "Boischatel, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parcs/chute-montmorency.jpg",
     "notes": ""
@@ -987,7 +987,7 @@ const rawSpots = [
     "nom": "Lac Saint-Ferréol",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "47.1000,-70.8833",
+    "gps": "47.1481225,-70.8524868",
     "adresse": "Saint-Ferréol-les-Neiges, QC",
     "photoURL": "https://www.stferreollesneiges.ca/images/lac.jpg",
     "notes": ""
@@ -1014,7 +1014,7 @@ const rawSpots = [
     "nom": "Lac Beaupré",
     "type": "Lac",
     "note": "4.6 (71)",
-    "gps": "47.0500,-70.9000",
+    "gps": "47.5852869,-71.2242043",
     "adresse": "Beaupré, QC",
     "photoURL": "https://www.ville.beaupre.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1041,7 +1041,7 @@ const rawSpots = [
     "nom": "Lac Saint-Tite",
     "type": "Lac",
     "note": "4.5 (56)",
-    "gps": "47.1833,-70.8000",
+    "gps": "47.1264060,-70.7527002",
     "adresse": "Saint-Tite-des-Caps, QC",
     "photoURL": "https://www.sainttitedescaps.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1104,7 +1104,7 @@ const rawSpots = [
     "nom": "Lac Saint-Irénée",
     "type": "Lac",
     "note": "4.6 (68)",
-    "gps": "47.5000,-70.3000",
+    "gps": "47.5344195,-70.2329730",
     "adresse": "Saint-Irénée, QC",
     "photoURL": "https://www.saint-irenee.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1131,7 +1131,7 @@ const rawSpots = [
     "nom": "Lac Saint-Urbain",
     "type": "Lac",
     "note": "4.5 (54)",
-    "gps": "47.5833,-70.2000",
+    "gps": "47.6153114,-70.6531168",
     "adresse": "Saint-Urbain, QC",
     "photoURL": "https://www.saint-urbain.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1149,7 +1149,7 @@ const rawSpots = [
     "nom": "Lac Nairne",
     "type": "Lac",
     "note": "4.6 (84)",
-    "gps": "47.7667,-70.2000",
+    "gps": "47.6853949,-70.3493576",
     "adresse": "Saint-Aimé-des-Lacs, QC",
     "photoURL": "https://www.st-aime-des-lacs.qc.ca/images/lac-nairne.jpg",
     "notes": ""
@@ -1185,7 +1185,7 @@ const rawSpots = [
     "nom": "Lac de La Malbaie",
     "type": "Lac",
     "note": "4.6 (73)",
-    "gps": "47.6500,-70.1500",
+    "gps": "47.8450902,-70.0092757",
     "adresse": "La Malbaie, QC",
     "photoURL": "https://www.ville.lamalbaie.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1212,7 +1212,7 @@ const rawSpots = [
     "nom": "Lac Clermont",
     "type": "Lac",
     "note": "4.5 (61)",
-    "gps": "47.6833,-70.2000",
+    "gps": "47.8727478,-70.2708228",
     "adresse": "Clermont, QC",
     "photoURL": "https://www.ville.clermont.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1248,7 +1248,7 @@ const rawSpots = [
     "nom": "Parc national des Monts-Valin",
     "type": "Parc national",
     "note": "4.9 (1456)",
-    "gps": "48.5000,-70.0000",
+    "gps": "48.5901399,-70.8485011",
     "adresse": "Saguenay, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parks/monts-valin/parc.jpg",
     "notes": ""
@@ -1257,7 +1257,7 @@ const rawSpots = [
     "nom": "Plage municipale de Saguenay",
     "type": "Plage",
     "note": "4.5 (72)",
-    "gps": "48.4167,-71.0667",
+    "gps": "48.6328760,-71.1036534",
     "adresse": "Saguenay, QC",
     "photoURL": "https://www.ville.saguenay.qc.ca/images/plage.jpg",
     "notes": ""
@@ -1266,7 +1266,7 @@ const rawSpots = [
     "nom": "Lac Kénogami",
     "type": "Lac",
     "note": "4.7 (94)",
-    "gps": "48.4333,-71.3000",
+    "gps": "48.3522372,-71.2764289",
     "adresse": "Saguenay, QC",
     "photoURL": "https://www.saguenay.ca/images/lac-kenogami.jpg",
     "notes": ""
@@ -1284,7 +1284,7 @@ const rawSpots = [
     "nom": "Parc de la Rivière-du-Moulin",
     "type": "Parc",
     "note": "4.8 (623)",
-    "gps": "48.4167,-71.0667",
+    "gps": "48.3982163,-71.0461471",
     "adresse": "Saguenay, QC",
     "photoURL": "https://www.saguenay.ca/images/parc-riviere-du-moulin.jpg",
     "notes": ""
@@ -1293,7 +1293,7 @@ const rawSpots = [
     "nom": "Plage municipale de Chicoutimi",
     "type": "Plage",
     "note": "4.3 (47)",
-    "gps": "48.4167,-71.0667",
+    "gps": "48.6328760,-71.1036534",
     "adresse": "Saguenay, QC",
     "photoURL": "https://www.saguenay.ca/images/plage-chicoutimi.jpg",
     "notes": ""
@@ -1302,7 +1302,7 @@ const rawSpots = [
     "nom": "Lac Sébastien",
     "type": "Lac",
     "note": "4.6 (66)",
-    "gps": "48.5000,-70.9000",
+    "gps": "48.6508927,-71.1384791",
     "adresse": "Saguenay, QC",
     "photoURL": "https://www.saguenay.ca/images/lac-sebastien.jpg",
     "notes": ""
@@ -1311,7 +1311,7 @@ const rawSpots = [
     "nom": "Plage municipale de Saint-David-de-Falardeau",
     "type": "Plage",
     "note": "4.4 (53)",
-    "gps": "48.5500,-70.9000",
+    "gps": "48.6328760,-71.1036534",
     "adresse": "Saint-David-de-Falardeau, QC",
     "photoURL": "https://www.st-david.qc.ca/images/plage.jpg",
     "notes": ""
@@ -1329,7 +1329,7 @@ const rawSpots = [
     "nom": "Lac des Cèdres",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "48.6000,-70.8000",
+    "gps": "48.6589976,-71.2093233",
     "adresse": "Saint-David-de-Falardeau, QC",
     "photoURL": "https://www.st-david.qc.ca/images/lac-des-cedres.jpg",
     "notes": ""
@@ -1347,7 +1347,7 @@ const rawSpots = [
     "nom": "Lac Saint-Fulgence",
     "type": "Lac",
     "note": "4.5 (61)",
-    "gps": "48.5000,-70.7500",
+    "gps": "48.5067499,-70.8569858",
     "adresse": "Saint-Fulgence, QC",
     "photoURL": "https://www.st-fulgence.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1356,7 +1356,7 @@ const rawSpots = [
     "nom": "Parc Aventures Cap Jaseux",
     "type": "Parc d'aventure",
     "note": "4.7 (512)",
-    "gps": "48.4167,-70.8000",
+    "gps": "48.4246870,-70.8098814",
     "adresse": "Saint-Fulgence, QC",
     "photoURL": "https://www.capjaseux.com/images/parc.jpg",
     "notes": ""
@@ -1374,7 +1374,7 @@ const rawSpots = [
     "nom": "Lac Tchitogama",
     "type": "Lac",
     "note": "4.6 (84)",
-    "gps": "48.6667,-71.0000",
+    "gps": "48.8113817,-71.3771558",
     "adresse": "Lamarche, QC",
     "photoURL": "https://www.lamarche.ca/images/lac-tchitogama.jpg",
     "notes": ""
@@ -1410,7 +1410,7 @@ const rawSpots = [
     "nom": "Lac Saint-Jean",
     "type": "Lac",
     "note": "4.9 (1456)",
-    "gps": "48.5000,-71.5000",
+    "gps": "48.5833360,-72.0048797",
     "adresse": "Lac-Saint-Jean, QC",
     "photoURL": "https://www.lacsaintjean.com/images/lac.jpg",
     "notes": ""
@@ -1428,7 +1428,7 @@ const rawSpots = [
     "nom": "Parc national de la Pointe-Taillon",
     "type": "Parc national",
     "note": "4.8 (1345)",
-    "gps": "48.5833,-71.6667",
+    "gps": "48.7160234,-71.9783796",
     "adresse": "Saint-Henri-de-Taillon, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parks/pointe-taillon/parc.jpg",
     "notes": ""
@@ -1437,7 +1437,7 @@ const rawSpots = [
     "nom": "Plage de la Pointe-Taillon",
     "type": "Plage",
     "note": "4.6 (89)",
-    "gps": "48.5833,-71.6667",
+    "gps": "48.7160234,-71.9783796",
     "adresse": "Saint-Henri-de-Taillon, QC",
     "photoURL": "https://www.sepaq.com/resources/images/parks/pointe-taillon/plage.jpg",
     "notes": ""
@@ -1482,7 +1482,7 @@ const rawSpots = [
     "nom": "Lac Sainte-Monique",
     "type": "Lac",
     "note": "4.5 (61)",
-    "gps": "48.9000,-71.3000",
+    "gps": "48.7945466,-71.8047687",
     "adresse": "Sainte-Monique, QC",
     "photoURL": "https://www.sainte-monique.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1509,7 +1509,7 @@ const rawSpots = [
     "nom": "Lac Normandin",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "49.0000,-72.0000",
+    "gps": "48.8525085,-72.6048980",
     "adresse": "Normandin, QC",
     "photoURL": "https://www.normandin.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1545,7 +1545,7 @@ const rawSpots = [
     "nom": "Parc régional de Dolbeau-Mistassini",
     "type": "Parc régional",
     "note": "4.7 (389)",
-    "gps": "49.2167,-72.2333",
+    "gps": "48.8798263,-72.1368486",
     "adresse": "Dolbeau-Mistassini, QC",
     "photoURL": "https://www.dolbeau-mistassini.ca/images/parc.jpg",
     "notes": ""
@@ -1554,7 +1554,7 @@ const rawSpots = [
     "nom": "Plage municipale de Dolbeau-Mistassini",
     "type": "Plage",
     "note": "4.4 (53)",
-    "gps": "49.2167,-72.2333",
+    "gps": "48.8798263,-72.1368486",
     "adresse": "Dolbeau-Mistassini, QC",
     "photoURL": "https://www.dolbeau-mistassini.ca/images/plage.jpg",
     "notes": ""
@@ -1563,7 +1563,7 @@ const rawSpots = [
     "nom": "Lac Mistassini",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "49.2167,-72.2333",
+    "gps": "48.8798263,-72.1368486",
     "adresse": "Dolbeau-Mistassini, QC",
     "photoURL": "https://www.dolbeau-mistassini.ca/images/lac.jpg",
     "notes": ""
@@ -1590,7 +1590,7 @@ const rawSpots = [
     "nom": "Lac Saint-Félicien",
     "type": "Lac",
     "note": "4.6 (89)",
-    "gps": "48.6500,-72.4500",
+    "gps": "48.6603014,-72.5676154",
     "adresse": "Saint-Félicien, QC",
     "photoURL": "https://www.stfelicien.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1608,7 +1608,7 @@ const rawSpots = [
     "nom": "Plage municipale de Roberval",
     "type": "Plage",
     "note": "4.4 (58)",
-    "gps": "48.5167,-72.2333",
+    "gps": "48.4118958,-72.2586422",
     "adresse": "Roberval, QC",
     "photoURL": "https://www.roberval.ca/images/plage.jpg",
     "notes": ""
@@ -1617,7 +1617,7 @@ const rawSpots = [
     "nom": "Lac Roberval",
     "type": "Lac",
     "note": "4.6 (66)",
-    "gps": "48.5167,-72.2333",
+    "gps": "48.4118958,-72.2586422",
     "adresse": "Roberval, QC",
     "photoURL": "https://www.roberval.ca/images/lac.jpg",
     "notes": ""
@@ -1626,7 +1626,7 @@ const rawSpots = [
     "nom": "Parc régional de Val-Jalbert",
     "type": "Parc régional",
     "note": "4.8 (1345)",
-    "gps": "48.4167,-72.2333",
+    "gps": "48.4243582,-72.0627000",
     "adresse": "Chambord, QC",
     "photoURL": "https://www.valjalbert.com/images/parc.jpg",
     "notes": ""
@@ -1635,7 +1635,7 @@ const rawSpots = [
     "nom": "Plage municipale de Chambord",
     "type": "Plage",
     "note": "4.4 (53)",
-    "gps": "48.4167,-72.2333",
+    "gps": "48.4243582,-72.0627000",
     "adresse": "Chambord, QC",
     "photoURL": "https://www.chambord.qc.ca/images/plage.jpg",
     "notes": ""
@@ -1644,7 +1644,7 @@ const rawSpots = [
     "nom": "Lac Chambord",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "48.4167,-72.2333",
+    "gps": "48.4243582,-72.0627000",
     "adresse": "Chambord, QC",
     "photoURL": "https://www.chambord.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1662,7 +1662,7 @@ const rawSpots = [
     "nom": "Plage de Saint-Henri-de-Taillon",
     "type": "Plage",
     "note": "4.5 (72)",
-    "gps": "48.5000,-71.6667",
+    "gps": "48.6424200,-71.8075654",
     "adresse": "Saint-Henri-de-Taillon, QC",
     "photoURL": "https://www.st-henri.qc.ca/images/plage.jpg",
     "notes": ""
@@ -1671,7 +1671,7 @@ const rawSpots = [
     "nom": "Lac Saint-Henri",
     "type": "Lac",
     "note": "4.6 (89)",
-    "gps": "48.5000,-71.6667",
+    "gps": "48.6610743,-71.8500860",
     "adresse": "Saint-Henri-de-Taillon, QC",
     "photoURL": "https://www.st-henri.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1680,7 +1680,7 @@ const rawSpots = [
     "nom": "Parc régional de Métabetchouan",
     "type": "Parc régional",
     "note": "4.8 (623)",
-    "gps": "48.4167,-71.8667",
+    "gps": "48.4082729,-71.7837417",
     "adresse": "Métabetchouan–Lac-à-la-Croix, QC",
     "photoURL": "https://www.metabetchouan.qc.ca/images/parc.jpg",
     "notes": ""
@@ -1689,7 +1689,7 @@ const rawSpots = [
     "nom": "Plage municipale de Métabetchouan",
     "type": "Plage",
     "note": "4.5 (72)",
-    "gps": "48.4167,-71.8667",
+    "gps": "48.4082729,-71.7837417",
     "adresse": "Métabetchouan–Lac-à-la-Croix, QC",
     "photoURL": "https://www.metabetchouan.qc.ca/images/plage.jpg",
     "notes": ""
@@ -1698,7 +1698,7 @@ const rawSpots = [
     "nom": "Lac à la Croix",
     "type": "Lac",
     "note": "4.6 (84)",
-    "gps": "48.4167,-71.8667",
+    "gps": "48.4082729,-71.7837417",
     "adresse": "Métabetchouan–Lac-à-la-Croix, QC",
     "photoURL": "https://www.metabetchouan.qc.ca/images/lac.jpg",
     "notes": ""
@@ -1707,7 +1707,7 @@ const rawSpots = [
     "nom": "Parc régional de Desbiens",
     "type": "Parc régional",
     "note": "4.7 (389)",
-    "gps": "48.4167,-71.9333",
+    "gps": "48.3763448,-71.9446769",
     "adresse": "Desbiens, QC",
     "photoURL": "https://www.desbiens.qc.ca/images/parc.jpg",
     "notes": ""
@@ -1716,7 +1716,7 @@ const rawSpots = [
     "nom": "Plage municipale de Desbiens",
     "type": "Plage",
     "note": "4.4 (53)",
-    "gps": "48.4167,-71.9333",
+    "gps": "48.3763448,-71.9446769",
     "adresse": "Desbiens, QC",
     "photoURL": "https://www.desbiens.qc.ca/images/plage.jpg",
     "notes": ""
@@ -1725,7 +1725,7 @@ const rawSpots = [
     "nom": "Lac Desbiens",
     "type": "Lac",
     "note": "4.6 (72)",
-    "gps": "48.4167,-71.9333",
+    "gps": "48.3763448,-71.9446769",
     "adresse": "Desbiens, QC",
     "photoURL": "https://www.desbiens.qc.ca/images/lac.jpg",
     "notes": ""
