@@ -560,31 +560,6 @@ export default function MapPage() {
             />
           </button>
 
-          {/* Geolocation Button */}
-          <button
-            onClick={() => {
-              if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(
-                  (position) => {
-                    setUserLocation({
-                      latitude: position.coords.latitude,
-                      longitude: position.coords.longitude,
-                    });
-                  },
-                  (error) => {
-                    alert("Impossible d'obtenir votre localisation");
-                  }
-                );
-              } else {
-                alert("La géolocalisation n'est pas supportée par votre navigateur");
-              }
-            }}
-            className="absolute bottom-4 right-4 z-10 bg-ocean-dark hover:bg-ocean text-white p-3 rounded-full shadow-lg transition-colors"
-            title="Ma localisation"
-          >
-            <Crosshair size={24} />
-          </button>
-
           <InteractiveMap
             onSpotSelect={(spot) => {
               setSelectedSpot(spot);
