@@ -23,7 +23,9 @@
       "Bash(git fetch:*)",
       "Bash(git config:*)",
       "Bash(git checkout:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Read(//c/Users/niwno/Downloads/Photos-1-001/**)",
+      "WebFetch(domain:vercel.com)"
     ],
     "deny": [],
     "ask": []
