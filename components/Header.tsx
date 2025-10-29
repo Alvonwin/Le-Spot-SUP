@@ -31,9 +31,9 @@ export default function Header() {
             <img
               src="/logo.ico"
               alt="Le Spot SUP Logo"
-              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full shadow-md group-hover:scale-110 transition-transform flex-shrink-0"
+              className="w-7 h-7 sm:w-10 sm:h-10 rounded-full shadow-md group-hover:scale-110 transition-transform flex-shrink-0"
             />
-            <span className="text-base sm:text-2xl font-bold tracking-tight hidden min-[380px]:inline">Le Spot SUP</span>
+            <span className="text-sm sm:text-2xl font-bold tracking-tight hidden min-[300px]:inline">Le Spot SUP</span>
           </Link>
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -45,12 +45,12 @@ export default function Header() {
         </div>
 
         {/* Right Side - Icons */}
-        <div className="flex items-center gap-0.5 sm:gap-2">
+        <div className="flex items-center gap-0 sm:gap-1.5">
           {/* Geolocation Button - RED/PINK */}
           <button
             onClick={requestLocation}
             disabled={isLoadingLocation}
-            className={`p-1.5 sm:p-2.5 rounded-lg transition-all hover:scale-110 group relative ${
+            className={`p-1 sm:p-2 rounded-lg transition-all hover:scale-110 group relative ${
               userLocation
                 ? "bg-green-500/20 hover:bg-green-500/30"
                 : "hover:bg-red-500/20"
