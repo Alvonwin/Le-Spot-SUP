@@ -23,34 +23,34 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="bg-gradient-to-r from-ocean-dark via-ocean to-ocean-dark text-white px-3 sm:px-6 py-2.5 sm:py-4 sticky top-0 z-50 shadow-lg backdrop-blur-sm">
+    <header className="bg-gradient-to-r from-ocean-dark via-ocean to-ocean-dark text-white px-6 py-4 sticky top-0 z-50 shadow-lg backdrop-blur-sm">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Left Side - Logo and Menu */}
-        <div className="flex items-center gap-1 sm:gap-3">
-          <Link href="/" className="flex items-center gap-1.5 sm:gap-2 hover:opacity-80 transition-opacity group">
+        <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity group">
             <img
               src="/logo.ico"
               alt="Le Spot SUP Logo"
-              className="w-8 h-8 sm:w-10 sm:h-10 rounded-full shadow-md group-hover:scale-110 transition-transform flex-shrink-0"
+              className="w-10 h-10 rounded-full shadow-md group-hover:scale-110 transition-transform"
             />
-            <span className="text-base sm:text-2xl font-bold tracking-tight hidden min-[380px]:inline">Le Spot SUP</span>
+            <span className="text-2xl font-bold tracking-tight hidden sm:inline">Le Spot SUP</span>
           </Link>
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-1.5 sm:p-2 hover:bg-white/10 rounded-lg transition-all hover:scale-105"
+            className="p-2 hover:bg-white/10 rounded-lg transition-all hover:scale-105"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={18} className="sm:w-6 sm:h-6" /> : <Menu size={18} className="sm:w-6 sm:h-6" />}
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
         {/* Right Side - Icons */}
-        <div className="flex items-center gap-0.5 sm:gap-2">
+        <div className="flex items-center gap-2">
           {/* Geolocation Button - RED/PINK */}
           <button
             onClick={requestLocation}
             disabled={isLoadingLocation}
-            className={`p-1.5 sm:p-2.5 rounded-lg transition-all hover:scale-110 group relative ${
+            className={`p-2.5 rounded-lg transition-all hover:scale-110 group relative ${
               userLocation
                 ? "bg-green-500/20 hover:bg-green-500/30"
                 : "hover:bg-red-500/20"
@@ -71,11 +71,11 @@ export default function Header() {
             }
           >
             {isLoadingLocation ? (
-              <div className="w-4 h-4 sm:w-5 sm:h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+              <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
             ) : (
               <Navigation
-                size={18}
-                className={`sm:w-[22px] sm:h-[22px] transition-colors drop-shadow-glow ${
+                size={22}
+                className={`transition-colors drop-shadow-glow ${
                   userLocation
                     ? "text-green-400 group-hover:text-green-300"
                     : "text-red-400 group-hover:text-red-300"
@@ -83,7 +83,7 @@ export default function Header() {
               />
             )}
             {userLocation && (
-              <div className={`absolute -top-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-green-500 rounded-full border-2 border-ocean-dark ${
+              <div className={`absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-ocean-dark ${
                 isTrackingActive ? "animate-pulse" : ""
               }`}></div>
             )}
@@ -93,11 +93,11 @@ export default function Header() {
           <div className="relative">
             <button
               onClick={() => setIsWeatherOpen(!isWeatherOpen)}
-              className="p-1.5 sm:p-2.5 hover:bg-yellow-500/20 rounded-lg transition-all hover:scale-110 group"
+              className="p-2.5 hover:bg-yellow-500/20 rounded-lg transition-all hover:scale-110 group"
               aria-label="Météo"
               title="Météo"
             >
-              <CloudSun size={18} className="sm:w-[22px] sm:h-[22px] text-yellow-400 group-hover:text-yellow-300 transition-colors drop-shadow-glow" />
+              <CloudSun size={22} className="text-yellow-400 group-hover:text-yellow-300 transition-colors drop-shadow-glow" />
             </button>
             {isWeatherOpen && (
               <div className="absolute right-0 mt-2 w-56 sm:w-64 bg-white dark:bg-gray-800 rounded-xl shadow-2xl py-3 px-4 text-gray-800 dark:text-white border border-ocean-light/20">
@@ -140,12 +140,12 @@ export default function Header() {
           {/* Language Toggle - BLUE */}
           <button
             onClick={() => setLanguage(language === "fr" ? "en" : "fr")}
-            className="p-1.5 sm:p-2.5 hover:bg-blue-500/20 rounded-lg transition-all hover:scale-110 group relative"
+            className="p-2.5 hover:bg-blue-500/20 rounded-lg transition-all hover:scale-110 group relative"
             aria-label="Changer de langue"
             title={language === "fr" ? "English" : "Français"}
           >
-            <Globe size={18} className="sm:w-[22px] sm:h-[22px] text-blue-400 group-hover:text-blue-300 transition-colors drop-shadow-glow" />
-            <span className="absolute -top-0.5 -right-0.5 bg-blue-500 text-white text-[9px] sm:text-[10px] font-bold px-1 sm:px-1.5 py-0.5 rounded-full shadow-lg">
+            <Globe size={22} className="text-blue-400 group-hover:text-blue-300 transition-colors drop-shadow-glow" />
+            <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full shadow-lg">
               {language.toUpperCase()}
             </span>
           </button>
@@ -154,14 +154,14 @@ export default function Header() {
           <div className="relative">
             <button
               onClick={() => setIsThemeMenuOpen(!isThemeMenuOpen)}
-              className="p-1.5 sm:p-2.5 hover:bg-purple-500/20 rounded-lg transition-all hover:scale-110 group"
+              className="p-2.5 hover:bg-purple-500/20 rounded-lg transition-all hover:scale-110 group"
               aria-label="Changer le thème"
               title="Thème"
             >
               {mounted && theme === "dark" ? (
-                <Moon size={18} className="sm:w-[22px] sm:h-[22px] text-purple-400 group-hover:text-purple-300 transition-colors drop-shadow-glow" />
+                <Moon size={22} className="text-purple-400 group-hover:text-purple-300 transition-colors drop-shadow-glow" />
               ) : (
-                <Sun size={18} className="sm:w-[22px] sm:h-[22px] text-amber-400 group-hover:text-amber-300 transition-colors drop-shadow-glow" />
+                <Sun size={22} className="text-amber-400 group-hover:text-amber-300 transition-colors drop-shadow-glow" />
               )}
             </button>
             {isThemeMenuOpen && (
@@ -210,11 +210,11 @@ export default function Header() {
           <div className="relative">
             <button
               onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-              className="p-1.5 sm:p-2.5 hover:bg-green-500/20 rounded-lg transition-all hover:scale-110 group"
+              className="p-2.5 hover:bg-green-500/20 rounded-lg transition-all hover:scale-110 group"
               aria-label="Menu utilisateur"
               title="Profil"
             >
-              <User size={18} className="sm:w-[22px] sm:h-[22px] text-green-400 group-hover:text-green-300 transition-colors drop-shadow-glow" />
+              <User size={22} className="text-green-400 group-hover:text-green-300 transition-colors drop-shadow-glow" />
             </button>
             {isUserMenuOpen && (
               <div className="absolute right-0 mt-2 w-52 bg-white dark:bg-gray-800 rounded-xl shadow-2xl py-2 text-gray-800 dark:text-white border border-ocean-light/20 overflow-hidden">
@@ -242,31 +242,31 @@ export default function Header() {
 
       {/* Mobile Menu - Animated Dropdown */}
       {isMenuOpen && (
-        <nav className="mt-3 sm:mt-4 pb-3 sm:pb-4 border-t border-white/20 pt-3 sm:pt-4 animate-fadeIn">
+        <nav className="mt-4 pb-4 border-t border-white/20 pt-4 animate-fadeIn">
           <Link
             href="/"
-            className="block py-2.5 sm:py-3 px-3 sm:px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1 text-sm sm:text-base"
+            className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1"
             onClick={() => setIsMenuOpen(false)}
           >
             🏠 {language === "fr" ? "Accueil" : "Home"}
           </Link>
           <Link
             href="/map"
-            className="block py-2.5 sm:py-3 px-3 sm:px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1 text-sm sm:text-base"
+            className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1"
             onClick={() => setIsMenuOpen(false)}
           >
             🗺️ {t.nav.map}
           </Link>
           <Link
             href="/guide"
-            className="block py-2.5 sm:py-3 px-3 sm:px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1 text-sm sm:text-base"
+            className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1"
             onClick={() => setIsMenuOpen(false)}
           >
             📖 {t.nav.guide}
           </Link>
           <Link
             href="/sessions"
-            className="block py-2.5 sm:py-3 px-3 sm:px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1 text-sm sm:text-base"
+            className="block py-3 px-4 hover:bg-white/10 rounded-lg transition-all mb-1 font-medium hover:translate-x-1"
             onClick={() => setIsMenuOpen(false)}
           >
             🏄 {t.nav.sessions}

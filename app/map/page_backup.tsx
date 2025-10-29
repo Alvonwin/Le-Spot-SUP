@@ -101,70 +101,70 @@ export default function MapPage() {
         </div>
       )}
 
-      <div className="flex flex-col lg:flex-row h-[calc(100vh-64px)] lg:h-[calc(100vh-64px)] relative">
+      <div className="flex h-[calc(100vh-64px)] relative">
         {/* Left Side - Controls */}
         <div
-          className={`bg-gray-900 text-white p-4 sm:p-6 overflow-y-auto transition-all duration-300 ${
-            isPanelOpen ? "w-full h-[50vh] lg:h-full lg:w-1/2" : "w-full h-0 lg:w-0 p-0 overflow-hidden"
+          className={`bg-gray-900 text-white p-6 overflow-y-auto transition-all duration-300 ${
+            isPanelOpen ? "w-full lg:w-1/2" : "w-0 p-0 overflow-hidden"
           }`}
         >
           {/* Tabs - Colorful & Modern */}
-          <div className="flex gap-1.5 sm:gap-2 mb-4 sm:mb-6 overflow-x-auto pb-2 scrollbar-hide">
+          <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
             <button
               onClick={() => {
                 setActiveTab("list");
                 setSelectedSpot(null);
               }}
-              className={`flex flex-col items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
+              className={`flex flex-col items-center gap-2 px-6 py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
                 activeTab === "list"
                   ? "bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-lg shadow-blue-500/50"
                   : "bg-gray-800 hover:bg-gray-700 text-gray-300"
               }`}
             >
               <List size={22} className={activeTab === "list" ? "drop-shadow-glow" : ""} />
-              <span className="text-xs sm:text-sm font-semibold">Liste</span>
+              <span className="text-sm font-semibold">Liste</span>
               {activeTab === "list" && (
                 <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-blue-400 rounded-full"></div>
               )}
             </button>
             <button
               onClick={() => setActiveTab("details")}
-              className={`flex flex-col items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
+              className={`flex flex-col items-center gap-2 px-6 py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
                 activeTab === "details"
                   ? "bg-gradient-to-br from-purple-500 to-purple-600 text-white shadow-lg shadow-purple-500/50"
                   : "bg-gray-800 hover:bg-gray-700 text-gray-300"
               }`}
             >
               <Info size={22} className={activeTab === "details" ? "drop-shadow-glow" : ""} />
-              <span className="text-xs sm:text-sm font-semibold">Détails</span>
+              <span className="text-sm font-semibold">Détails</span>
             </button>
             <button
               onClick={() => {
                 setActiveTab("ai");
                 setSelectedSpot(null);
               }}
-              className={`flex flex-col items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
+              className={`flex flex-col items-center gap-2 px-6 py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
                 activeTab === "ai"
                   ? "bg-gradient-to-br from-pink-500 to-rose-600 text-white shadow-lg shadow-pink-500/50"
                   : "bg-gray-800 hover:bg-gray-700 text-gray-300"
               }`}
             >
               <Bot size={22} className={activeTab === "ai" ? "drop-shadow-glow" : ""} />
-              <span className="text-xs sm:text-sm font-semibold">IA</span>
+              <span className="text-sm font-semibold">IA</span>
             </button>
             <button
               onClick={() => {
                 setActiveTab("add");
                 setSelectedSpot(null);
               }}
-              className={`flex flex-col items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
+              className={`flex flex-col items-center gap-2 px-6 py-3 rounded-xl transition-all hover:scale-105 flex-shrink-0 ${
                 activeTab === "add"
                   ? "bg-gradient-to-br from-green-500 to-emerald-600 text-white shadow-lg shadow-green-500/50"
                   : "bg-gray-800 hover:bg-gray-700 text-gray-300"
               }`}
             >
               <Plus size={22} className={activeTab === "add" ? "drop-shadow-glow" : ""} />
-              <span className="text-xs sm:text-sm font-semibold">Ajouter</span>
+              <span className="text-sm font-semibold">Ajouter</span>
             </button>
           </div>
 
@@ -175,7 +175,7 @@ export default function MapPage() {
               <div className="mb-4 flex items-center justify-between bg-gradient-to-r from-blue-500/20 to-purple-500/20 p-4 rounded-xl border border-blue-500/30">
                 <div>
                   <p className="text-sm text-gray-400">Spots disponibles</p>
-                  <p className="text-2xl sm:text-3xl font-bold text-white">{spots.length}</p>
+                  <p className="text-3xl font-bold text-white">{spots.length}</p>
                 </div>
                 <div className="p-3 bg-blue-500/20 rounded-full">
                   <MapPin size={32} className="text-blue-400" />
@@ -189,7 +189,7 @@ export default function MapPage() {
                   <input
                     type="text"
                     placeholder="Rechercher un spot..."
-                    className="w-full pl-10 sm:pl-12 pr-3 sm:pr-4 py-3 sm:py-4 bg-gray-800 text-white rounded-xl border-2 border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
+                    className="w-full pl-12 pr-4 py-4 bg-gray-800 text-white rounded-xl border-2 border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
                   />
                 </div>
               </div>
@@ -544,13 +544,13 @@ export default function MapPage() {
         </div>
 
         {/* Right Side - Map */}
-        <div className={`relative bg-gray-200 dark:bg-gray-700 transition-all duration-300 h-[50vh] lg:h-full ${
-          isPanelOpen ? "w-full lg:w-1/2" : "w-full h-full"
+        <div className={`relative bg-gray-200 dark:bg-gray-700 transition-all duration-300 ${
+          isPanelOpen ? "w-full lg:w-1/2" : "w-full"
         }`}>
           {/* Toggle Button */}
           <button
             onClick={() => setIsPanelOpen(!isPanelOpen)}
-            className="absolute top-2 left-2 lg:top-4 lg:left-4 z-10 bg-ocean-dark hover:bg-ocean text-white p-3 rounded-full shadow-lg transition-colors"
+            className="absolute top-4 left-4 z-10 bg-ocean-dark hover:bg-ocean text-white p-3 rounded-full shadow-lg transition-colors"
           >
             <ChevronLeft
               size={24}
